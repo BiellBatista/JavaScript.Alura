@@ -1,0 +1,271 @@
+Carreira Desenvolvedor JavaScript
+	HTTP: Entendendo a web por baixo dos panos (Curso feito em 02-Desenvolvedor-ASP-NET-MVC5)
+		01 - O que é HTTP?
+		02 - A web segura - HTTPS
+		03 - Endereços sob seu domínio
+		04 - O cliente pede e o servidor responde
+		05 - Depurando a requisição HTTP
+		06 - Parâmetros da requisição
+		07 - Serviços na web com REST
+		08 - HTTP2 - Por uma web mais eficiente
+	Programando na linguagem da web
+		01 - Introdução
+	Curso C# Parte 3 - Entendendo Herança e Interface
+		01 - Conhecendo o problema do cliente
+		02 - Herança
+		03 - Construtores e protected
+		04 - Mais herança e herança múltipla
+		05 - Interfaces
+	Curso C# Parte 4 - Entendendo exceções
+		01 - Primeiros passos com exceções
+		02 - Tratamento de exceções
+		03 - ArgumentException ParamName e nameof
+		04 - Criando exceções ricas
+		05 - StackTrace e InnerException
+		06 - Finally e using
+	Curso C# Parte 5 - Bibliotecas DLLs, documentação e usando o NuGet
+		01 - Projeto de biblioteca
+		02 - Modificadores de acesso em bibliotecas
+		03 - Referencia de DLL
+		04 - Documentando
+		05 - NuGet
+	Curso C# Parte 6 - Strings, expressões regulares e a classe Object
+		01 - Mais sobre a String
+		02 - Métodos e propriedades
+		03 - Mais métodos de manipulação
+		04 - Expressões regulares
+		05 - Classe Object
+	Curso C# Parte 7 - Array e tipos genéricos
+		01 - Conhecendo Array
+		02 - Criando nossa Lista
+		03 - Criando o método Remover
+		04 - Indexadores e argumentos params
+		05 - Começando com genéricos
+	Curso C# Parte 8 - List<T>, lambda, linq
+		01 - ListT e métodos de extensão
+		02 - Método de extensão genérico
+		03 - Usando VAR e método Sort
+		04 - IComparable e IComparer
+		05 - OrderBy e expressões Lambda
+		06 - Linq e operador Where
+	Curso C# Parte 9 - Entrada e saída (I/O) com streams
+		01 - Lendo arquivos de texto
+		02 - Mais FileStream e leitor StreamReader
+		03 - Fazendo parse e StreamWriter
+		04 - O Flush e arquivos binarios
+		05 - Streams da Console
+	C# Collections parte 1 - Listas, arrays, listas ligadas, dicionários e conjuntos
+		01 - Começando com Arrays
+		02 - Lista, a Coleção Flexível
+		03 - O Poder dos Sets
+		04 - Dicionários, Trabalhando com Chave e Valor
+		05 - Lista Ligada, Pilha e Fila
+		06 - Qual Coleção Usar
+	C# Collections parte 2 - Coleções ordenadas, arrays multidimensionais e LINQ
+		01 - Coleções Ordenadas
+		02 - Arrays Multidimensionais
+		03 - Consultando com LINQ
+		04 - Mais Operadores LINQ
+		05 - Convertendo e Enumerando Coleções
+-------------------------------------------------------------------------------------------------------------------------
+Carreira Desenvolvedor ASP.NET MVC5
+	Curso C# Parte 1: Primeiros Passos
+		01 - História e ecossistema da linguagem
+		02 - Nosso primeiro programa e o Visual Studio
+		03 - Variáveis numéricas
+		04 - Variáveis de texto
+		05 - Controle de fluxo com IF
+		06 - Controle de fluxo com laços de repetição
+	Curso C# Parte 2: Introdução à Orientação a Objetos
+		01 - Nossa primeira classe
+		02 - Tipos
+		03 - Comportamentos de classes
+		04 - Namespace e composição e null
+		05 - Propriedades
+		06 - Construtores e membros estáticos
+	Curso C# Parte 3 - Entendendo Herança e Interface
+		01 - Conhecendo o problema do cliente
+		02 - Herança
+		03 - Construtores e protected
+		04 - Mais herança e herança múltipla
+		05 - Interfaces
+	Curso C# Parte 4 - Entendendo exceções
+		01 - Primeiros passos com exceções
+		02 - Tratamento de exceções
+		03 - ArgumentException ParamName e nameof
+		04 - Criando exceções ricas
+		05 - StackTrace e InnerException
+		06 - Finally e using
+	Entity Framework Core: Banco de dados de forma eficiente
+		01 - Introdução ao Entity Framework Core
+		02 - Manipulando objetos
+		03 - Como o Entity monta o SQL?
+		04 - Sincronizando o banco de dados com o modelo de classes
+		05 - Relacionamentos Um para Muitos no Entity
+		06 - Relacionamentos Muitos para Muitos no Entity
+		07 - Relacionamentos Um para Um no Entity
+		08 - Recuperando objetos relacionados
+	HTTP: Entendendo a web por baixo dos panos
+		01 - O que é HTTP?
+		02 - A web segura - HTTPS
+		03 - Endereços sob seu domínio
+		04 - O cliente pede e o servidor responde
+		05 - Depurando a requisição HTTP
+		06 - Parâmetros da requisição
+		07 - Serviços na web com REST
+		08 - HTTP2 - Por uma web mais eficiente
+	HTML5 e CSS3 I: Suas primeiras páginas da Web
+		01 - 
+		02 - 
+		03 - 
+		04 - 
+		05 - 
+		06 - 
+		07 - 
+		08 - 
+		09 - 
+		10 - 
+		11 - 
+		12 - 
+	ASP.NET MVC 5: O framework pronto para a web
+		01 - Introdução ao ASP.NET MVC
+		02 - O padrão MVC
+		03 - Controlando Requisições e a Listagem de Produtos
+		04 - Lidando com Formulários e o Cadastro de Produtos
+		05 - Validando um produto com Model Validation
+		06 - Trabalhando Melhor com as views
+		07 - Criando rotas na aplicação
+		08 - Layouts com o Twitter Bootstrap
+		09 - Ajax
+		10 - Sessões para autenticar usuários
+		11 - Filtro para autorização de usuários
+-------------------------------------------------------------------------------------------------------------------------
+Carreira Desenvolvedor .Net com Entity Framework
+	SQL Server: Introdução ao SQL com Microsoft SQL Server 2017
+		01 - Instalando e configurando o SQL Server
+		02 - Manipulando o banco de dados
+		03 - Gerenciando as tabelas do banco de dados
+		04 - Manutenção dos dados nas tabelas
+		05 - Consultando os dados
+	Entity Framework Core: Banco de dados de forma eficiente
+		01 - Introdução ao Entity Framework Core
+		02 - Manipulando objetos
+		03 - Como o Entity monta o SQL?
+		04 - Sincronizando o banco de dados com o modelo de classes
+		05 - Relacionamentos Um para Muitos no Entity
+		06 - Relacionamentos Muitos para Muitos no Entity
+		07 - Relacionamentos Um para Um no Entity
+		08 - Recuperando objetos relacionados
+	Entity LinQ parte 1: Crie queries poderosas em C#
+		01 - Linq to Objects
+		02 - Linq to XML
+		03 - Linq to Entities
+		04 - Associando e Filtrando Entidades do Modelo
+		05 - Ordenando Consultas
+		06 - Contando e Totalizando Valores
+		07 - Máximo, Mínimo, Média e Funções Customizadas
+	Entity LinQ parte 2: Store Procedures e consultas com o LinQPad
+		01 - Aprenda a criar relatórios com paginação
+		02 - Aplique Análise de Afinidade para sugerir compras de produtos
+		03 - Entenda execução adiada e execução imediata nas consultas LINQ
+		04 - Aproveite recursos de programação paralela com Parallel LINQ
+		05 - Integre resultados de stored procedures em consultas LINQ
+		06 - Estude, analise e brinque com consultas através do LinqPad
+-------------------------------------------------------------------------------------------------------------------------
+Extra ASP.NET Identity
+	 Parte 1: Gerencie contas de usuários
+		01 - Começando com AspNet Identity
+		02 - Arquitetura do AspNet Identity
+		03 - Owin
+		04 - Validações de usuário
+		05 - Serviços de email
+	Parte 2: Autenticação, segurança com lockout e recuperando a senha de forma segura
+		01 - Login e senha de usuário
+		02 - Usando o SignInManager
+		03 - Função de logoff
+		04 - Função de Lockout
+		05 - Recuperando a senha de forma segura
+	Parte 3: Autorização, autenticação externa com redes sociais
+		01 - Conhecendo os mecanismos de autenticação externa
+		02 - Implementando autenticação externa
+		03 - Configurando autenticação externa
+		04 - Roles e funções
+		05 - Alterando as roles de um usuário
+	Parte 4: Autenticação mais segura com 2 fatores
+		01 - O que são fatores de autenticação
+		02 - Serviço de envio de SMS
+		03 - Implementando autenticação de 2 fatores
+		04 - Continuando logado com autenticação de 2 fatores
+		05 - SecurityStamp
+-------------------------------------------------------------------------------------------------------------------------
+Formação Desenvolvedor .NET
+	Curso C# Parte 1: Primeiros Passos
+		01 - História e ecossistema da linguagem
+		02 - Nosso primeiro programa e o Visual Studio
+		03 - Variáveis numéricas
+		04 - Variáveis de texto
+		05 - Controle de fluxo com IF
+		06 - Controle de fluxo com laços de repetição
+	Curso C# Parte 2: Introdução à Orientação a Objetos
+		01 - Nossa primeira classe
+		02 - Tipos
+		03 - Comportamentos de classes
+		04 - Namespace e composição e null
+		05 - Propriedades
+		06 - Construtores e membros estáticos
+	Curso C# Parte 3 - Entendendo Herança e Interface
+		01 - Conhecendo o problema do cliente
+		02 - Herança
+		03 - Construtores e protected
+		04 - Mais herança e herança múltipla
+		05 - Interfaces
+	Curso C# Parte 4 - Entendendo exceções
+		01 - Primeiros passos com exceções
+		02 - Tratamento de exceções
+		03 - ArgumentException ParamName e nameof
+		04 - Criando exceções ricas
+		05 - StackTrace e InnerException
+		06 - Finally e using
+	Curso C# Parte 5 - Bibliotecas DLLs, documentação e usando o NuGet
+		01 - Projeto de biblioteca
+		02 - Modificadores de acesso em bibliotecas
+		03 - Referencia de DLL
+		04 - Documentando
+		05 - NuGet
+	Curso C# Parte 6 - Strings, expressões regulares e a classe Object
+		01 - Mais sobre a String
+		02 - Métodos e propriedades
+		03 - Mais métodos de manipulação
+		04 - Expressões regulares
+		05 - Classe Object
+	Curso C# Parte 7 - Array e tipos genéricos
+		01 - Conhecendo Array
+		02 - Criando nossa Lista
+		03 - Criando o método Remover
+		04 - Indexadores e argumentos params
+		05 - Começando com genéricos
+	Curso C# Parte 8 - List<T>, lambda, linq
+		01 - ListT e métodos de extensão
+		02 - Método de extensão genérico
+		03 - Usando VAR e método Sort
+		04 - IComparable e IComparer
+		05 - OrderBy e expressões Lambda
+		06 - Linq e operador Where
+	Curso C# Parte 9 - Entrada e saída (I/O) com streams
+		01 - Lendo arquivos de texto
+		02 - Mais FileStream e leitor StreamReader
+		03 - Fazendo parse e StreamWriter
+		04 - O Flush e arquivos binarios
+		05 - Streams da Console
+	Entity Framework Core: Banco de dados de forma eficiente
+		01 - Introdução ao Entity Framework Core
+		02 - Manipulando objetos
+		03 - Como o Entity monta o SQL?
+		04 - Sincronizando o banco de dados com o modelo de classes
+		05 - Relacionamentos Um para Muitos no Entity
+		06 - Relacionamentos Muitos para Muitos no Entity
+		07 - Relacionamentos Um para Um no Entity
+		08 - Recuperando objetos relacionados
+	Asp.NET Core: Uma webapp usando o padrão MVC
+		01 - Transformando a aplicação em um servidor web
+		02 - Atendendo requisições diferentes
