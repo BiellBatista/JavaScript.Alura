@@ -33,3 +33,11 @@ JavaScript: Programando na linguagem da web
 		05 - Desmembrando uma instrução em variáveis
 		06 - O indicador enviesado
 		07 - Operadores Lógicos
+		08 - Validando e exibindo resultado
+		09 - Informações escapando
+		10 - Restrigindo o acesso
+		11 - Mãos na Massa: Calculando o IMC
+		12 - Mãos na Massa: Validando os dados do usuário
+	03 - Arrays, Loop e Estilos
+		01 - Replicando a validação e o cálculo do IMC para todos os pacientes
+		02 - 
