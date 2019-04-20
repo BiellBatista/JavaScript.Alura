@@ -27,3 +27,9 @@ JavaScript: Programando na linguagem da web
 		16 - Mãos na massa: O primeiro Javascript
 	02 - Variáveis e Operadores
 		01 - Buscando dados do paciente
+		02 - Acessando elementos dentro de outro elemento
+		03 - O prato do dia
+		04 - Calculando e exibindo o IMC corretamente
+		05 - Desmembrando uma instrução em variáveis
+		06 - O indicador enviesado
+		07 - Operadores Lógicos
