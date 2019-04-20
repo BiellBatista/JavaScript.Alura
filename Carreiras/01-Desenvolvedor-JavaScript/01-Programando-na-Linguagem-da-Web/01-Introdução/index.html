@@ -6,10 +6,6 @@
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
-		
-		<script>
-			alert("Olá mundo");
-		</script>
 	</head>
 	<body>
 		<header>
@@ -71,9 +67,14 @@
 						</tr>
 					</tbody>
 				</table>
-
 			</section>
 		</main>
 
+		<script>
+			console.log("Olá mundo");
+			let titulo = document.querySelector("h1"); //selecionando a tag h1 (<h1>Aparecida Nutrição</h1>)
+			console.log(titulo.textContent); //pegando o conteúdo da tag h1 (Aparecida Nutrição)
+			titulo.textContent = "Banana"; //mudando o conteúdo da tag h1
+		</script>
 	</body>
 </html>
