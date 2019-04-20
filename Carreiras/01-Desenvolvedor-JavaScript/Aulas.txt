@@ -40,4 +40,14 @@ JavaScript: Programando na linguagem da web
 		12 - Mãos na Massa: Validando os dados do usuário
 	03 - Arrays, Loop e Estilos
 		01 - Replicando a validação e o cálculo do IMC para todos os pacientes
-		02 - 
+		02 - Estilos com JavaScript
+		03 - Calculando gastos
+		04 - Seleção falhando
+		05 - Um parágrafo azul
+		06 - Mas e se for o fundo?
+		07 - Acessando as classes
+		08 - Modificando os titulos
+		09 - Mãos na Massa: O IMC de todos os pacientes
+		10 - Mãos na Massa: Melhorando a visualização do erro
+	04 - Eventos, Formulários e Criando Elementos
+		01 - Escutando eventos
