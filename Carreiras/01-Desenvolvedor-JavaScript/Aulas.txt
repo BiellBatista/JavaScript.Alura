@@ -17,3 +17,13 @@ JavaScript: Programando na linguagem da web
 		06 - Uma mensagem no navegador
 		07 - Query Selector
 		08 - Boas Práticas
+		09 - Estrutura do curso
+		10 - Console do desenvolvedor
+		11 - Importando um arquivo externo
+		12 - Mensagem de boas vindas
+		13 - Um tal de document
+		14 - Apenas um pedacinho...
+		15 - Mãos na massa: Download Inicial e Setup
+		16 - Mãos na massa: O primeiro Javascript
+	02 - Variáveis e Operadores
+		01 - Buscando dados do paciente
