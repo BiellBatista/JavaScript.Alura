@@ -56,3 +56,11 @@ JavaScript: Programando na linguagem da web
 		04 - Evitando o comportamento padrão de um evento
 		05 - Uma lista que não cresce
 		06 - Adicionando pacientes na tabela
+		07 - De declaração de função para função anônima
+		08 - Tem nome ou não?
+		09 - Criando um elemento
+		10 - Mãos na Massa: Criando o formulário de adição de pacientes
+		11 - Mãos na Massa: Adicionando um paciente na tabela
+		12 - Para saber mais: event shortcut
+	05 - Boas Práticas com Javascript
+		01 - Quebrando o código em arquivos diferentes
