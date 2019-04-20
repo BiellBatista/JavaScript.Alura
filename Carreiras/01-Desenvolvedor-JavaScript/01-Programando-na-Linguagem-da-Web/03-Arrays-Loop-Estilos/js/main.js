@@ -10,10 +10,10 @@ paciente.forEach(element => {
 
     if(peso <= 0 || peso >= 1000) {
         tdImc.textContent = "Peso inválido!";
-        element.classList.add("paciente-invalido");
+        element.classList.add("paciente-invalido"); //listando todas as classes da tag e adicionando uma nova
     } else if (altura <= 0 || altura > 3.00) {
         tdImc.textContent = "Altura inválida!";
-        element.classList.add("paciente-invalido");
+        element.classList.add("paciente-invalido"); //listando todas as classes da tag e adicionando uma nova
     } else {
         let imc = peso / (altura * altura);
         tdImc.textContent = imc.toFixed(2);

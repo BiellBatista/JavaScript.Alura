@@ -51,3 +51,6 @@ JavaScript: Programando na linguagem da web
 		10 - Mãos na Massa: Melhorando a visualização do erro
 	04 - Eventos, Formulários e Criando Elementos
 		01 - Escutando eventos
+		02 - O botão que falhou
+		03 - Copiando valores
+		04 - Evitando o comportamento padrão de um evento
