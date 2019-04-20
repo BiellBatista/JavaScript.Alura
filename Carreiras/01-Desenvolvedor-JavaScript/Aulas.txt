@@ -54,3 +54,5 @@ JavaScript: Programando na linguagem da web
 		02 - O botão que falhou
 		03 - Copiando valores
 		04 - Evitando o comportamento padrão de um evento
+		05 - Uma lista que não cresce
+		06 - Adicionando pacientes na tabela
