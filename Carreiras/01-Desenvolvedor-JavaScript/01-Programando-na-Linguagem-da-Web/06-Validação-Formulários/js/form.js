@@ -11,13 +11,14 @@ botaoAdicionar.addEventListener("click", (event) => {
     let erros = validaPaciente(paciente);
 
     if(erros.length > 0) {
-        let mensagemErro = document.querySelector("#mensagem-erro");
-        mensagemErro.textContent = erros;
+        exibiMensagensErro(erros);
         return;
     }
 
     tabela.appendChild(pacienteTr);
     form.reset();
+    let ul = document.querySelector("#mensagens-erro");
+    ul.innerHTML = ""; //a propriedade permite controlar os childs de um HTML
 });
 
 function obtemPacienteDoFormulario(form) {
@@ -35,7 +36,7 @@ function obtemPacienteDoFormulario(form) {
         gordura,
         imc
     }
-
+    
     return paciente;
 }
 
@@ -60,10 +61,46 @@ function montaTd(dado, classe){
 }
 
 function validaPaciente(paciente) {
-    let erro = [];
+    let erros = [];
+    
+    if(!validaPeso(paciente.peso)) erros.push("Peso inválido!");
+    if(!validaAltura(paciente.altura)) erros.push("Altura inválida!");
+    if(paciente.nome.length == 0) erros.push("O nome não pode ser em branco!");
+    if(paciente.gordura.length == 0) erros.push("A gordura não pode ser em branco!");
 
-    if(!validaPeso(paciente.peso)) erro.push("Peso inválido!");
-    if(!validaAltura(paciente.altura)) erro.push("Altura inválida!");
-
-    return erro;
+    return erros;
 }
+
+function exibiMensagensErro(erros) {
+    let ul = document.querySelector("#mensagens-erro");
+    ul.innerHTML = ""; //a propriedade permite controlar os childs de um HTML
+
+    erros.forEach(erro => {
+        let li = document.createElement("li");
+        li.textContent = erro;
+        ul.appendChild(li);
+    });
+}
+
+/*
+Sim, conseguimos obter o HTML interno de um elemento com a propriedade innerHTML! Por exemplo:
+
+var alura = document.querySelector("#alura").innerHTML
+
+Com a propriedade innerHTML, podemos editar obter o conteúdo HTML (HTML interno) de um elemento.
+
+Para editar o HTML interno, como o innerHTML é uma propriedade, utilizamos um sinal de igual (=). Fazemos:
+
+ObjetoDeUmElementoHTML.innerHTML = "Novo conteúdo"
+E para obter o HTML interno, fazemos:
+
+ObjetoDeUmElementoHTML.innerHTML
+O seu retorno será todo o conteúdo HTML, tanto tags, atributos, classes, etc, no formato de uma String.
+
+var nome = document.querySelector("#nome").innerHTML;
+nome = "Meu nome é Rafael";
+Na primeira linha, Rafael está obtendo o conteúdo do HTML interno do elemento <p>. Na segunda linha, ele apenas substitui o conteúdo dessa variável, ou seja, não define o innerHTML do elemento. Para modificar o HTML interno, Rafael deve alterar a propriedade innerHTML na segunda linha, e removê-la da primeira:
+
+var nome = document.querySelector("#nome");
+nome.innerHTML = "Meu nome é Rafael";
+*/

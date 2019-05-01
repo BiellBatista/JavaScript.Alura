@@ -78,3 +78,9 @@ JavaScript: Programando na linguagem da web
 		01 - Validando os dados do formulário
 		02 - Exibindo mensagens de erro
 		03 - Validando o restante dos campos
+		04 - Iterando com o forEach
+		05 - A propriedade innerHTML
+		06 - Porque não consigo modificar o HTML interno de um elemento?
+		07 - Mãos na massa: validando o form
+	07 - Remoção, Delegação e Animação
+		01 - Removendo pacientes
