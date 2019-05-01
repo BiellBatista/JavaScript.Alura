@@ -96,3 +96,9 @@ JavaScript: Programando na linguagem da web
 		02 - Verificando o tamanho da postagem
 		03 - Implementando a lógica de filtragem
 		04 - Filtrando com expressão regular
+		05 - Criando uma Regex
+		06 - Mãos na massa: filtrando a tabela
+		07 - Mãos na massa: buscando pacientes
+		08 - Para saber mais: filtrando sem regex?
+	09 - AjaxBuscando pacientes com AJAX
+		01 - Introdução ao AJAX
