@@ -86,3 +86,6 @@ JavaScript: Programando na linguagem da web
 		01 - Removendo pacientes
 		02 - Um duplo clique
 		03 - Delegando eventos
+		04 - O escolhido foi você!
+		05 - Analisando o código
+		06 - Animando a remoção do paciente
