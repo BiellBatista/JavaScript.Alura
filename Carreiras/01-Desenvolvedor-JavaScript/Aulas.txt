@@ -67,3 +67,5 @@ JavaScript: Programando na linguagem da web
 		02 - Agulha no palheiro!
 		03 - Criando funções
 		04 - Criando um objeto paciente
+		05 - Objeto inválido
+		06 - Melhorando ainda mais o código
