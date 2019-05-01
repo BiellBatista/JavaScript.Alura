@@ -95,3 +95,4 @@ JavaScript: Programando na linguagem da web
 		01 - Filtrando os pacientes da tabela
 		02 - Verificando o tamanho da postagem
 		03 - Implementando a lógica de filtragem
+		04 - Filtrando com expressão regular
