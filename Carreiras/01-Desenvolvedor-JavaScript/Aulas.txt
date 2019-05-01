@@ -89,3 +89,7 @@ JavaScript: Programando na linguagem da web
 		04 - O escolhido foi você!
 		05 - Analisando o código
 		06 - Animando a remoção do paciente
+		07 - Mãos na massa: removendo os pacientes
+		08 - Mãos na massa: animando a remoção
+	08 - Filtrando uma tabela
+		01 - Filtrando os pacientes da tabela

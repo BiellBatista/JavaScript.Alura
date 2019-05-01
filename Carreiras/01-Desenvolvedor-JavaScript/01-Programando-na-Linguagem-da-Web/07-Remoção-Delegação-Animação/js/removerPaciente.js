@@ -8,7 +8,12 @@ table.addEventListener("dblclick", function(event) {
     var alvoEvento = event.target; //o target permite que eu pegue o filho que foi clicado
     var paiDoAlvo = alvoEvento.parentNode; //o "partentNode" permite que eu pegue o pai do alvo
 
-    paiDoAlvo.remove();
+    paiDoAlvo.classList.add("fadeOut");
+    setTimeout(() => {
+        paiDoAlvo.remove();
+    }, 500);
+
+    //setTimeout(functionQueSeráAtivadaDepoisDoTempoDeEspera, tempoDeEspera)
 });
 
 // var pacientes = document.querySelectorAll(".paciente");
