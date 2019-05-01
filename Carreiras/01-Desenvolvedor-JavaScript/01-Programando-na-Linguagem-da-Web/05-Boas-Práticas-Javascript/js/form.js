@@ -25,7 +25,8 @@ botaoAdicionar.addEventListener("click", (event) => {
     pesoTd.textContent = peso;
     alturaTd.textContent= altura;
     gorduraTd.textContent = gordura;
-    imcTd.textContent = (peso / (altura * altura)).toFixed(2);
+    // imcTd.textContent = (peso / (altura * altura)).toFixed(2);
+    imcTd.textContent = calculaImc(peso, altura);
 
     pacienteTr.classList.add("paciente");
     nomeTd.classList.add("info-nome");

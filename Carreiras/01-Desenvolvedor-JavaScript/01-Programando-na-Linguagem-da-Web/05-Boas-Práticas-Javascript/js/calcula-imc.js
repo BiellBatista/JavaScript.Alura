@@ -15,10 +15,18 @@ paciente.forEach(element => {
         tdImc.textContent = "Altura inválida!";
         element.classList.add("paciente-invalido");
     } else {
-        let imc = peso / (altura * altura);
-        tdImc.textContent = imc.toFixed(2);
+        let imc = calculaImc(peso, altura);
+        tdImc.textContent = imc;
     }
 });
+
+function calculaImc(peso, altura) {
+    let imc = 0;
+
+    imc = peso / (altura * altura)
+
+    return imc.toFixed(2);
+}
 
 // titulo.addEventListener("click", mostraMensagem); //adicionando novo escutador de eventos (clicks, passando mouse...). Vou escutar o evento de click e executar a função mostraMensagem
 titulo.addEventListener("click", () => {
