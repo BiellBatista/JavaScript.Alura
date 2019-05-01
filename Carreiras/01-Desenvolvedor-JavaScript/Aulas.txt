@@ -64,3 +64,5 @@ JavaScript: Programando na linguagem da web
 		12 - Para saber mais: event shortcut
 	05 - Boas Práticas com Javascript
 		01 - Quebrando o código em arquivos diferentes
+		02 - Agulha no palheiro!
+		03 - Criando funções

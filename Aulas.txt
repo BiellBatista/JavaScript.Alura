@@ -8,65 +8,12 @@ Carreira Desenvolvedor JavaScript
 		06 - Parâmetros da requisição
 		07 - Serviços na web com REST
 		08 - HTTP2 - Por uma web mais eficiente
-	Programando na linguagem da web
+	JavaScript: Programando na linguagem da web
 		01 - Introdução
-	Curso C# Parte 3 - Entendendo Herança e Interface
-		01 - Conhecendo o problema do cliente
-		02 - Herança
-		03 - Construtores e protected
-		04 - Mais herança e herança múltipla
-		05 - Interfaces
-	Curso C# Parte 4 - Entendendo exceções
-		01 - Primeiros passos com exceções
-		02 - Tratamento de exceções
-		03 - ArgumentException ParamName e nameof
-		04 - Criando exceções ricas
-		05 - StackTrace e InnerException
-		06 - Finally e using
-	Curso C# Parte 5 - Bibliotecas DLLs, documentação e usando o NuGet
-		01 - Projeto de biblioteca
-		02 - Modificadores de acesso em bibliotecas
-		03 - Referencia de DLL
-		04 - Documentando
-		05 - NuGet
-	Curso C# Parte 6 - Strings, expressões regulares e a classe Object
-		01 - Mais sobre a String
-		02 - Métodos e propriedades
-		03 - Mais métodos de manipulação
-		04 - Expressões regulares
-		05 - Classe Object
-	Curso C# Parte 7 - Array e tipos genéricos
-		01 - Conhecendo Array
-		02 - Criando nossa Lista
-		03 - Criando o método Remover
-		04 - Indexadores e argumentos params
-		05 - Começando com genéricos
-	Curso C# Parte 8 - List<T>, lambda, linq
-		01 - ListT e métodos de extensão
-		02 - Método de extensão genérico
-		03 - Usando VAR e método Sort
-		04 - IComparable e IComparer
-		05 - OrderBy e expressões Lambda
-		06 - Linq e operador Where
-	Curso C# Parte 9 - Entrada e saída (I/O) com streams
-		01 - Lendo arquivos de texto
-		02 - Mais FileStream e leitor StreamReader
-		03 - Fazendo parse e StreamWriter
-		04 - O Flush e arquivos binarios
-		05 - Streams da Console
-	C# Collections parte 1 - Listas, arrays, listas ligadas, dicionários e conjuntos
-		01 - Começando com Arrays
-		02 - Lista, a Coleção Flexível
-		03 - O Poder dos Sets
-		04 - Dicionários, Trabalhando com Chave e Valor
-		05 - Lista Ligada, Pilha e Fila
-		06 - Qual Coleção Usar
-	C# Collections parte 2 - Coleções ordenadas, arrays multidimensionais e LINQ
-		01 - Coleções Ordenadas
-		02 - Arrays Multidimensionais
-		03 - Consultando com LINQ
-		04 - Mais Operadores LINQ
-		05 - Convertendo e Enumerando Coleções
+		02 - Variáveis e Operadores
+		03 - Arrays, Loop e Estilos
+		04 - Eventos, Formulários e Criando Elementos
+		05 - Boas Práticas com Javascript
 -------------------------------------------------------------------------------------------------------------------------
 Carreira Desenvolvedor ASP.NET MVC5
 	Curso C# Parte 1: Primeiros Passos
