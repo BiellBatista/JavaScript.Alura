@@ -84,3 +84,5 @@ JavaScript: Programando na linguagem da web
 		07 - Mãos na massa: validando o form
 	07 - Remoção, Delegação e Animação
 		01 - Removendo pacientes
+		02 - Um duplo clique
+		03 - Delegando eventos
