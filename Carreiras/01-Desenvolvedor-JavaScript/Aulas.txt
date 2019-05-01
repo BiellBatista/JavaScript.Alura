@@ -69,3 +69,10 @@ JavaScript: Programando na linguagem da web
 		04 - Criando um objeto paciente
 		05 - Objeto inválido
 		06 - Melhorando ainda mais o código
+		07 - Sobre boas práticas de código
+		08 - Quebrando o problema em partes menores
+		09 - Separando responsabilidades
+		10 - Mãos na massa: organizando o código em vários arquivos
+		11 - Mãos na massa: extraindo mais códigos
+	06 - Validação de Formulários
+		01 - Validando os dados do formulário

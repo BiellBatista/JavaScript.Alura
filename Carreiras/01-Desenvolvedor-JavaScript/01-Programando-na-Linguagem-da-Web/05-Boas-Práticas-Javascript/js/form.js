@@ -1,4 +1,5 @@
 let botaoAdicionar = document.querySelector("#adicionar-paciente");
+
 botaoAdicionar.addEventListener("click", (event) => {
     event.preventDefault(); //previnindo o comportamento padrão do botão. Assim, o botão não enviar os dados do form e não recarrega a página
 
@@ -10,39 +11,13 @@ botaoAdicionar.addEventListener("click", (event) => {
     // console.log(form.altura.value); //valor adicionado no input
 
     let paciente = obtemPacienteDoFormulario(form);
-
-    //criando TR e TD do paciente
-    let pacienteTr = document.createElement("tr"); //criando uma tag <tr></tr>
-    let nomeTd = document.createElement("td"); //criando uma tag <td></td>
-    let pesoTd = document.createElement("td");
-    let alturaTd = document.createElement("td");
-    let gorduraTd = document.createElement("td");
-    let imcTd = document.createElement("td");
-
-    nomeTd.textContent = paciente.nome;
-    pesoTd.textContent = paciente.peso;
-    alturaTd.textContent= paciente.altura;
-    gorduraTd.textContent = paciente.gordura;
-    // imcTd.textContent = (peso / (altura * altura)).toFixed(2);
-    // imcTd.textContent = calculaImc(paciente.peso, paciente.altura);
-    imcTd.textContent = paciente.imc;
-    
-    pacienteTr.classList.add("paciente");
-    nomeTd.classList.add("info-nome");
-    pesoTd.classList.add("info-peso");
-    alturaTd.classList.add("info-altura");
-    gorduraTd.classList.add("info-gordura");
-    imcTd.classList.add("info-imc");
-
-    pacienteTr.appendChild(nomeTd); // adicionando uma nova tag dentro de outra tag. Tipo um <form><body></body></form>
-    pacienteTr.appendChild(pesoTd);
-    pacienteTr.appendChild(alturaTd);
-    pacienteTr.appendChild(gorduraTd);
-    pacienteTr.appendChild(imcTd);
+    let pacienteTr = montaTr(paciente);
 
     //adicioando o paciente na tabela
     tabela.appendChild(pacienteTr); // adicionado o conjunto de <tr></tr> dentro da lista de pacientes
     
+    form.reset(); //limpando o formulário
+
     console.log(pacienteTr);
     /*
     <tr>
@@ -70,4 +45,31 @@ function obtemPacienteDoFormulario(form) {
     }
 
     return paciente;
+}
+
+function montaTr(paciente) {
+    let pacienteTr = document.createElement("tr"); //criando uma tag <tr></tr>
+    pacienteTr.classList.add("paciente");
+
+    let nomeTd = montaTd(paciente.nome, "info-nome");
+    let pesoTd = montaTd(paciente.peso, "info-peso");
+    let alturaTd = montaTd(paciente.altura, "info-altura");
+    let gorduraTd = montaTd(paciente.gordura, "info-gordura");
+    let imcTd = montaTd(paciente.imc, "info-imc");
+
+    pacienteTr.appendChild(nomeTd); // adicionando uma nova tag dentro de outra tag. Tipo um <form><body></body></form>
+    pacienteTr.appendChild(pesoTd);
+    pacienteTr.appendChild(alturaTd);
+    pacienteTr.appendChild(gorduraTd);
+    pacienteTr.appendChild(imcTd);
+
+    return pacienteTr;
+}
+
+function montaTd(dado, classe){
+    let td = document.createElement("td"); //criando uma tag <td></td>
+    td.textContent = dado;
+    td.classList.add(classe);
+
+    return td;
 }
