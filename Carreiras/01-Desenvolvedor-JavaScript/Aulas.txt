@@ -76,3 +76,5 @@ JavaScript: Programando na linguagem da web
 		11 - Mãos na massa: extraindo mais códigos
 	06 - Validação de Formulários
 		01 - Validando os dados do formulário
+		02 - Exibindo mensagens de erro
+		03 - Validando o restante dos campos

@@ -8,9 +8,11 @@ botaoAdicionar.addEventListener("click", (event) => {
     
     let paciente = obtemPacienteDoFormulario(form);
     let pacienteTr = montaTr(paciente);
-    
-    if(!validaPaciente(paciente)) {
-        alert("Paciente inválido!");
+    let erros = validaPaciente(paciente);
+
+    if(erros.length > 0) {
+        let mensagemErro = document.querySelector("#mensagem-erro");
+        mensagemErro.textContent = erros;
         return;
     }
 
@@ -58,9 +60,10 @@ function montaTd(dado, classe){
 }
 
 function validaPaciente(paciente) {
-    if(validaPeso(paciente.peso) && validaAltura(paciente.altura)) {
-        return true;
-    } else {
-        return false;
-    }
+    let erro = [];
+
+    if(!validaPeso(paciente.peso)) erro.push("Peso inválido!");
+    if(!validaAltura(paciente.altura)) erro.push("Altura inválida!");
+
+    return erro;
 }
