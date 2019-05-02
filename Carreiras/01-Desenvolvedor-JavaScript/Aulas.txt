@@ -105,3 +105,4 @@ JavaScript: Programando na linguagem da web
 		02 - O Objeto requisitor
 		03 - Configurando nossa requisição
 		04 - Tratando a resposta da requisição
+		05 - Capturando erros de requisição

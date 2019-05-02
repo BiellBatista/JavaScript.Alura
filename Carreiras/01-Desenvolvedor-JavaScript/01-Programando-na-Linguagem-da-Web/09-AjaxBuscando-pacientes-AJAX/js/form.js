@@ -4,10 +4,7 @@ botaoAdicionar.addEventListener("click", (event) => {
     event.preventDefault(); //previnindo o comportamento padrão do botão. Assim, o botão não enviar os dados do form e não recarrega a página
     
     let form = document.querySelector("#form-adiciona");
-    let tabela = document.querySelector("#tabela-pacientes");
-    
     let paciente = obtemPacienteDoFormulario(form);
-    let pacienteTr = montaTr(paciente);
     let erros = validaPaciente(paciente);
 
     if(erros.length > 0) {
@@ -15,11 +12,18 @@ botaoAdicionar.addEventListener("click", (event) => {
         return;
     }
 
-    tabela.appendChild(pacienteTr);
+    adicionaPacienteNaTabela(paciente);
+
     form.reset();
     let ul = document.querySelector("#mensagens-erro");
     ul.innerHTML = ""; //a propriedade permite controlar os childs de um HTML
 });
+
+function adicionaPacienteNaTabela(paciente) {
+    let pacienteTr = montaTr(paciente);
+    let tabela = document.querySelector("#tabela-pacientes");
+    tabela.appendChild(pacienteTr);
+}
 
 function obtemPacienteDoFormulario(form) {
     let nome = form.nome.value;
