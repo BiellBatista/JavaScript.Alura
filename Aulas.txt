@@ -14,6 +14,12 @@ Carreira Desenvolvedor JavaScript
 		03 - Arrays, Loop e Estilos
 		04 - Eventos, Formulários e Criando Elementos
 		05 - Boas Práticas com Javascript
+		06 - Validação de Formulários
+		07 - Remoção, Delegação e Animação
+		08 - Filtrando uma tabela
+		09 - AjaxBuscando pacientes com AJAX
+	Expressões regulares: Capturando textos de forma mágica
+		01 - Começando com Regex
 -------------------------------------------------------------------------------------------------------------------------
 Carreira Desenvolvedor ASP.NET MVC5
 	Curso C# Parte 1: Primeiros Passos

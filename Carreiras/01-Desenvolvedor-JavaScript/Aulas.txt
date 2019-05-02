@@ -108,4 +108,10 @@ JavaScript: Programando na linguagem da web
 		05 - Capturando erros de requisição
 		06 - O XMLHttpRequest
 		07 - Encerramento
-		08 - 
+		08 - Mãos na massa: conectando com servidor
+		09 - Mãos na massa: adicionando os pacientes na tabela
+		10 - Mãos na massa: lidando com erros da requisição
+		11 - Download do projeto final
+Expressões regulares: Capturando textos de forma mágica
+	01 - Começando com Regex
+		01 - Começando a aprender Regex com Javascript
