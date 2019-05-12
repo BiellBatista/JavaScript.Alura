@@ -131,3 +131,15 @@ Expressões regulares: Capturando textos de forma mágica
 		02 - Mãos na massa: Ajudando Alura
 		03 - Qual é a classe?
 		04 - Praticando classes e quantifier
+		05 - Trabalhando com horários
+		06 - Mão na massa: Reconhecendo a placa de um veículo
+		07 - Mão na massa: expressão regular a favor dos alunos!
+		08 - Mão na massa: Uma expressão regular incorreta pode prejudicar alguém
+		09 - Mão na massa: Separando joio do trigo
+		10 - Mais sobre classes
+		11 - Opcional: Validando o usuário no serviço Rest
+		12 - Para saber mais: Melhorando a legibilidade
+		13 - O que aprendemos?
+		14 - Arquivos do projeto atual
+	03 - Encontrando a posição certa com âncoras
+		01 - Selecionando com âncoras
