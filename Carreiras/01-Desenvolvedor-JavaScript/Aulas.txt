@@ -143,3 +143,16 @@ Expressões regulares: Capturando textos de forma mágica
 		14 - Arquivos do projeto atual
 	03 - Encontrando a posição certa com âncoras
 		01 - Selecionando com âncoras
+		02 - O que são âncoras?
+		03 - Âncoras de início (^) e fim ($)
+		04 - Mão na massa: Encontrando o número de um CPF
+		05 - Mão na massa: Encontrando uma string que comece com determinada expressão
+		06 - Mão na massa: Encontrando uma expressão de data
+		07 - Mão na massa: Extensão de arquivo
+		08 - Para saber mais: \B
+		09 - Para saber mais: Âncoras no Python
+		10 - O que aprendemos ?
+		11 - Arquivos do projeto atual
+	04 - Trabalhando com grupos
+		01 - Trabalhando com Grupos
+		02 - 
