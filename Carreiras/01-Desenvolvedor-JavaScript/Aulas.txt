@@ -115,3 +115,7 @@ JavaScript: Programando na linguagem da web
 Expressões regulares: Capturando textos de forma mágica
 	01 - Começando com Regex
 		01 - Começando a aprender Regex com Javascript
+		02 - (Obrigatório) Projeto de execução
+		03 - Regex Engine
+		04 - Meta Caracteres
+		05 - O nosso primeiro problema
