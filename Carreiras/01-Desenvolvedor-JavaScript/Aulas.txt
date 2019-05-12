@@ -155,4 +155,14 @@ Expressões regulares: Capturando textos de forma mágica
 		11 - Arquivos do projeto atual
 	04 - Trabalhando com grupos
 		01 - Trabalhando com Grupos
-		02 - 
+		02 - Excluindo grupos que não queremos
+		03 - Mão na massa: CPF e o digito verificador
+		04 - Mão na massa: o detetive e a mensagem criptografada
+		05 - Mão na massa: Tratando Exceptions
+		06 - Desafio #1: Ajudando a Alura
+		07 - Desafio #2: Validando email
+		08 - Desafio #3: Ajudando os Correios
+		09 - O que aprendemos?
+		10 - Arquivos do projeto atual
+	05 - Ganancioso ou preguiçoso
+		01 - Expressões gananciosas
