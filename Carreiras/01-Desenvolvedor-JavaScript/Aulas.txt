@@ -166,3 +166,11 @@ Expressões regulares: Capturando textos de forma mágica
 		10 - Arquivos do projeto atual
 	05 - Ganancioso ou preguiçoso
 		01 - Expressões gananciosas
+		02 - Mão na massa: Entendendo quantifiers gananciosos
+		03 - O recurso de backreference
+		04 - Validando a prioridade da mensagem
+		05 - Para saber mais : Tudo que não é!
+		06 - Para saber mais: Tudo que não é #2
+		07 - O que aprendemos?
+	06 - Usando regex nas diversas linguagens
+		01 - Introdução
