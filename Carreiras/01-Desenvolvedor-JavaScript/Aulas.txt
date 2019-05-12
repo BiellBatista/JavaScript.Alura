@@ -128,3 +128,6 @@ Expressões regulares: Capturando textos de forma mágica
 		12 - Arquivos do projeto atual
 	02 - Classes de caracteres
 		01 - Entendendo Classes de Caracteres
+		02 - Mãos na massa: Ajudando Alura
+		03 - Qual é a classe?
+		04 - Praticando classes e quantifier
