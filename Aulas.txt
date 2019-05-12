@@ -20,8 +20,13 @@ Carreira Desenvolvedor JavaScript
 		09 - AjaxBuscando pacientes com AJAX
 	Expressões regulares: Capturando textos de forma mágica
 		01 - Começando com Regex
+		02 - Classes de caracteres
+		03 - Encontrando a posição certa com âncoras
+		04 - Trabalhando com grupos
+		05 - Ganancioso ou preguiçoso
+		06 - Usando regex nas diversas linguagens
 	JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
-		01 - 
+		01 - Prólogo: regras, código e manutenção
 	JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		01 - 
 	JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos

@@ -174,3 +174,32 @@ Expressões regulares: Capturando textos de forma mágica
 		07 - O que aprendemos?
 	06 - Usando regex nas diversas linguagens
 		01 - Introdução
+		02 - [JavaScript] Regex com JS
+		03 - [JavaScript] Uso de expressões regulares
+		04 - [JavaScript] Alterando o formato de uma data
+		05 - [JavaScript] O poder do `split`
+		06 - [JavaScript] O retorno de match!
+		07 - [JavaScript e HTML] A praticidade do atributo pattern
+		08 - [Ruby] Regex com Ruby
+		09 - [Ruby] Uso de expressões regulares
+		10 - [Ruby] Escaneando a string
+		11 - [Ruby] Gsub, sub e outros
+		12 - [PHP] Regex com PHP
+		13 - [PHP] Alterando o formato de uma data]
+		14 - [PHP] Alterando o separador de uma data
+		15 - [Python] Regex com Python
+		16 - [Python] O método findall
+		17 - [Python] Alterando o separador de uma data
+		18 - [C#] Regex no mundo .NET
+		19 - [C#] Alterando o formato de uma data
+		20 - [C#] Alterando o separador
+		21 - [Java] Regex como Java
+		22 - [Java] Alterando o formato de uma data
+		23 - [Java] Alterando o separador
+		24 - [Bash] RegEx em Bash
+		25 - (Opcional) Analise a regex
+		26 - Para saber mais: Outras ferramentas
+		27 - Arquivos do projeto atual
+JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
+	01 - Prólogo: regras, código e manutenção
+		01 - Visão geral do projeto
