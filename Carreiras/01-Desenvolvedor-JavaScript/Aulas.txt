@@ -119,3 +119,12 @@ Expressões regulares: Capturando textos de forma mágica
 		03 - Regex Engine
 		04 - Meta Caracteres
 		05 - O nosso primeiro problema
+		06 - Mão na massa - Encontrando o CNPJ
+		07 - Mão na massa - Encontrando o IP
+		08 - Mão na massa - Encontrando o CEP
+		09 - Mão na massa - Buscando o telefone
+		10 - Para que servem Regex?
+		11 - O que aprendemos?
+		12 - Arquivos do projeto atual
+	02 - Classes de caracteres
+		01 - Entendendo Classes de Caracteres
