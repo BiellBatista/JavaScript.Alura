@@ -185,7 +185,7 @@ Expressões regulares: Capturando textos de forma mágica
 		10 - [Ruby] Escaneando a string
 		11 - [Ruby] Gsub, sub e outros
 		12 - [PHP] Regex com PHP
-		13 - [PHP] Alterando o formato de uma data]
+		13 - [PHP] Alterando o formato de uma data
 		14 - [PHP] Alterando o separador de uma data
 		15 - [Python] Regex com Python
 		16 - [Python] O método findall
