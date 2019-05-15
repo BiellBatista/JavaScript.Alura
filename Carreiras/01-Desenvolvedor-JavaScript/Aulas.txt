@@ -210,4 +210,4 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 	02 - Especificando uma Negociação
 		01 - O que é um modelo?
 		02 - A classe Negociação
-		03 - 
+		03 - Construtor da classe e métodos
