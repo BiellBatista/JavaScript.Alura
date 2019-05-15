@@ -58,10 +58,12 @@
     </table>
     <script src="js/app/models/Negociacao.js"></script>
     <script type="text/javascript">
-        let n1 = new Negociacao(new Date(), 5, 700);
+        let hoje = new Date();
+        let n1 = new Negociacao(hoje, 5, 700);
 
         console.log(n1.data);
-        n1.data.setDate(16);
+        hoje.setDate(16);
+        // n1.data.setDate(16); // Não posso fazer, porque o método data me retorna uma cópia do valor. Ou seja, eu altero a cópia e não o atributo do objeto
         console.log(n1.data);
 
         // Object.freeze(n1); // Congelando o objeto. Com isso, não consigo alterar os seus atributos

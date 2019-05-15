@@ -216,3 +216,4 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		06 - Objetos imutáveis
 		07 - A instância é imutável mesmo?
 		08 - Programação defensiva
+		09 - Substituindo var por let
