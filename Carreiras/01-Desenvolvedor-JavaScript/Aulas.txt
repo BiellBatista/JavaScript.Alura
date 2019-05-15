@@ -212,3 +212,5 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		02 - A classe Negociação
 		03 - Construtor da classe e métodos
 		04 - Encapsulamento
+		05 - A sintaxe get
+		06 - 
