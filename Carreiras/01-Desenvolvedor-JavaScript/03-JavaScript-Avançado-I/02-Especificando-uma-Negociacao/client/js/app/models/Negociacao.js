@@ -13,8 +13,8 @@ class Negociacao {
         return this._quantidade * this._valor;
     }
 
-    getData() {
-        return this._data;
+    getValor() {
+        return this._valor;
     }
 
     // Mas também posso usar esses get...
@@ -22,7 +22,12 @@ class Negociacao {
         return this._quantidade;
     }
 
-    get valor() {
-        return this._valor;
+    get data() {
+        return this._data;
     }
 }
+
+/*
+O método Object.freeze() é ralo, fica na superficie, porque eu posso alterar as propriedades de uma propriedade
+do tipo obejto. Como por exemplo, a data, pois o freeze() congela o objeto do this e não os objetos da componitização
+*/

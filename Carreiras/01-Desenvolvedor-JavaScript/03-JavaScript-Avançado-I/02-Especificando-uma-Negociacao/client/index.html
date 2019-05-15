@@ -60,14 +60,18 @@
     <script type="text/javascript">
         let n1 = new Negociacao(new Date(), 5, 700);
 
-        // Object.freeze(n1); // Congelando o objeto. Com isso, não consigo alterar os seus atributos
-        // n1._quantidade = 10000; // Não consigo fazer isso, porque o objeto está congelado
+        console.log(n1.data);
+        n1.data.setDate(16);
+        console.log(n1.data);
 
-        console.log(n1.getVolume()); // acessando o método getVolue();
-        console.log(n1.getData()); // acessando o método getData();
-        n1.quantidade = 1000; // não consigo fazer isso, porque esta é uma propriedade apenas leitura. Porém, posso acessar como n1._quantidade = X quando o objeto não for congelado antes dessa atribuição ou na sua construção
-        console.log(n1.quantidade); // acessando o método get quantidade
-        console.log(n1.valor); // acessando o método get valor
+        // Object.freeze(n1); // Congelando o objeto. Com isso, não consigo alterar os seus atributos
+        // n1.quantidade = 10000; // Não consigo fazer isso, porque o objeto está congelado
+
+        // console.log(n1.getVolume()); // acessando o método getVolue();
+        // console.log(n1.getValor()); // acessando o método getValor()
+        // n1.quantidade = 1000; // não consigo fazer isso, porque esta é uma propriedade apenas leitura. Porém, posso acessar como n1._quantidade = X quando o objeto não for congelado antes dessa atribuição ou na sua construção
+        // console.log(n1.quantidade); // acessando o método get quantidade
+        // console.log(n1.data); // acessando o método get data
     </script>
 </body>
 </html>

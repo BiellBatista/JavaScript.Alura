@@ -215,3 +215,4 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		05 - A sintaxe get
 		06 - Objetos imutáveis
 		07 - A instância é imutável mesmo?
+		08 - Programação defensiva
