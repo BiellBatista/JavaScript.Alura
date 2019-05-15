@@ -60,10 +60,11 @@
     <script type="text/javascript">
         let n1 = new Negociacao(new Date(), 5, 700);
 
-        console.log(n1.getQuantidade());
-        console.log(n1.getData());
-        console.log(n1.getValor());
-        console.log(n1.getVolume());
+        console.log(n1.getVolume()); // acessando o método getVolue();
+        console.log(n1.getData()); // acessando o método getData();
+        n1.quantidade = 1000; // não consigo fazer isso, porque esta é uma propriedade apenas leitura. Porém, posso acessar como n1._quantidade = X
+        console.log(n1.quantidade); // acessando o método get quantidade
+        console.log(n1.valor); // acessando o método get valor
     </script>
 </body>
 </html>

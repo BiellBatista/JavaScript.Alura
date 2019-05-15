@@ -6,6 +6,7 @@ class Negociacao {
         this._valor = valor;
     }
 
+    // Posso criar os métodos get desse jeito, como abaixo
     getVolume() {
         return this._quantidade * this._valor;
     }
@@ -14,11 +15,12 @@ class Negociacao {
         return this._data;
     }
 
-    getQuantidade() {
+    // Mas também posso usar esses get...
+    get quantidade() {
         return this._quantidade;
     }
 
-    getValor() {
+    get valor() {
         return this._valor;
     }
 }
