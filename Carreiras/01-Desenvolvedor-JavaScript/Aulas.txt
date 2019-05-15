@@ -217,3 +217,22 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		07 - A instância é imutável mesmo?
 		08 - Programação defensiva
 		09 - Substituindo var por let
+		10 - Resumindo
+		11 - Pequeno conto sobre orientação a objetos
+		12 - Declaração de classes
+		13 - Atributos de instância
+		14 - O operador new
+		15 - Constructor e parâmetros
+		16 - Métodos!
+		17 - Encapsulamento
+		18 - Getters
+		19 - O resultado é...
+		20 - Congelando um objeto
+		21 - Imutável aonde meu filho!
+		22 - Varilândia ou Letícia?
+		23 - Declarando duas vezes a mesma variável
+		24 - Date é uma classe?
+		25 - Consolidando seu conhecimento
+	03 - A ligação entre as ações do usuário e o modelo
+		01 - A classe NegociacaoController
+		02 - 

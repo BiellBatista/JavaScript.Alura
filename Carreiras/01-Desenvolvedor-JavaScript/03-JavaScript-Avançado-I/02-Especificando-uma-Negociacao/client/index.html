@@ -60,8 +60,8 @@
     <script type="text/javascript">
         let hoje = new Date();
         let n1 = new Negociacao(hoje, 5, 700);
-
-        console.log(n1.data);
+        n1.quantidade = 10; //posso fazer isso apenas na quantidade, porque só ela tem set. Porém, posso usar _quantidade para atribuir, caso o objeto não esteja congelado
+        console.log(n1.quantidade);
         hoje.setDate(16);
         // n1.data.setDate(16); // Não posso fazer, porque o método data me retorna uma cópia do valor. Ou seja, eu altero a cópia e não o atributo do objeto
         console.log(n1.data);
