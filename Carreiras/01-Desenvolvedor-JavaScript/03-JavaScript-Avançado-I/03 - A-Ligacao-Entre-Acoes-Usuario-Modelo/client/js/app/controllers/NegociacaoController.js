@@ -11,11 +11,17 @@ class NegociacaoController {
     adiciona(event) {
         event.preventDefault();
 
+        // let inputDataSplit = this._inputData.value.split('/'); // Isso gera um array [ANO, MÊS, DIA]
+        let inputDataSplit = this._inputData.value.replace(/-/g, ','); //trocando todos os - pela ",", ficando "DIA,MÊS,ANO"
+        let data = new Date(inputDataSplit);
+
         let negociacao = new Negociacao(
-            this._inputData.value,
+            data,
             this._inputQuantidade.value,
             this._inputValor.value
         );
+
+        console.log(negociacao);
     }
 }
 
