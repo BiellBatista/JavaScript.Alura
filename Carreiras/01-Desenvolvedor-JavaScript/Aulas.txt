@@ -238,4 +238,5 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		02 - Associando métodos do controller às ações do usuário
 		03 - Evitando percorrer o DOM muitas vezes
 		04 - Criando uma instância de Negociacao
-		05 - 
+		05 - Criando um objeto Date
+		06 - 
