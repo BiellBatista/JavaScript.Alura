@@ -4,6 +4,8 @@ class Negociacao {
         this._data = data;
         this._quantidade = quantidade;
         this._valor = valor;
+
+        Object.freeze(this); // Congelando o objeto na sua construção. Assim, não consigo alterar os seus dados
     }
 
     // Posso criar os métodos get desse jeito, como abaixo
