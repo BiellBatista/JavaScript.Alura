@@ -241,4 +241,4 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		05 - Criando um objeto Date
 		06 - Executando ações de um controller
 		07 - O problema com datas
-		08 - 
+		08 - Resolvendo um problema com o paradigma funcional

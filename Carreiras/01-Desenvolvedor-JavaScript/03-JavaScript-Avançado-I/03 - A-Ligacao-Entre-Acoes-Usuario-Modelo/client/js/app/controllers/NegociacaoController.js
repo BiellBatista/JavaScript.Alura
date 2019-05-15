@@ -11,6 +11,8 @@ class NegociacaoController {
     adiciona(event) {
         event.preventDefault();
 
+        console.log(this._inputData.value); // 2019-05-15
+        console.log(this._inputData.value.split('/')); // ["2019-05-15"]
         // let inputDataSplit = this._inputData.value.split('/'); // Isso gera um array [ANO, MÊS, DIA]
         let inputDataSplit = this._inputData.value.replace(/-/g, ','); //trocando todos os - pela ",", ficando "DIA,MÊS,ANO"
         let data = new Date(inputDataSplit);
