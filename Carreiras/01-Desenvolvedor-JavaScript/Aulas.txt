@@ -206,3 +206,7 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		02 - (Obrigatório) Download do projeto e infraestrutra
 		03 - Prólogo: regras, código e manutenção
 		04 - Enrolando-se com o DOM
+		05 - Sentindo na pele o prólogo
+	02 - Especificando uma Negociação
+		01 - O que é um modelo?
+		02 - 
