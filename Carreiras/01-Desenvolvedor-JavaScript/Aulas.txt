@@ -235,4 +235,5 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		25 - Consolidando seu conhecimento
 	03 - A ligação entre as ações do usuário e o modelo
 		01 - A classe NegociacaoController
-		02 - 
+		02 - Associando métodos do controller às ações do usuário
+		03 - 
