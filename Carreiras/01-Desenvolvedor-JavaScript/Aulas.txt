@@ -256,3 +256,4 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		20 - Consolidando seu conhecimento
 	04 - Lidar com data é trabalhoso? Chame um ajudante!
 		01 - Exibindo o objeto Date no formato dia/mês/ano
+		02 - Isolando a responsabilidade de conversão de datas
