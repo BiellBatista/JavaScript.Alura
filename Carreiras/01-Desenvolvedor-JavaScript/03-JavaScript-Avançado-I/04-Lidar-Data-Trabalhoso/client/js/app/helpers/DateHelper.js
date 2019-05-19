@@ -10,7 +10,7 @@ class DateHelper {
 
     static textoParaData(texto) {
         if(!/\d{4}-\d{2}-\d{2}/.test(texto))
-            throw new Error('A data deve ter o fomedo YEAR-MOTH-DAY');
+            throw new Error('A data deve ter o fomedo yyyy-mm-dd!');
 
         return new Date(...texto.split('-').map((item, indice) => item - indice % 2));
     }

@@ -260,3 +260,4 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		03 - Métodos estáticos
 		04 - Template Strings
 		05 - Criando nosso ListModel
+		06 - Blindando as negociações dentro da lista
