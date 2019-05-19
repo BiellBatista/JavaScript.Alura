@@ -244,3 +244,15 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		08 - Resolvendo um problema com o paradigma funcional
 		09 - Arrow Functions: deixando o código ainda menos verboso
 		10 - Resumindo
+		11 - O modelo MVC
+		12 - O que é má prática ontem pode ser boa prática hoje e vice-versa!
+		13 - As múltiplas facetas do this
+		14 - "Prefiro evitar a fadiga!"
+		15 - "Isso" não encaixa em um "Date"? Se vira!
+		16 - Mais de spread
+		17 - O "mapa" da mina!
+		18 - Ops, não encaixa. Podemos dar um jeitinho?
+		19 - Menos é mais!
+		20 - Consolidando seu conhecimento
+	04 - Lidar com data é trabalhoso? Chame um ajudante!
+		01 - Exibindo o objeto Date no formato dia/mês/ano

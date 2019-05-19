@@ -37,3 +37,44 @@ class NegociacaoController {
 /*
 Devo evitar de pecorrer o DOM. Por isso, eu uso no constructor()
 */
+
+/*
+numeros = [3,2,11,20,8,7];
+novosNumeros = numeros.map((item)=> (item%2 +1 ) * item);
+console.log(novosNumeros);
+ [6, 2, 22, 20, 8, 14]
+*/
+
+/*
+Temos as seguintes classes:
+class Aluno {
+
+    constructor(matricula, nome) {
+        this.matricula = matricula;
+        this.nome = nome;
+    }
+}
+
+class Prova {
+
+    constructor(aluno, nota) {
+        this.aluno = aluno;
+        this.nota = nota;
+    }
+}
+
+Agora, vamos criar uma lista de avaliações. Cada item da lista é uma instância de Prova:
+var avaliacoes = [
+    new Prova(new Aluno(1, 'Luana'), 8),
+    new Prova(new Aluno(2, 'Cássio'), 6),
+    new Prova(new Aluno(3, 'Barney'), 9),
+    new Prova(new Aluno(4, 'Bira'), 5)
+];
+
+Dessa lista, precisamos dos alunos que foram aprovados, ou seja, que possuam nota maior ou igual a 7.
+Contudo, não queremos uma lista de provas no final, apenas uma lista com os nomes:
+
+let aprovados = avaliacoes
+    .filter(prova => prova.nota >= 7)
+    .map(prova => prova.aluno.nome);
+*/
