@@ -16,23 +16,21 @@ class NegociacaoController {
         // let inputDataSplit = this._inputData.value.split('/'); // Isso gera um array [ANO, MÊS, DIA]
         // let inputDataSplit = this._inputData.value.replace(/-/g, ','); //trocando todos os - pela ",", ficando "DIA,MÊS,ANO"
         // let data = new Date(inputDataSplit);
-        //spread operator
+        //os três pontos são uma spread operator
         let data = new Date(...
             this._inputData
                 .value
                 .split('-')
-                .map(function(item, indice) {
-                    return item - indice % 2;
-                })
+                .map((item, indice) => item - indice % 2)
             );
 
-        // let negociacao = new Negociacao(
-        //     data,
-        //     this._inputQuantidade.value,
-        //     this._inputValor.value
-        // );
+        let negociacao = new Negociacao(
+            data,
+            this._inputQuantidade.value,
+            this._inputValor.value
+        );
 
-        console.log(data);
+        console.log(negociacao);
     }
 }
 
