@@ -1,6 +1,8 @@
-class NegociacoesView {
+// trabalhando com herança. Uso o extends
+// Quando eu uso o extends e recebo um elemento na classe filha, devo passar para a classe pai
+class NegociacoesView extends View {
     constructor(elemento) {
-        this._elemento = elemento;
+        super(elemento);
     }
 
     _template(model) {
@@ -32,9 +34,5 @@ class NegociacoesView {
             </tfoot>
         </table>
         `
-    }
-
-    update(model) {
-        this._elemento.innerHTML = this._template(model);
     }
 }
