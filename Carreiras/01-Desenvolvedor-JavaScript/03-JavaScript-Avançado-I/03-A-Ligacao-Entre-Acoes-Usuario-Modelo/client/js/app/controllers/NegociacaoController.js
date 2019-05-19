@@ -21,7 +21,9 @@ class NegociacaoController {
             this._inputData
                 .value
                 .split('-')
-                .map(item => item)
+                .map(function(item, indice) {
+                    return item - indice % 2;
+                })
             );
 
         // let negociacao = new Negociacao(
