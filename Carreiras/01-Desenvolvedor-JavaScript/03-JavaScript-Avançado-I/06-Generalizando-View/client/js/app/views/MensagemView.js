@@ -1,10 +1,6 @@
 // trabalhando com herança. Uso o extends
-// Quando eu uso o extends e recebo um elemento na classe filha, devo passar para a classe pai
+// Se estou usando herança e possuo o mesmo constructor, não preciso chamar o construtor super(), porque o javascript sabe que estou referenciando o construtor da classe pai
 class MensagemView extends View {
-    constructor(elemento) {
-        super(elemento);
-    }
-
     template(model) {
         return model.texto ? `<p class="alert alert-info">${model.texto}</p>` : '<p></p>';
     }

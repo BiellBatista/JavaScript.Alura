@@ -25,10 +25,15 @@ Carreira Desenvolvedor JavaScript
 		04 - Trabalhando com grupos
 		05 - Ganancioso ou preguiçoso
 		06 - Usando regex nas diversas linguagens
-	JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
+	JavaScript Avançado I: ES6, orientação a objetos e padrões de projetos
 		01 - Prólogo: regras, código e manutenção
+		02 - Especificando uma Negociação
+		03 - A ligação entre as ações do usuário e o modelo
+		04 - Lidar com data é trabalhoso? Chame um ajudante!
+		05 - Temos o modelo, mas e a view?
+		06 - Generalizando a solução da nossa View
 	JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
-		01 - 
+		01 - Como saber quando o modelo mudou?
 	JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		01 - 
 	jQuery: Domine a biblioteca mais popular do mercado parte 1

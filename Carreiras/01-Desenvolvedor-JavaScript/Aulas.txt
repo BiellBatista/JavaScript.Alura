@@ -200,7 +200,7 @@ Expressões regulares: Capturando textos de forma mágica
 		25 - (Opcional) Analise a regex
 		26 - Para saber mais: Outras ferramentas
 		27 - Arquivos do projeto atual
-JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
+JavaScript Avançado I: ES6, orientação a objetos e padrões de projetos
 	01 - Prólogo: regras, código e manutenção
 		01 - Visão geral do projeto
 		02 - (Obrigatório) Download do projeto e infraestrutra
@@ -292,4 +292,13 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		03 - Herança e reutilização de código
 		04 - Construtor vs super
 		05 - Resumindo
-		06 - 
+		06 - Sabendo ainda mais sobre herança
+		07 - Vantagem da herança
+		08 - Modelando uma Conta
+		09 - Herdando de Conta
+		10 - Classes abstratas, tem como?
+		11 - Consolidando seu conhecimento
+		12 - Preparado para o próximo módulo?
+JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
+	01 - Como saber quando o modelo mudou?
+		01 - Você lembrou de atualizar a view? Nem eu!
