@@ -291,3 +291,5 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		02 - Criando a classe MensagemView
 		03 - Herança e reutilização de código
 		04 - Construtor vs super
+		05 - Resumindo
+		06 - 
