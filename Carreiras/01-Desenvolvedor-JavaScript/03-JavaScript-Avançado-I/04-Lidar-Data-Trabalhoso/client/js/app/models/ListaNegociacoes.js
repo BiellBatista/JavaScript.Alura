@@ -8,6 +8,6 @@ class ListaNegociacoes {
     }
 
     get negociacoes() {
-        return this._negociacoes;
+        return [].concat(this._negociacoes); //cocatenando um array vázio com o meu array de negociacoes. COm isso, eu retorno um copia da minha lista
     }
 }
