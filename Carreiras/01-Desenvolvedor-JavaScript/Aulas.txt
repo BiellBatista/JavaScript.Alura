@@ -274,3 +274,4 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 	05 - Temos o modelo, mas e a view?
 		01 - Classes que representam nossas Views
 		02 - Construindo um template dinâmico com a função map
+		03 - Enxugando o código
