@@ -1,11 +1,16 @@
 class DateHelper {
-    dataParaTexto(data) {
+
+    constructor() {
+        throw new Error('DateHelper não pode ser instânciada!');
+    }
+
+    static dataParaTexto(data) {
         return data.getDate()
             + '/' + (data.getMonth() + 1)
             + '/' + data.getFullYear();
     }
 
-    textoParaData(texto) {
+    static textoParaData(texto) {
         return new Date(...texto.split('-').map((item, indice) => item - indice % 2));
     }
 }

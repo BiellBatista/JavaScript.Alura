@@ -258,3 +258,4 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		01 - Exibindo o objeto Date no formato dia/mês/ano
 		02 - Isolando a responsabilidade de conversão de datas
 		03 - Métodos estáticos
+		04 - Template Strings
