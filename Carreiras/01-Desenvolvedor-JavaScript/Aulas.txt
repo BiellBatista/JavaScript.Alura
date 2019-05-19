@@ -262,3 +262,9 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		05 - Criando nosso ListModel
 		06 - Blindando as negociações dentro da lista
 		07 - Resumindo
+		08 - Olhar aguçado para o paradigma da orientação a objetos
+		09 - O parâmetro não encaixa, e agora?
+		10 - Template String
+		11 - E a lista de negociações?
+		12 - Criando o "ajudante"
+		13 - 
