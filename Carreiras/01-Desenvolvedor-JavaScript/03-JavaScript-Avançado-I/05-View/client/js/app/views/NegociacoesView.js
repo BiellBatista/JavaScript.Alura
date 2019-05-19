@@ -28,14 +28,7 @@ class NegociacoesView {
 
             <tfoot>
                 <td colspan="3"></td>
-                <td>${
-                    (function() {
-                        //fazendo uma function auto executavel
-                        let total = 0;
-                        model.negociacoes.forEach(n => total += n.getVolume());
-                        return total;
-                    })()
-                }</td>
+                <td>${model.negociacoes.reduce((total, n) => total + n.getVolume(), 0.0)}</td>
             </tfoot>
         </table>
         `
@@ -46,3 +39,18 @@ class NegociacoesView {
         this._elemento.innerHTML = this._template(model);
     }
 }
+
+/*
+reduce serve para realizar uma soma no array e retornar o total
+
+
+<td>${
+    (function() {
+        //fazendo uma function auto executavel
+        let total = 0;
+        // somando
+        model.negociacoes.forEach(n => total += n.valoume);
+        return total;
+    })()
+}</td>
+*/

@@ -277,3 +277,4 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		03 - Enxugando o código
 		04 - Totalizando o volume em nosso Template
 		05 - Totalizando o volume em nosso Template com a função reduce
+		06 - Resumindo
