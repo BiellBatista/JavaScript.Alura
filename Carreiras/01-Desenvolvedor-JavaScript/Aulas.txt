@@ -267,4 +267,9 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		10 - Template String
 		11 - E a lista de negociações?
 		12 - Criando o "ajudante"
-		13 - 
+		13 - Por que...
+		14 - Expressão regular ainda melhor
+		15 - Consolidando seu conhecimento
+		16 - Só tem métodos estáticos...
+	05 - Temos o modelo, mas e a view?
+		01 - Classes que representam nossas Views
