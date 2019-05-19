@@ -3,7 +3,7 @@ class View {
         this._elemento = elemento;
     }
 
-    template() { //forçando para que as classes filhas sobreescreva este método
+    template() {
         throw new Error('O método deve ser implementado!');
     }
 

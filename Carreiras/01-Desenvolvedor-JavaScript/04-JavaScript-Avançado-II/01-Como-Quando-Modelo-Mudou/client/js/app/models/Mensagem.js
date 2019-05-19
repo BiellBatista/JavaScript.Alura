@@ -1,5 +1,4 @@
 class Mensagem {
-    // parametro com valor padrao (posso fazer isso em construtor e método)
     constructor(texto = ''){
         this._texto = texto;
     }
