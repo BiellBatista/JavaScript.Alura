@@ -278,3 +278,13 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		04 - Totalizando o volume em nosso Template
 		05 - Totalizando o volume em nosso Template com a função reduce
 		06 - Resumindo
+		07 - Dominando o reduce
+		08 - Um pouco mais sobre o reduce
+		09 - Reduce com arrow function
+		10 - Imprimindo com map
+		11 - Dominando o map
+		12 - Map com arrow functions
+		13 - View declarada no JS ou no HTML?
+		14 - Consolidando seu conhecimento
+	06 - Generalizando a solução da nossa View
+		01 - Classe Mensagem

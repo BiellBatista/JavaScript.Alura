@@ -42,7 +42,7 @@ class NegociacoesView {
 
 /*
 reduce serve para realizar uma soma no array e retornar o total
-
+A função reduce recebe dois parâmetros: uma função e um valor inicial para a variável total.
 
 <td>${
     (function() {
