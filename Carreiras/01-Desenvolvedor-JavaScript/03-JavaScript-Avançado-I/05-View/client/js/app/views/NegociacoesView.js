@@ -27,6 +27,15 @@ class NegociacoesView {
             </tbody>
 
             <tfoot>
+                <td colspan="3"></td>
+                <td>${
+                    (function() {
+                        //fazendo uma function auto executavel
+                        let total = 0;
+                        model.negociacoes.forEach(n => total += n.getVolume());
+                        return total;
+                    })()
+                }</td>
             </tfoot>
         </table>
         `
