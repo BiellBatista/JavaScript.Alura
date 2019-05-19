@@ -259,3 +259,4 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		02 - Isolando a responsabilidade de conversão de datas
 		03 - Métodos estáticos
 		04 - Template Strings
+		05 - Criando nosso ListModel
