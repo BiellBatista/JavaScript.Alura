@@ -275,3 +275,5 @@ JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 		01 - Classes que representam nossas Views
 		02 - Construindo um template dinâmico com a função map
 		03 - Enxugando o código
+		04 - Totalizando o volume em nosso Template
+		05 - 

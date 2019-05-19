@@ -17,13 +17,13 @@ class NegociacoesView {
 
             <tbody>
                 ${model.negociacoes.map(element => `
-                                        <tr>
-                                            <td>${DateHelper.dataParaTexto(element.data)}</td>
-                                            <td>${element.quantidade}</td>
-                                            <td>${element.getValor()}</td>
-                                            <td>${element.getVolume()}</td>
-                                        </tr>`
-                ).join('')}
+                    <tr>
+                        <td>${DateHelper.dataParaTexto(element.data)}</td>
+                        <td>${element.quantidade}</td>
+                        <td>${element.getValor()}</td>
+                        <td>${element.getVolume()}</td>
+                    </tr>
+                `).join('')}
             </tbody>
 
             <tfoot>
