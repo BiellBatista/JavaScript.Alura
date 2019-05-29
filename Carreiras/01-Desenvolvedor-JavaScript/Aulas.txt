@@ -11,54 +11,54 @@ JavaScript: Programando na linguagem da web
 	01 - Introdução
 		01 - Sim, o curso foi atualizado!
 		02 - Por que aprenderJavascript?
-		03 - Por que estudar Javascript?
+		03 - Por que estudar Javascript? (B)
 		04 - Olá Mundo com JavaScript
-		05 - Interpretando scripts no navegador
-		06 - Uma mensagem no navegador
+		05 - Interpretando scripts no navegador (C)
+		06 - Uma mensagem no navegador (D)
 		07 - Query Selector
 		08 - Boas Práticas
 		09 - Estrutura do curso
-		10 - Console do desenvolvedor
-		11 - Importando um arquivo externo
-		12 - Mensagem de boas vindas
-		13 - Um tal de document
-		14 - Apenas um pedacinho...
+		10 - Console do desenvolvedor (B / C / D / E)
+		11 - Importando um arquivo externo (A)
+		12 - Mensagem de boas vindas (B)
+		13 - Um tal de document (B)
+		14 - Apenas um pedacinho... (A)
 		15 - Mãos na massa: Download Inicial e Setup
 		16 - Mãos na massa: O primeiro Javascript
 	02 - Variáveis e Operadores
 		01 - Buscando dados do paciente
-		02 - Acessando elementos dentro de outro elemento
-		03 - O prato do dia
+		02 - Acessando elementos dentro de outro elemento (A)
+		03 - O prato do dia (C)
 		04 - Calculando e exibindo o IMC corretamente
-		05 - Desmembrando uma instrução em variáveis
-		06 - O indicador enviesado
+		05 - Desmembrando uma instrução em variáveis (A)
+		06 - O indicador enviesado (B)
 		07 - Operadores Lógicos
-		08 - Validando e exibindo resultado
-		09 - Informações escapando
-		10 - Restrigindo o acesso
+		08 - Validando e exibindo resultado (A)
+		09 - Informações escapando (A / C)
+		10 - Restrigindo o acesso (B)
 		11 - Mãos na Massa: Calculando o IMC
 		12 - Mãos na Massa: Validando os dados do usuário
 	03 - Arrays, Loop e Estilos
 		01 - Replicando a validação e o cálculo do IMC para todos os pacientes
 		02 - Estilos com JavaScript
-		03 - Calculando gastos
-		04 - Seleção falhando
-		05 - Um parágrafo azul
-		06 - Mas e se for o fundo?
-		07 - Acessando as classes
-		08 - Modificando os titulos
+		03 - Calculando gastos (C)
+		04 - Seleção falhando (B / D)
+		05 - Um parágrafo azul (A)
+		06 - Mas e se for o fundo? (C)
+		07 - Acessando as classes (E)
+		08 - Modificando os titulos (B)
 		09 - Mãos na Massa: O IMC de todos os pacientes
 		10 - Mãos na Massa: Melhorando a visualização do erro
 	04 - Eventos, Formulários e Criando Elementos
 		01 - Escutando eventos
 		02 - O botão que falhou
-		03 - Copiando valores
+		03 - Copiando valores (C)
 		04 - Evitando o comportamento padrão de um evento
-		05 - Uma lista que não cresce
+		05 - Uma lista que não cresce (C)
 		06 - Adicionando pacientes na tabela
-		07 - De declaração de função para função anônima
-		08 - Tem nome ou não?
-		09 - Criando um elemento
+		07 - De declaração de função para função anônima (A)
+		08 - Tem nome ou não? (B)
+		09 - Criando um elemento (B)
 		10 - Mãos na Massa: Criando o formulário de adição de pacientes
 		11 - Mãos na Massa: Adicionando um paciente na tabela
 		12 - Para saber mais: event shortcut
@@ -67,9 +67,9 @@ JavaScript: Programando na linguagem da web
 		02 - Agulha no palheiro!
 		03 - Criando funções
 		04 - Criando um objeto paciente
-		05 - Objeto inválido
+		05 - Objeto inválido (A)
 		06 - Melhorando ainda mais o código
-		07 - Sobre boas práticas de código
+		07 - Sobre boas práticas de código (D)
 		08 - Quebrando o problema em partes menores
 		09 - Separando responsabilidades
 		10 - Mãos na massa: organizando o código em vários arquivos
@@ -78,35 +78,35 @@ JavaScript: Programando na linguagem da web
 		01 - Validando os dados do formulário
 		02 - Exibindo mensagens de erro
 		03 - Validando o restante dos campos
-		04 - Iterando com o forEach
-		05 - A propriedade innerHTML
+		04 - Iterando com o forEach (C)
+		05 - A propriedade innerHTML (B)
 		06 - Porque não consigo modificar o HTML interno de um elemento?
 		07 - Mãos na massa: validando o form
 	07 - Remoção, Delegação e Animação
 		01 - Removendo pacientes
-		02 - Um duplo clique
+		02 - Um duplo clique (C)
 		03 - Delegando eventos
-		04 - O escolhido foi você!
-		05 - Analisando o código
+		04 - O escolhido foi você! (B)
+		05 - Analisando o código (A / B)
 		06 - Animando a remoção do paciente
 		07 - Mãos na massa: removendo os pacientes
 		08 - Mãos na massa: animando a remoção
 	08 - Filtrando uma tabela
 		01 - Filtrando os pacientes da tabela
-		02 - Verificando o tamanho da postagem
+		02 - Verificando o tamanho da postagem (D)
 		03 - Implementando a lógica de filtragem
 		04 - Filtrando com expressão regular
-		05 - Criando uma Regex
+		05 - Criando uma Regex (C)
 		06 - Mãos na massa: filtrando a tabela
 		07 - Mãos na massa: buscando pacientes
 		08 - Para saber mais: filtrando sem regex?
 	09 - AjaxBuscando pacientes com AJAX
 		01 - Introdução ao AJAX
-		02 - O Objeto requisitor
-		03 - Configurando nossa requisição
+		02 - O Objeto requisitor (D)
+		03 - Configurando nossa requisição (A)
 		04 - Tratando a resposta da requisição
 		05 - Capturando erros de requisição
-		06 - O XMLHttpRequest
+		06 - O XMLHttpRequest (B / C)
 		07 - Encerramento
 		08 - Mãos na massa: conectando com servidor
 		09 - Mãos na massa: adicionando os pacientes na tabela
