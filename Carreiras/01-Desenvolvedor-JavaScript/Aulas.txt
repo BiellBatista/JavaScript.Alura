@@ -116,27 +116,27 @@ Expressões regulares: Capturando textos de forma mágica
 	01 - Começando com Regex
 		01 - Começando a aprender Regex com Javascript
 		02 - (Obrigatório) Projeto de execução
-		03 - Regex Engine
-		04 - Meta Caracteres
+		03 - Regex Engine (B)
+		04 - Meta Caracteres (C)
 		05 - O nosso primeiro problema
 		06 - Mão na massa - Encontrando o CNPJ
-		07 - Mão na massa - Encontrando o IP
+		07 - Mão na massa - Encontrando o IP (D)
 		08 - Mão na massa - Encontrando o CEP
-		09 - Mão na massa - Buscando o telefone
-		10 - Para que servem Regex?
+		09 - Mão na massa - Buscando o telefone (D)
+		10 - Para que servem Regex? (D)
 		11 - O que aprendemos?
 		12 - Arquivos do projeto atual
 	02 - Classes de caracteres
 		01 - Entendendo Classes de Caracteres
 		02 - Mãos na massa: Ajudando Alura
-		03 - Qual é a classe?
+		03 - Qual é a classe? (B)
 		04 - Praticando classes e quantifier
-		05 - Trabalhando com horários
+		05 - Trabalhando com horários (D)
 		06 - Mão na massa: Reconhecendo a placa de um veículo
 		07 - Mão na massa: expressão regular a favor dos alunos!
 		08 - Mão na massa: Uma expressão regular incorreta pode prejudicar alguém
 		09 - Mão na massa: Separando joio do trigo
-		10 - Mais sobre classes
+		10 - Mais sobre classes (B)
 		11 - Opcional: Validando o usuário no serviço Rest
 		12 - Para saber mais: Melhorando a legibilidade
 		13 - O que aprendemos?
@@ -145,17 +145,17 @@ Expressões regulares: Capturando textos de forma mágica
 		01 - Selecionando com âncoras
 		02 - O que são âncoras?
 		03 - Âncoras de início (^) e fim ($)
-		04 - Mão na massa: Encontrando o número de um CPF
+		04 - Mão na massa: Encontrando o número de um CPF (A)
 		05 - Mão na massa: Encontrando uma string que comece com determinada expressão
-		06 - Mão na massa: Encontrando uma expressão de data
-		07 - Mão na massa: Extensão de arquivo
+		06 - Mão na massa: Encontrando uma expressão de data (D)
+		07 - Mão na massa: Extensão de arquivo (D)
 		08 - Para saber mais: \B
 		09 - Para saber mais: Âncoras no Python
 		10 - O que aprendemos ?
 		11 - Arquivos do projeto atual
 	04 - Trabalhando com grupos
 		01 - Trabalhando com Grupos
-		02 - Excluindo grupos que não queremos
+		02 - Excluindo grupos que não queremos (D)
 		03 - Mão na massa: CPF e o digito verificador
 		04 - Mão na massa: o detetive e a mensagem criptografada
 		05 - Mão na massa: Tratando Exceptions
@@ -166,9 +166,9 @@ Expressões regulares: Capturando textos de forma mágica
 		10 - Arquivos do projeto atual
 	05 - Ganancioso ou preguiçoso
 		01 - Expressões gananciosas
-		02 - Mão na massa: Entendendo quantifiers gananciosos
+		02 - Mão na massa: Entendendo quantifiers gananciosos (B)
 		03 - O recurso de backreference
-		04 - Validando a prioridade da mensagem
+		04 - Validando a prioridade da mensagem (D)
 		05 - Para saber mais : Tudo que não é!
 		06 - Para saber mais: Tudo que não é #2
 		07 - O que aprendemos?
@@ -196,7 +196,7 @@ Expressões regulares: Capturando textos de forma mágica
 		21 - [Java] Regex como Java
 		22 - [Java] Alterando o formato de uma data
 		23 - [Java] Alterando o separador
-		24 - [Bash] RegEx em Bash
+		24 - [Bash] RegEx em Bash (C)
 		25 - (Opcional) Analise a regex
 		26 - Para saber mais: Outras ferramentas
 		27 - Arquivos do projeto atual
@@ -219,17 +219,17 @@ JavaScript Avançado I: ES6, orientação a objetos e padrões de projetos
 		09 - Substituindo var por let
 		10 - Resumindo
 		11 - Pequeno conto sobre orientação a objetos
-		12 - Declaração de classes
-		13 - Atributos de instância
+		12 - Declaração de classes (C)
+		13 - Atributos de instância (A)
 		14 - O operador new
 		15 - Constructor e parâmetros
 		16 - Métodos!
-		17 - Encapsulamento
+		17 - Encapsulamento (A / C / D)
 		18 - Getters
-		19 - O resultado é...
-		20 - Congelando um objeto
+		19 - O resultado é... (C)
+		20 - Congelando um objeto (A)
 		21 - Imutável aonde meu filho!
-		22 - Varilândia ou Letícia?
+		22 - Varilândia ou Letícia? (C)
 		23 - Declarando duas vezes a mesma variável
 		24 - Date é uma classe?
 		25 - Consolidando seu conhecimento
@@ -239,14 +239,14 @@ JavaScript Avançado I: ES6, orientação a objetos e padrões de projetos
 		03 - Evitando percorrer o DOM muitas vezes
 		04 - Criando uma instância de Negociacao
 		05 - Criando um objeto Date
-		06 - Executando ações de um controller
+		06 - Executando ações de um controller (B)
 		07 - O problema com datas
 		08 - Resolvendo um problema com o paradigma funcional
 		09 - Arrow Functions: deixando o código ainda menos verboso
 		10 - Resumindo
-		11 - O modelo MVC
-		12 - O que é má prática ontem pode ser boa prática hoje e vice-versa!
-		13 - As múltiplas facetas do this
+		11 - O modelo MVC (A / B / D)
+		12 - O que é má prática ontem pode ser boa prática hoje e vice-versa! (C)
+		13 - As múltiplas facetas do this (A)
 		14 - "Prefiro evitar a fadiga!"
 		15 - "Isso" não encaixa em um "Date"? Se vira!
 		16 - Mais de spread
@@ -264,8 +264,8 @@ JavaScript Avançado I: ES6, orientação a objetos e padrões de projetos
 		07 - Resumindo
 		08 - Olhar aguçado para o paradigma da orientação a objetos
 		09 - O parâmetro não encaixa, e agora?
-		10 - Template String
-		11 - E a lista de negociações?
+		10 - Template String (A)
+		11 - E a lista de negociações? (B)
 		12 - Criando o "ajudante"
 		13 - Por que...
 		14 - Expressão regular ainda melhor
@@ -278,11 +278,11 @@ JavaScript Avançado I: ES6, orientação a objetos e padrões de projetos
 		04 - Totalizando o volume em nosso Template
 		05 - Totalizando o volume em nosso Template com a função reduce
 		06 - Resumindo
-		07 - Dominando o reduce
+		07 - Dominando o reduce (C)
 		08 - Um pouco mais sobre o reduce
 		09 - Reduce com arrow function
 		10 - Imprimindo com map
-		11 - Dominando o map
+		11 - Dominando o map (B)
 		12 - Map com arrow functions
 		13 - View declarada no JS ou no HTML?
 		14 - Consolidando seu conhecimento
@@ -293,7 +293,7 @@ JavaScript Avançado I: ES6, orientação a objetos e padrões de projetos
 		04 - Construtor vs super
 		05 - Resumindo
 		06 - Sabendo ainda mais sobre herança
-		07 - Vantagem da herança
+		07 - Vantagem da herança (A)
 		08 - Modelando uma Conta
 		09 - Herdando de Conta
 		10 - Classes abstratas, tem como?
