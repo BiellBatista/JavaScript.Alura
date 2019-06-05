@@ -313,3 +313,9 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		10 - Mais um pouco de arrow function! (D)
 		11 - E tem espaço para self?
 		12 - Revisando Reflect.apply
+		13 - Reutilização de código com Composição e Mixin
+		14 - Function.apply vs Reflect.apply
+		15 - O padrão de projeto Observer
+		16 - Consolidando seu conhecimento
+	02 - Existe modelo mentiroso? O padrão de projeto Proxy!
+		01 - Modelo e reutilização em projetos
