@@ -55,8 +55,19 @@
     </script>
     <script>
         let negociacao = new Proxy(new Negociacao(new Date, 1, 100), {
-            
+            //este get sempre será chamado quando eu tentar ler alguma propriedade do objeto negociacao
+            //target = referencia do objeto original encapsulado. Neste caso, o objeto é o Negociacao
+            //prop = proprieade do target que está sendo acessada
+            //receiver = referência do proxy
+            get: function(target, prop, receiver) {
+                console.log(`a propriedade "${prop}" foi interceptada.`);
+                return Reflect.get(target, prop, receiver);
+                //devo retornar o valor que a prop guarda, para que a chamada original não retorno undefined
+            }
         });
+        // não consigo usar métodos (getValor()) dentro de um proxy
+        console.log(negociacao.data);
+        console.log(negociacao.quantidade);
     </script>
 </body>
 </html>
