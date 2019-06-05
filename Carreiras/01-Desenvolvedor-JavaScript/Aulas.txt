@@ -303,4 +303,5 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 	01 - Como saber quando o modelo mudou?
 		01 - Você lembrou de atualizar a view? Nem eu!
 		02 - E se atualizarmos a view quando o modelo for alterado?
-		03 - 
+		03 - API Reflection e as facetas de this
+		04 - 
