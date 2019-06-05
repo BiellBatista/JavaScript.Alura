@@ -329,5 +329,6 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		09 - Aplicando a solução no NegociacaoController
 		10 - Truque com ES2015
 		11 - Vantagens do Proxy (D)
-		12 - Target, prop ou receiver ?
-		13 - 
+		12 - Target, prop ou receiver? (A)
+		13 - O Primeiro proxy a gente nunca esquece
+		14 - Proxy modificando retorno de método
