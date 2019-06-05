@@ -1,10 +1,12 @@
 class ListaNegociacoes {
-    constructor() {
+    constructor(armadilha) {
         this._negociacoes = [];
+        this._armadilha = armadilha;
     }
 
     adiciona(negociacao) {
         this._negociacoes.push(negociacao);
+        this._armadilha(this);
     }
 
     get negociacoes() {
@@ -14,5 +16,6 @@ class ListaNegociacoes {
     // este método esvazia as negociações do modelos para que elas sejam apagadas da view
     esvazia() {
         this._negociacoes = [];
+        this._armadilha(this);
     }
 }
