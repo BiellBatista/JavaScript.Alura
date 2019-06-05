@@ -144,4 +144,33 @@ console.log(funcionarioProxy.email);
 Há uma ligeira diferença entre as duas. Na primeira, get retorna uma função que é invocada para obter o valor da propriedade original, na
 segunda, o valor é retornado diretamente. Entenda que Reflect.get cria algo semelhante a uma getter. Você ainda lembra que um getter é uma
 espécie de função?
+
+return '**' + target[prop] + '**'; //irá concatenar o valor da prop com os asteristocs
+
+Uma proxy sempre será executada, mesmo que a propriedade do objeto esteja congelada
+
+
+
+
+
+
+Aprendemos lá no jardim de infância em JavaScript a passar parâmetros para funções e métodos. Vejamos um exemplo:
+
+function exibeNomeCompleto(nome, sobrenome) {
+
+  alert(`${nome} ${sobrenome}`);
+}
+
+exibeNomeCompleto('Flávio', 'Almeida');
+Contudo, podemos conseguir o mesmo resultado sem passar parâmetros para a função:
+
+function exibeNomeCompleto() {
+
+  alert(`${arguments[0]} ${arguments[1]}`);
+}
+
+exibeNomeCompleto('Flávio', 'Almeida');
+Por mais que nossa função não receba parâmetros, podemos ter acesso aos parâmetros passados com arguments. É uma variável implícita que nos
+dá acesso a todos os parâmetros passados para a função ou método. É claro que a primeira forma, nomear os parâmetros da função, é menos
+verbosa e mais legível. Mas há muitos hacks em JavaScript que podem fazer uso de arguments.
 -->

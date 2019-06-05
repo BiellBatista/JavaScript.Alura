@@ -332,3 +332,9 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		12 - Target, prop ou receiver? (A)
 		13 - O Primeiro proxy a gente nunca esquece
 		14 - Proxy modificando retorno de método
+		15 - Proxy e peculiaridade com getters
+		16 - Mais um proxy, agora para lidar escrita!
+		17 - Um esclarecimento extra é sempre bom!
+		18 - Proxy e peculiaridade com setters
+		19 - Arguments
+		20 - 
