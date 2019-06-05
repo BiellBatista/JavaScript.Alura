@@ -323,3 +323,4 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		03 - Aprendendo a trabalhar com o Proxy
 		04 - Construindo armadilhas de leitura
 		05 - Construindo armadilhas de escrita
+		06 - Método que não altera propriedade

@@ -63,11 +63,20 @@
                 console.log(`a propriedade "${prop}" foi interceptada.`);
                 return Reflect.get(target, prop, receiver);
                 //devo retornar o valor que a prop guarda, para que a chamada original não retorno undefined
+            },
+
+            set: function(target, prop, value, receiver) {
+                //um objeto é como array, posso pegar o valor antigo do objeto usando a prop (string) como chave
+                console.log(`valor anterior: ${target[prop]}, novo valor: ${value}`);
+                return Reflect.set(target, prop, value, receiver);
             }
         });
         // não consigo usar métodos (getValor()) dentro de um proxy
         console.log(negociacao.data);
         console.log(negociacao.quantidade);
+
+        negociacao._quantidade = 10;
+        negociacao._valor = 1000;
     </script>
 </body>
 </html>
