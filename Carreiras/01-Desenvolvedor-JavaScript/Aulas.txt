@@ -304,4 +304,6 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		01 - Você lembrou de atualizar a view? Nem eu!
 		02 - E se atualizarmos a view quando o modelo for alterado?
 		03 - API Reflection e as facetas de this
-		04 - 
+		04 - Arrow function e seu escopo léxico
+		05 - Resumindo
+		06 - 
