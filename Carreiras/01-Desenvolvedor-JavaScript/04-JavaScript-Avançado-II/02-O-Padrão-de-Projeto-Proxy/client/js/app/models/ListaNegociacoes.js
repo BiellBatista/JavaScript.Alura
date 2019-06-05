@@ -4,6 +4,8 @@ class ListaNegociacoes {
     }
 
     adiciona(negociacao) {
+        //forçando uma atribuição
+        // this._negociacoes = [].concat(this._negociacoes, negociacao);
         this._negociacoes.push(negociacao);
     }
 
