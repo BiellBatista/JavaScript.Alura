@@ -54,29 +54,45 @@
         let negociacaoController = new NegociacaoController();
     </script>
     <script>
-        let negociacao = new Proxy(new Negociacao(new Date, 1, 100), {
+        // let negociacao = new Proxy(new Negociacao(new Date, 1, 100), {
+        //     //este get sempre será chamado quando eu tentar ler alguma propriedade do objeto negociacao
+        //     //target = referencia do objeto original encapsulado. Neste caso, o objeto é o Negociacao
+        //     //prop = proprieade do target que está sendo acessada
+        //     //receiver = referência do proxy
+        //     get: function(target, prop, receiver) {
+        //         console.log(`a propriedade "${prop}" foi interceptada.`);
+        //         return Reflect.get(target, prop, receiver);
+        //         //devo retornar o valor que a prop guarda, para que a chamada original não retorno undefined
+        //     },
+
+        //     set: function(target, prop, value, receiver) {
+        //         //um objeto é como array, posso pegar o valor antigo do objeto usando a prop (string) como chave
+        //         console.log(`valor anterior: ${target[prop]}, novo valor: ${value}`);
+        //         return Reflect.set(target, prop, value, receiver);
+        //     }
+        // });
+        // // não consigo usar métodos (getValor()) dentro de um proxy
+        // console.log(negociacao.data);
+        // console.log(negociacao.quantidade);
+
+        // negociacao._quantidade = 10;
+        // negociacao._valor = 1000;
+
+        let lista = new Proxy(new ListaNegociacoes(), {
             //este get sempre será chamado quando eu tentar ler alguma propriedade do objeto negociacao
             //target = referencia do objeto original encapsulado. Neste caso, o objeto é o Negociacao
             //prop = proprieade do target que está sendo acessada
             //receiver = referência do proxy
-            get: function(target, prop, receiver) {
-                console.log(`a propriedade "${prop}" foi interceptada.`);
-                return Reflect.get(target, prop, receiver);
-                //devo retornar o valor que a prop guarda, para que a chamada original não retorno undefined
-            },
-
             set: function(target, prop, value, receiver) {
                 //um objeto é como array, posso pegar o valor antigo do objeto usando a prop (string) como chave
                 console.log(`valor anterior: ${target[prop]}, novo valor: ${value}`);
                 return Reflect.set(target, prop, value, receiver);
             }
         });
-        // não consigo usar métodos (getValor()) dentro de um proxy
-        console.log(negociacao.data);
-        console.log(negociacao.quantidade);
-
-        negociacao._quantidade = 10;
-        negociacao._valor = 1000;
+        //o proxy não pega este método, porque ele não atribui um novo valor (=)
+        lista.adiciona(new Negociacao(new Date, 1, 100));
+        //o proxy pega este método, porque ele atribui um novo valor (=)
+        lista.esvazia();
     </script>
 </body>
 </html>
