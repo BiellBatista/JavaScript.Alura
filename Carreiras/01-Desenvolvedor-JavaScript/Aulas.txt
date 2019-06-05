@@ -319,3 +319,6 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		16 - Consolidando seu conhecimento
 	02 - Existe modelo mentiroso? O padrão de projeto Proxy!
 		01 - Modelo e reutilização em projetos
+		02 - O padrão de projeto Proxy
+		03 - Aprendendo a trabalhar com o Proxy
+		04 - Construindo armadilhas de leitura
