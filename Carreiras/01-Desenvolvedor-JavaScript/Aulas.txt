@@ -326,3 +326,4 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		06 - Método que não altera propriedade
 		07 - Uma solução para método que não altera propriedade
 		08 - Construindo armadilhas para métodos
+		09 - Aplicando a solução no NegociacaoController

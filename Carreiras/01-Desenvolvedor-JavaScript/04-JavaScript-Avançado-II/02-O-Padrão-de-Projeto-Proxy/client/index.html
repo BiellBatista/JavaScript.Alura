@@ -78,21 +78,40 @@
         // negociacao._quantidade = 10;
         // negociacao._valor = 1000;
 
+        // let lista = new Proxy(new ListaNegociacoes(), {
+        //     //este get sempre será chamado quando eu tentar ler alguma propriedade do objeto negociacao
+        //     //target = referencia do objeto original encapsulado. Neste caso, o objeto é o Negociacao
+        //     //prop = proprieade do target que está sendo acessada
+        //     //receiver = referência do proxy
+        //     set: function(target, prop, value, receiver) {
+        //         //um objeto é como array, posso pegar o valor antigo do objeto usando a prop (string) como chave
+        //         console.log(`valor anterior: ${target[prop]}, novo valor: ${value}`);
+        //         return Reflect.set(target, prop, value, receiver);
+        //     }
+        // });
+        // //o proxy não pega este método, porque ele não atribui um novo valor (=). Não tem como interceptar um método com proxy
+        // lista.adiciona(new Negociacao(new Date, 1, 100));
+        // //o proxy pega este método, porque ele atribui um novo valor (=)
+        // lista.esvazia();
+
         let lista = new Proxy(new ListaNegociacoes(), {
-            //este get sempre será chamado quando eu tentar ler alguma propriedade do objeto negociacao
-            //target = referencia do objeto original encapsulado. Neste caso, o objeto é o Negociacao
-            //prop = proprieade do target que está sendo acessada
-            //receiver = referência do proxy
-            set: function(target, prop, value, receiver) {
-                //um objeto é como array, posso pegar o valor antigo do objeto usando a prop (string) como chave
-                console.log(`valor anterior: ${target[prop]}, novo valor: ${value}`);
-                return Reflect.set(target, prop, value, receiver);
+            get: function(target, prop, receiver) {
+                if(['adiciona', 'esvazia'].includes(prop) && typeof(target[prop]) === typeof(Function)) {
+                    //trocando o método do proxy
+                    return function() {
+                        console.log(`interceptando ${prop}`);
+                        //lá do meu objeto original, irei chamar o método prop
+                        //irei rodar no contexto (dele mesmo)
+                        //valores que irá receber (primeiro parametro). Arguments é implicito em qualquer função e armazena um array de argumentos recebidos em uma função
+                        Reflect.apply(target[prop], target, arguments);
+                    }
+                }
+
+                return Reflect.get(target, prop, receiver);
             }
         });
-        //o proxy não pega este método, porque ele não atribui um novo valor (=). Não tem como interceptar um método com proxy
+
         lista.adiciona(new Negociacao(new Date, 1, 100));
-        //o proxy pega este método, porque ele atribui um novo valor (=)
-        lista.esvazia();
     </script>
 </body>
 </html>
