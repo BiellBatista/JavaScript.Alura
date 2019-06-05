@@ -94,24 +94,24 @@
         // //o proxy pega este método, porque ele atribui um novo valor (=)
         // lista.esvazia();
 
-        let lista = new Proxy(new ListaNegociacoes(), {
-            get: function(target, prop, receiver) {
-                if(['adiciona', 'esvazia'].includes(prop) && typeof(target[prop]) === typeof(Function)) {
-                    //trocando o método do proxy
-                    return function() {
-                        console.log(`interceptando ${prop}`);
-                        //lá do meu objeto original, irei chamar o método prop
-                        //irei rodar no contexto (dele mesmo)
-                        //valores que irá receber (primeiro parametro). Arguments é implicito em qualquer função e armazena um array de argumentos recebidos em uma função
-                        Reflect.apply(target[prop], target, arguments);
-                    }
-                }
+        // let lista = new Proxy(new ListaNegociacoes(), {
+        //     get: function(target, prop, receiver) {
+        //         if(['adiciona', 'esvazia'].includes(prop) && typeof(target[prop]) === typeof(Function)) {
+        //             //trocando o método do proxy
+        //             return function() {
+        //                 console.log(`interceptando ${prop}`);
+        //                 //lá do meu objeto original, irei chamar o método prop
+        //                 //irei rodar no contexto (dele mesmo)
+        //                 //valores que irá receber (primeiro parametro). Arguments é implicito em qualquer função e armazena um array de argumentos recebidos em uma função
+        //                 Reflect.apply(target[prop], target, arguments);
+        //             }
+        //         }
 
-                return Reflect.get(target, prop, receiver);
-            }
-        });
+        //         return Reflect.get(target, prop, receiver);
+        //     }
+        // });
 
-        lista.adiciona(new Negociacao(new Date, 1, 100));
+        // lista.adiciona(new Negociacao(new Date, 1, 100));
     </script>
 </body>
 </html>
