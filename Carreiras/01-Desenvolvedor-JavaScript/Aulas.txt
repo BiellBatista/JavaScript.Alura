@@ -327,3 +327,7 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		07 - Uma solução para método que não altera propriedade
 		08 - Construindo armadilhas para métodos
 		09 - Aplicando a solução no NegociacaoController
+		10 - Truque com ES2015
+		11 - Vantagens do Proxy (D)
+		12 - Target, prop ou receiver ?
+		13 - 
