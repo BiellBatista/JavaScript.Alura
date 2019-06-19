@@ -344,4 +344,13 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		01 - Padrão de Projeto Factory
 		02 - Nosso proxy ainda não está 100%!
 		03 - Isolando a complexidade de associar o modelo com a view na classe Bind
-		04 - 
+		04 - Parâmetros REST
+		05 - Será que cabe na cesta? (D)
+		06 - O padrão de projeto Factory (D)
+		07 - Mais fábrica
+		08 - Fábricas na API JavaScript
+		09 - DateHelper é um Factory?
+		10 - Consolidando seu conhecimento 1
+		11 - Consolidando seu conhecimento 2 (importante)
+	04 - Importando negociações
+		01 - Serviços disponíveis
