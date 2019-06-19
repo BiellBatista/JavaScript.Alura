@@ -354,3 +354,5 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		11 - Consolidando seu conhecimento 2 (importante)
 	04 - Importando negociações
 		01 - Serviços disponíveis
+		02 - Requisições Ajax com o objeto XMLHttpRequest
+		03 - Realizando o parse da resposta
