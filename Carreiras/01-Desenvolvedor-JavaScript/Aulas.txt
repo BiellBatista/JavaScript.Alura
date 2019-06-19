@@ -356,3 +356,9 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		01 - Serviços disponíveis
 		02 - Requisições Ajax com o objeto XMLHttpRequest
 		03 - Realizando o parse da resposta
+		04 - Separando as responsabilidades
+		05 - O objeto XMLHttpRequest (D)
+		06 - Você sabia? Conheça a história do nome XMLHttpRequest
+		07 - Error-first Callback, nome chique!
+		08 - Que tal enviar dados para o servidor?
+		09 - 

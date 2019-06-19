@@ -30,43 +30,18 @@ class NegociacaoController {
     }
 
     importaNegociacoes() {
-        let xhr = new XMLHttpRequest(); // ajax
+        let service = new NegociacaoService();
 
-        xhr.open('GET', 'negociacoes/semana');
-        xhr.onreadystatechange = () => { //esta arrow function será executada a cada status do AJAX
-            /*
-             Status do AJAX
-
-             0: requisição ainda não iniciada
-
-             1: conexão com o servidor estabelecida
-
-             2: requisição recebida
-
-             3: processando requisição
-
-             4: requisição concluída e a resposta está pronta
-            */
-            //verificando se o status da requisição é 4
-            if(xhr.readyState == 4) {
-                if(xhr.status == 200) {
-                    console.log('Obtendo as negociações do servidor!');
-                    //retorna o que veio pelo servidor (dados ou mensagem de erro)
-                    // console.log(JSON.parse(xhr.responseText)); //converter um JSON para objeto
-                    //o map serve para pecorrer cada item do array e vou modicando-os
-                    JSON.parse(xhr.responseText)
-                        .map(objeto => new Negociacao(new Date(objeto.data), objeto.quantidade, objeto.valor))
-                        .forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
-                     debugger;
-                } else {
-                    console.log('Não foi possível obter as negociações do servidor!');
-                    console.log(xhr.responseText);
-                    this._mensagem.texto = 'Não foi possível obter as negociações do servidor!';
-                }
+        service.obterNegociacaoDaSemana((err, negociacoes) => {
+            if(err) {
+                this._mensagem.texto = err;
+                return;
             }
+            debugger;
 
-        };
-        xhr.send();
+            negociacoes.forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
+            this._mensagem.texto = 'Negociações importadas com sucesso';
+        });
     }
 
     apaga() {
@@ -93,3 +68,46 @@ class NegociacaoController {
         this._inputData.focus();
     }
 }
+
+/*
+importaNegociacoes() {
+        let xhr = new XMLHttpRequest(); // ajax
+
+        xhr.open('GET', 'negociacoes/semana');
+        xhr.onreadystatechange = () => { //esta arrow function será executada a cada status do AJAX
+            
+             Status do AJAX
+
+             0: requisição ainda não iniciada
+
+             1: conexão com o servidor estabelecida
+
+             2: requisição recebida
+
+             3: processando requisição
+
+             4: requisição concluída e a resposta está pronta
+            
+            verificando se o status da requisição é 4
+            if(xhr.readyState == 4) {
+                if(xhr.status == 200) {
+                    console.log('Obtendo as negociações do servidor!');
+                    //retorna o que veio pelo servidor (dados ou mensagem de erro)
+                    // console.log(JSON.parse(xhr.responseText)); //converter um JSON para objeto
+                    //o map serve para pecorrer cada item do array e vou modicando-os
+                    JSON.parse(xhr.responseText)
+                        .map(objeto => new Negociacao(new Date(objeto.data), objeto.quantidade, objeto.valor))
+                        .forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
+                     debugger;
+                } else {
+                    console.log('Não foi possível obter as negociações do servidor!');
+                    console.log(xhr.responseText);
+                    this._mensagem.texto = 'Não foi possível obter as negociações do servidor!';
+                }
+            }
+
+        };
+
+        xhr.send();
+    }
+*/
