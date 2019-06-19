@@ -342,3 +342,5 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		22 - Consolidando seu conhecimento
 	03 -  E se alguém criasse nossos proxies? O Padrão de Projeto Factory
 		01 - Padrão de Projeto Factory
+		02 - Nosso proxy ainda não está 100%!
+		03 - Isolando a complexidade de associar o modelo com a view na classe Bind
