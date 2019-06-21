@@ -2,7 +2,7 @@ class NegociacaoService {
     obterNegociacaoDaSemana(cb) {
         let xhr = new XMLHttpRequest();
 
-        xhr.open('GET', 'negociacoes/semana');
+        xhr.open('GET', 'negociacoes/semanax');
         xhr.onreadystatechange = () => {
             if(xhr.readyState == 4) {
                 if(xhr.status == 200) {
