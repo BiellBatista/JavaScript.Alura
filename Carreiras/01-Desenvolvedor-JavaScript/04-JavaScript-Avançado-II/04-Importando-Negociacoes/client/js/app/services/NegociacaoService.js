@@ -12,7 +12,6 @@ class NegociacaoService {
                 } else {
                     console.log(xhr.responseText);
                     cb('Não foi possível obter as negociações', null);
-                    debugger;
                 }
             }
         };

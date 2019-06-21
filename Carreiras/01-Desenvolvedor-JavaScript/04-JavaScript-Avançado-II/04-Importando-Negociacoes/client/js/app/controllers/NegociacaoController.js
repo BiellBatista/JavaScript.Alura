@@ -37,7 +37,6 @@ class NegociacaoController {
                 this._mensagem.texto = err;
                 return;
             }
-            debugger;
 
             negociacoes.forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
             this._mensagem.texto = 'Negociações importadas com sucesso';
