@@ -361,4 +361,7 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		06 - Você sabia? Conheça a história do nome XMLHttpRequest
 		07 - Error-first Callback, nome chique!
 		08 - Que tal enviar dados para o servidor?
-		09 - 
+		09 - Programação procedural não!
+		10 - Consolidando seu conhecimento
+	05 - Combatendo Callback Hell com Promises
+		01 - O problema da vida assíncrona
