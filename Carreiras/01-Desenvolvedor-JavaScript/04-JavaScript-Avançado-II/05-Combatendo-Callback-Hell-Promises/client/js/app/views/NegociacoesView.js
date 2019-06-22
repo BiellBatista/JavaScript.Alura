@@ -20,8 +20,8 @@ class NegociacoesView extends View {
                     <tr>
                         <td>${DateHelper.dataParaTexto(element.data)}</td>
                         <td>${element.quantidade}</td>
-                        <td>${element.getValor()}</td>
-                        <td>${element.getVolume()}</td>
+                        <td>${element.valor}</td>
+                        <td>${element.volume}</td>
                     </tr>
                 `).join('')}
             </tbody>
