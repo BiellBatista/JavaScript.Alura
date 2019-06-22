@@ -26,9 +26,24 @@ class NegociacaoController {
 
     importaNegociacoes() {
         let service = new NegociacaoService();
-        service.obterNegociacoesDaSemana()
+
+        Promise.all([
+            service.obterNegociacoesDaSemana(), //irá resolver esta primeiro
+            service.obterNegociacoesDaSemanaAnterior(), //esta será a segunda
+            service.obterNegociacoesDaSemanaRetrasada()] //e esta a terceira
+        ).then(negociacoes => {
+            negociacoes
+            //realizando um flatter 
+                .reduce((arrayAchatado, array) => arrayAchatado.concat(array), [])
+                .forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
+            this._mensagem.texto = 'Negociações importadas com sucesso';
+        })
+        .catch(erro => this._mensagem.texto = erro);
+
+        /* Depois do Antes
         //no then eu sempre recebo o retorno da promise (resolve)
         //no catch eu recebo o reject
+        service.obterNegociacoesDaSemana()
             .then(negociacoes => {
                 negociacoes.forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
                 this._mensagem.texto = 'Negociações da semana obtida com sucesso';
@@ -48,6 +63,7 @@ class NegociacaoController {
                 this._mensagem.texto = 'Negociações da semana obtida com sucesso';
             })
             .catch(erro => this._mensagem.texto = erro);
+        */
         /* Antes
         service.obterNegociacoesDaSemana((erro, negociacoes) => {
             if(erro) {
