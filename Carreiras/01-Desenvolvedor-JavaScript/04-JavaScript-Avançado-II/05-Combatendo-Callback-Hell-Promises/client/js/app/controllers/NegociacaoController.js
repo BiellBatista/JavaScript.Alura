@@ -26,7 +26,29 @@ class NegociacaoController {
 
     importaNegociacoes() {
         let service = new NegociacaoService();
+        service.obterNegociacoesDaSemana()
+        //no then eu sempre recebo o retorno da promise (resolve)
+        //no catch eu recebo o reject
+            .then(negociacoes => {
+                negociacoes.forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
+                this._mensagem.texto = 'Negociações da semana obtida com sucesso';
+            })
+            .catch(erro => this._mensagem.texto = erro);
 
+        service.obterNegociacoesDaSemanaAnterior()
+            .then(negociacoes => {
+                negociacoes.forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
+                this._mensagem.texto = 'Negociações da semana obtida com sucesso';
+            })
+            .catch(erro => this._mensagem.texto = erro);
+
+        service.obterNegociacoesDaSemanaRetrasada()
+            .then(negociacoes => {
+                negociacoes.forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
+                this._mensagem.texto = 'Negociações da semana obtida com sucesso';
+            })
+            .catch(erro => this._mensagem.texto = erro);
+        /* Antes
         service.obterNegociacoesDaSemana((erro, negociacoes) => {
             if(erro) {
                 this._mensagem.texto = erro;
@@ -54,6 +76,7 @@ class NegociacaoController {
                 });
             });
         });
+        */
     }
 
     apaga() {

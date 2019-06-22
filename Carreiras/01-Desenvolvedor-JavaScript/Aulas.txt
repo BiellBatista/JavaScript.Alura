@@ -366,3 +366,4 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 	05 - Combatendo Callback Hell com Promises
 		01 - O problema da vida assíncrona
 		02 - O padrão de projeto Promise
+		03 - Pyramid of Doom novamente? Claro que não, Promise.all nela!
