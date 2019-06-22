@@ -367,3 +367,5 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		01 - O problema da vida assíncrona
 		02 - O padrão de projeto Promise
 		03 - Pyramid of Doom novamente? Claro que não, Promise.all nela!
+		04 - Isolando a complexidade em HttpService
+		05 - 
