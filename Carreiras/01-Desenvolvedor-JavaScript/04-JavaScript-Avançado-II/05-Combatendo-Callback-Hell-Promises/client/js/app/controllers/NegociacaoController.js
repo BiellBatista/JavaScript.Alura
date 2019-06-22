@@ -10,13 +10,13 @@ class NegociacaoController {
         this._listaNegociacoes = new Bind(
             new ListaNegociacoes(),
             new NegociacoesView($('#negociacoesView')),
-            ['adiciona', 'esvazia']
+            'adiciona', 'esvazia'
         );
 
         this._mensagem = new Bind(
             new Mensagem(),
             new MensagemView($('#mensagemView')),
-            ['texto']
+            'texto'
         );
     }
 
@@ -37,7 +37,6 @@ class NegociacaoController {
                 this._mensagem.texto = err;
                 return;
             }
-            debugger;
 
             negociacoes.forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
             this._mensagem.texto = 'Negociações importadas com sucesso';
