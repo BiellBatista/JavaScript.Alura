@@ -365,3 +365,4 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		10 - Consolidando seu conhecimento
 	05 - Combatendo Callback Hell com Promises
 		01 - O problema da vida assíncrona
+		02 - O padrão de projeto Promise
