@@ -368,4 +368,5 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		02 - O padrão de projeto Promise
 		03 - Pyramid of Doom novamente? Claro que não, Promise.all nela!
 		04 - Isolando a complexidade em HttpService
-		05 - 
+		05 - Simplificando o código
+		06 - Dissecando uma promise!
