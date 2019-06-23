@@ -374,3 +374,6 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		08 - Consolidando seus conhecimentos
 		09 - Simplificando ainda mais nosso código com promises
 		10 - Desafio: obter todas as negociações
+	06 - Considerações finais e exercícios bônus
+		01 - Considerações finais e exercícios bônus
+		02 - 
