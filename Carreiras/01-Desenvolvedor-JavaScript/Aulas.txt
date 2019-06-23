@@ -377,4 +377,5 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 	06 - Considerações finais e exercícios bônus
 		01 - Considerações finais e exercícios bônus
 		02 - Ah se eu pudesse ordenar minha tabela clicando na coluna...
-		03 - 
+		03 - Ah se meu HttpService fizesse mais coisa...
+		04 - 
