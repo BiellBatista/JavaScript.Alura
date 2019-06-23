@@ -370,4 +370,7 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		04 - Isolando a complexidade em HttpService
 		05 - Simplificando o código
 		06 - Dissecando uma promise!
-		07 - 
+		07 - Declarando uma promise (C)
+		08 - Consolidando seus conhecimentos
+		09 - Simplificando ainda mais nosso código com promises
+		10 - Desafio: obter todas as negociações
