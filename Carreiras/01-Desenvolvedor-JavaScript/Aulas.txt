@@ -340,7 +340,7 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		20 - Proxy Intercepta métodos? (B)
 		21 - Qual é o resultado? (D)
 		22 - Consolidando seu conhecimento
-	03 -  E se alguém criasse nossos proxies? O Padrão de Projeto Factory
+	03 - E se alguém criasse nossos proxies? O Padrão de Projeto Factory
 		01 - Padrão de Projeto Factory
 		02 - Nosso proxy ainda não está 100%!
 		03 - Isolando a complexidade de associar o modelo com a view na classe Bind
@@ -385,3 +385,6 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		08 - Ah se ... peraí, o que é um transpiler mesmo?
 		09 - Ah se eu pudesse aplicar o que aprendi no Node.js...
 		10 - Download do projeto completo
+JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
+	01 - Guardando negociações offline com IndexedDB
+		01 - Relembrando

@@ -34,8 +34,13 @@ Carreira Desenvolvedor JavaScript
 		06 - Generalizando a solução da nossa View
 	JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 		01 - Como saber quando o modelo mudou?
+		02 - Existe modelo mentiroso? O padrão de projeto Proxy!
+		03 - E se alguém criasse nossos proxies? O Padrão de Projeto Factory
+		04 - Importando negociações
+		05 - Combatendo Callback Hell com Promises
+		06 - Considerações finais e exercícios bônus
 	JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
-		01 - 
+		01 - Guardando negociações offline com IndexedDB
 	jQuery: Domine a biblioteca mais popular do mercado parte 1
 		01 - 
 	jQuery: Avance na biblioteca mais popular do mercado parte 2
