@@ -389,3 +389,5 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 	01 - Guardando negociações offline com IndexedDB
 		01 - Relembrando
 		02 - Browser possui banco de dados? Conheça o IndexedDB!
+		03 - Comunicando-se com o banco usando o IDBDatabase
+		04 - Quero gravar em uma Object Store, mas onde está a transação?

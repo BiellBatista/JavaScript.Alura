@@ -6,7 +6,11 @@
 </head>
 <body>
     <script>
+        var connection;
+
         //fazendo uma requisição de abertura no banco de dados 'aluraframe'
+        //o segundo parametor é a versão do banco. No meu casom é 1
+        //toda vez que for necessário realizar uma alteração na estrutura do banco, eu devo acrescentar +1 no segundo parametro
         var openRequest = window.indexedDB.open('aluraframe', 1);
 
         //toda vez que for me conectar no banco indexedDB, devo trabalhar com esses três eventos:
@@ -16,14 +20,19 @@
 
         openRequest.onupgradeneeded = e => {
             console.log('Cria ou altera um banco já existente');
+
+            var minhaConnection = e.target.result;
+            minhaConnection.createObjectStore('negociacoes');
         }
 
         openRequest.onsuccess = e => {
             console.log('Conexão obtida com sucesso');
+
+            connection = e.target.result; //pegando o resultado
         }
 
         openRequest.onerror = e => {
-            console.log(e.target.error);
+            console.log(e.target.error /*pegando a mensagem de erro*/);
         }
     </script>
 </body>
