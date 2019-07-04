@@ -56,6 +56,41 @@
                 console.log('Não foi possível incluir a negociação');
             };
         }
+
+        function listaTodos() {
+            let transaction = connection.transaction(['negociacoes'], 'readwrite');
+            let store = transaction.objectStore('negociacoes');
+            let cursor = store.openCursor();
+            let negociacoes = [];
+
+            cursor.onsuccess = e => {
+                let atual = e.target.result; //pegando o ponteiro do dado. Se não tiver mais nada, o valor será null
+
+                if(atual) {
+                    let dado = atual.value; //pegando o valor (dados) do ponteiro
+
+                    negociacoes.push(new Negociacao(dado._data, dado._quantidade, dado._valor));
+
+                    atual.continue(); //passa para o próximo ponteiro
+                } else {
+                    console.log(negociacoes);
+                }
+            };
+
+            cursor.onerror = e => {
+                console.log(e.target.error.name);
+            };
+        }
     </script>
 </body>
 </html>
+
+<!--
+O problema é que ele não atualizou a versão do banco. Quando um banco é criado pela primeira vez, ele guarda um número de versão. O evento onupgradeneeded só será disparado se a nova versão do banco, indicada para a função open, for superior à versão do banco no IndexedDB. Vejamos a linha que permite explicitar uma nova versão:
+
+var openRequest = window.indexedDB.open("aluraframe",1);
+Se o banco atual estiver na versão 1, nenhuma atualização será feita. Contudo, se alterar a versão para 2, o onupgradeneeded será disparado, porque a versão é superior à que está no IndexedDB:
+
+var openRequest = window.indexedDB.open("aluraframe",2);
+Temos que estar atentos para esses detalhes.
+-->
