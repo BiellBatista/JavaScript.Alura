@@ -388,3 +388,4 @@ JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 	01 - Guardando negociações offline com IndexedDB
 		01 - Relembrando
+		02 - Browser possui banco de dados? Conheça o IndexedDB!

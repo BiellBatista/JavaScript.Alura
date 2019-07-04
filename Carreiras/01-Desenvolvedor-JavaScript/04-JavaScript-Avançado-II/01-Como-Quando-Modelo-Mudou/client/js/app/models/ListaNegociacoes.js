@@ -19,7 +19,7 @@ class ListaNegociacoes {
     esvazia() {
         this._negociacoes = [];
         this._armadilha(this);
-        //o apply serve para manter o this estático. Para isso devo passar a função que quero executar, o contexto que quero manter e o objeto que quero referencia na mudança
+        //o apply serve para manter o this estático. Para isso devo passar a função que quero executar, o contexto que quero manter e o objeto que quero referencia na mudança (ou seja, o parametro da função que quero executar)
         // Reflect.apply(this._armadilha, this._contexto, [this]);
     }
 }
