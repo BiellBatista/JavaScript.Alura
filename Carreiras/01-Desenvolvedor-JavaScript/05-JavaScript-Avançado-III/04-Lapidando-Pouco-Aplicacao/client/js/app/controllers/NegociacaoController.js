@@ -16,14 +16,14 @@ class NegociacaoController {
             new Mensagem(), new MensagemView($('#mensagemView')),
             'texto');
 
-        ConnectionFactory
-        .getConnection()
-        .then(connection => new NegociacaoDao(connection))
-        .then(dao => dao.listaTodos())
-        .then(negociacoes =>
-                negociacoes.forEach(negociacao =>
-                    this._listaNegociacoes.adiciona(negociacao)))
-        .catch(error => this._mensagem.texto = error);
+        // ConnectionFactory
+        // .getConnection()
+        // .then(connection => new NegociacaoDao(connection))
+        // .then(dao => dao.listaTodos())
+        // .then(negociacoes =>
+        //         negociacoes.forEach(negociacao =>
+        //             this._listaNegociacoes.adiciona(negociacao)))
+        // .catch(error => this._mensagem.texto = error);
     }
 
     adiciona(event) {
@@ -49,6 +49,11 @@ class NegociacaoController {
         let service = new NegociacaoService();
         service
         .obterNegociacoes()
+        .then(negociacoes =>
+            negociacoes.filter(negociacao => 
+                this._listaNegociacoes.negociacoes.indexOf(negociacao) == -1
+            )
+        )
         .then(negociacoes => {
           negociacoes.forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
           this._mensagem.texto = 'Negociações do período importadas com sucesso';
