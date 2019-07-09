@@ -419,3 +419,4 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 	03 - Padronizando acesso aos dados com o pattern DAO
 		01 - O padrão de projeto DAO
 		02 - Combinando padrões de projeto
+		03 - Exibindo todas as negociações
