@@ -15,6 +15,28 @@ class NegociacaoController {
         this._mensagem = new Bind(
             new Mensagem(), new MensagemView($('#mensagemView')),
             'texto');
+
+        ConnectionFactory
+        .getConnection()
+        .then(connection => new NegociacaoDao(connection)) //jogando o retorno (Negociação) para o próximo then
+        .then(dao => dao.listaTodos()) //joga o reotnor (listaTodos) para o próximo then
+        .then(negociacoes =>
+                negociacoes.forEach(negociacao =>
+                    this._listaNegociacoes.adiciona(negociacao)))
+        .catch(error => this._mensagem.texto = error);
+
+        //versão mais verbosa, porem funciona. É a mesma coisa que o de cima
+        // ConnectionFactory
+        //     .getConnection()
+        //     .then(connection => {
+        //         new NegociacaoDao(connection)
+        //             .listaTodos()
+        //             .then(negociacoes => {
+        //                 negociacoes.forEach(negociacao => {
+        //                     this._listaNegociacoes.adiciona(negociacao);
+        //                 });
+        //             });
+        //     });
     }
 
     adiciona(event) {

@@ -420,3 +420,4 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		01 - O padrão de projeto DAO
 		02 - Combinando padrões de projeto
 		03 - Exibindo todas as negociações
+		04 - Removendo todas as negociações
