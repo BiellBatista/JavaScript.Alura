@@ -45,13 +45,24 @@ class NegociacaoController {
             .catch(erro => this._mensagem.texto = erro);
     }
 
+    /**
+     * o método indexOf() compara a referência do objeto não primitivo (igual ao Java ou C#).
+     * negociacoes.filter(negociacao => 
+                this._listaNegociacoes.negociacoes.indexOf(negociacao) == -1
+            )
+     * Para contornar este problema, basta conver o objeto para uma string JSON.stringify(objeto)
+     * e comparar o resultado
+     */
     importaNegociacoes() {
         let service = new NegociacaoService();
         service
         .obterNegociacoes()
         .then(negociacoes =>
+            //o filter serve para filtrar uma conjunto de dados, onde ele retorna o objeto se a condição for verdadeira
             negociacoes.filter(negociacao => 
-                this._listaNegociacoes.negociacoes.indexOf(negociacao) == -1
+                //o some serve para verificar se uma lista possui um objeto
+                !this._listaNegociacoes.negociacoes.some(
+                    negociacaoExistente => JSON.stringify(negociacao) == JSON.stringify(negociacaoExistente))
             )
         )
         .then(negociacoes => {

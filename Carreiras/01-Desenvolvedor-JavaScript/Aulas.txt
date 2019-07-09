@@ -430,3 +430,5 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 	04 - Lapidando um pouco mais nossa aplicação
 		01 - Ops! Não podemos importar negociações duplicadas
 		02 - Comparação entre objetos
+		03 - Usando o método some
+		04 - Importando negociações automaticamente
