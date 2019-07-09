@@ -407,3 +407,4 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		02 - A classe ConnectionFactory
 		03 - Criando stores
 		04 - O padrão de projeto Module Pattern
+		05 - Monkey Patch: grandes poderes trazem grandes responsabilidades
