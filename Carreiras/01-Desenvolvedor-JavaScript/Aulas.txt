@@ -432,3 +432,4 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		02 - Comparação entre objetos
 		03 - Usando o método some
 		04 - Importando negociações automaticamente
+		05 - Melhorando a legibilidade e manutenção do nosso código
