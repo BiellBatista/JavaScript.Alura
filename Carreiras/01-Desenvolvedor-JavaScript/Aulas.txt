@@ -405,3 +405,5 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 	02 - Gerenciando nossa conexão com o pattern Factory
 		01 - Uma conexão ou várias?
 		02 - A classe ConnectionFactory
+		03 - Criando stores
+		04 - O padrão de projeto Module Pattern
