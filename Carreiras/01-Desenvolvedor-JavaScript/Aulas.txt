@@ -404,3 +404,4 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		15 - Consolidando seu conhecimento
 	02 - Gerenciando nossa conexão com o pattern Factory
 		01 - Uma conexão ou várias?
+		02 - A classe ConnectionFactory
