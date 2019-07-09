@@ -421,3 +421,11 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		02 - Combinando padrões de projeto
 		03 - Exibindo todas as negociações
 		04 - Removendo todas as negociações
+		05 - O padrão DAO
+		06 - Método que devolve uma promise (B)
+		07 - Combinando ConnectionFactory e NegociacaoDao (C)
+		08 - Consolidando seu conhecimento
+		09 - Para saber mais: IndexedDB e transações
+		10 - Para saber mais: bibliotecas que encapsulam o IndexedDB
+	04 - Lapidando um pouco mais nossa aplicação
+		01 - Ops! Não podemos importar negociações duplicadas.
