@@ -70,3 +70,22 @@ var ConnectionFactory = (function () {
  * estou criando uma funcao alto invocada. Ela será carregada e ao mesmo tempo executada.
  * Estou armazenando o resultado da funcao alto invocada em uma variável global
  */
+
+ /**
+  * let pessoa2 = new Pessoa('Almeida', 'Flávio');
+
+pessoa2.obterNomeCompleto = function() {
+
+  return `${this.nome} - ${this.sobrenome}`;
+}
+console.log(pessoa2.obterNomeCompleto());
+Estamos modificando dinamicamente obterNomeCompleto apenas na instância pessoa2. Veja que usamos function e não arrow function. Foi necessário usar function devido ao seu escopo dinâmico, isto é, this deve variar de acordo com a instância no qual obterNomeCompleto é chamado. Se usarmos arrow function, seu escopo léxico fará com que o this seja sempre do contexto no qual a função é declarada, no caso window, o escopo global.
+
+Inclusive é possível alterar a definição do método diretamente na própria classe, dessa maneira, todas as instâncias de Pessoa, criadas antes ou depois da modificação, automaticamente "herdarão" a modificação:
+
+Pessoa.prototype.obterNomeCompleto = function() {
+
+  return `${this.nome} - ${this.sobrenome}`;
+}
+O monkey patch deve ser usado com parcimônia, até mesmo como último recurso, quando propõe uma modificação direta na definição da classe. Isto porque modificações usadas globalmente podem ocasionar bugs em diversas partes do nosso código, tendo assim, um resultado imprevisível.
+  */
