@@ -434,3 +434,4 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		04 - Importando negociações automaticamente
 		05 - Melhorando a legibilidade e manutenção do nosso código
 		06 - Adicionando o método lista em NegociacaoService
+		07 - Isolando a complexidade do importaNegociacoes em NegociacaoService

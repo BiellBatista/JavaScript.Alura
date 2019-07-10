@@ -7,6 +7,8 @@ class NegociacaoController {
         this._inputValor = $('#valor');
         this._ordemAtual = '';
 
+        this._service = new NegociacaoService();
+
         this._listaNegociacoes = new Bind(
             new ListaNegociacoes(),
             new NegociacoesView($('#negociacoesView')),
@@ -20,14 +22,12 @@ class NegociacaoController {
     }
 
     _init() {
-        ConnectionFactory
-        .getConnection()
-        .then(connection => new NegociacaoDao(connection))
-        .then(dao => dao.listaTodos())
-        .then(negociacoes =>
+        this._service
+            .lista()
+            .then(negociacoes =>
                 negociacoes.forEach(negociacao =>
                     this._listaNegociacoes.adiciona(negociacao)))
-        .catch(error => this._mensagem.texto = error);
+            .catch(error => this._mensagem.texto = error);
 
         setInterval(() => {
             this.importaNegociacoes();
@@ -38,7 +38,7 @@ class NegociacaoController {
         event.preventDefault();
         let negociacao = this._criaNegociacao();
 
-        new NegociacaoService()
+        this._service
             .cadastra(negociacao)
             .then(mensagem => {
                 this._listaNegociacoes.adiciona(negociacao);
@@ -57,29 +57,26 @@ class NegociacaoController {
      * e comparar o resultado
      */
     importaNegociacoes() {
-        let service = new NegociacaoService();
-        service
-        .obterNegociacoes()
-        .then(negociacoes =>
-            //o filter serve para filtrar uma conjunto de dados, onde ele retorna o objeto se a condição for verdadeira
-            negociacoes.filter(negociacao => 
-                //o some serve para verificar se uma lista possui um objeto
-                !this._listaNegociacoes.negociacoes.some(
-                    negociacaoExistente => JSON.stringify(negociacao) == JSON.stringify(negociacaoExistente))
+        this._service
+            .obterNegociacoes()
+            .then(negociacoes =>
+                //o filter serve para filtrar uma conjunto de dados, onde ele retorna o objeto se a condição for verdadeira
+                negociacoes.filter(negociacao => 
+                    //o some serve para verificar se uma lista possui um objeto
+                    !this._listaNegociacoes.negociacoes.some(
+                        negociacaoExistente => JSON.stringify(negociacao) == JSON.stringify(negociacaoExistente))
+                )
             )
-        )
-        .then(negociacoes => {
-          negociacoes.forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
-          this._mensagem.texto = 'Negociações do período importadas com sucesso';
-        })
-        .catch(error => this._mensagem.texto = error);
+            .then(negociacoes => {
+              negociacoes.forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
+              this._mensagem.texto = 'Negociações do período importadas com sucesso';
+            })
+            .catch(error => this._mensagem.texto = error);
     }
 
     apaga() {
-        ConnectionFactory
-            .getConnection()
-            .then(connection => new NegociacaoDao(connection))
-            .then(dao => dao.apagaTodos())
+        this._service
+            .apaga()
             .then(mensagem => {
                 this._mensagem.texto = mensagem;
                 this._listaNegociacoes.esvazia();
