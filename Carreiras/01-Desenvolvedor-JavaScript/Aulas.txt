@@ -435,4 +435,10 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		05 - Melhorando a legibilidade e manutenção do nosso código
 		06 - Adicionando o método lista em NegociacaoService
 		07 - Isolando a complexidade do importaNegociacoes em NegociacaoService
-		08 - Comparação entre objetos
+		08 - Comparação entre objetos (A / C)
+		09 - "Some"body help me! (C)
+		10 -  Promise mais elegante (C)
+		11 - Experimento com promise (A / B)
+		12 - Consolidando seu conhecimento
+		13 - Para saber mais: Igualdade de objetos
+		14 - Para saber mais: Outro critério de igualdade

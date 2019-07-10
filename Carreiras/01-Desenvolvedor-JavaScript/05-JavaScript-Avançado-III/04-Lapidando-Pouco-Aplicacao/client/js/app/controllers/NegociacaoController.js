@@ -110,3 +110,10 @@ class NegociacaoController {
         this._ordemAtual = coluna;
     }
 }
+
+/**
+ * Você deve estar se perguntando qual a diferença dessa estratégia para o uso de Promise.all, que usamos
+ * no módulo anterior. Promise.all resolve as promises em paralelo, ou seja, uma promise não aguarda a outra
+ * terminar para ser executada. Promise.all é interessante quando uma promise não depende do resultado da
+ * promise anterior. Nos casos onde há dependência, o encadeamento de promises é o caminho mais indicado.
+ */
