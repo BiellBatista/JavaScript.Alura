@@ -97,4 +97,19 @@ class NegociacaoService {
                 throw new Error('Não foi possível apagar as negociações.');
             });
     }
+
+    importa(listaAtual) {
+        return this.obterNegociacoes()
+                    .then(negociacoes =>
+                        //o filter serve para filtrar uma conjunto de dados, onde ele retorna o objeto se a condição for verdadeira
+                        negociacoes.filter(negociacao => 
+                            //o some serve para verificar se uma lista possui um objeto
+                            !listaAtual.some( negociacaoExistente =>
+                                    JSON.stringify(negociacao) == JSON.stringify(negociacaoExistente)))
+                        )
+                    .catch(error => {
+                        console.log(error);
+                        throw new Error('Não foi possível buscar negociações para importar.');
+                    });
+    }
 }

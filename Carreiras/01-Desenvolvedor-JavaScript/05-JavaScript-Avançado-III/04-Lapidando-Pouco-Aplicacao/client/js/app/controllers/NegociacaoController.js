@@ -58,15 +58,18 @@ class NegociacaoController {
      */
     importaNegociacoes() {
         this._service
-            .obterNegociacoes()
-            .then(negociacoes =>
-                //o filter serve para filtrar uma conjunto de dados, onde ele retorna o objeto se a condição for verdadeira
-                negociacoes.filter(negociacao => 
-                    //o some serve para verificar se uma lista possui um objeto
-                    !this._listaNegociacoes.negociacoes.some(
-                        negociacaoExistente => JSON.stringify(negociacao) == JSON.stringify(negociacaoExistente))
-                )
-            )
+            .importa(this._listaNegociacoes.negociacoes)
+        //     .then(negociacoes =>)
+        // this._service
+        //     .obterNegociacoes()
+        //     .then(negociacoes =>
+        //         //o filter serve para filtrar uma conjunto de dados, onde ele retorna o objeto se a condição for verdadeira
+        //         negociacoes.filter(negociacao => 
+        //             //o some serve para verificar se uma lista possui um objeto
+        //             !this._listaNegociacoes.negociacoes.some(
+        //                 negociacaoExistente => JSON.stringify(negociacao) == JSON.stringify(negociacaoExistente))
+        //         )
+        //     )
             .then(negociacoes => {
               negociacoes.forEach(negociacao => this._listaNegociacoes.adiciona(negociacao));
               this._mensagem.texto = 'Negociações do período importadas com sucesso';
