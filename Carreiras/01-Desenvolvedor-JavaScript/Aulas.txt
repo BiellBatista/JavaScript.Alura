@@ -444,3 +444,4 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		14 - Para saber mais: Outro critério de igualdade
 	05 - Simplificando requisições Ajax com a Fetch API
 		01 - xmlHttpRequest: será que existe algo de mais alto nível?
+		02 - Método Post
