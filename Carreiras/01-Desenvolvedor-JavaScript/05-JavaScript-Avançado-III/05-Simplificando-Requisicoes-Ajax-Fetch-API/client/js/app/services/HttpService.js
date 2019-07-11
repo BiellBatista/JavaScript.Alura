@@ -17,22 +17,31 @@ class HttpService {
     }
 
     post(url, dado) {
-        return new Promise((resolve, reject) => {
-            let xhr = new XMLHttpRequest();
+        return fetch(url, {
+            //o headers é para configurar o cabeçalho do post
+            headers: { 'Content-type' : 'application/json' },
+            //o tipo da requisição
+            method: 'post',
+            //o body da requisição deve ser em string
+            body: JSON.stringify(dado)
+        })
+        .then(res => this._handleErros(res));
+        // return new Promise((resolve, reject) => {
+        //     let xhr = new XMLHttpRequest();
 
-            xhr.open("POST", url, true);
-            xhr.setRequestHeader("Content-type", "application/json");
-            xhr.onreadystatechange = () => {
-                if (xhr.readyState == 4) {
-                    if (xhr.status == 200) {
-                        resolve(JSON.parse(xhr.responseText));
-                    } else {
-                        reject(xhr.responseText);
-                    }
-                }
-            };
+        //     xhr.open("POST", url, true);
+        //     xhr.setRequestHeader("Content-type", "application/json");
+        //     xhr.onreadystatechange = () => {
+        //         if (xhr.readyState == 4) {
+        //             if (xhr.status == 200) {
+        //                 resolve(JSON.parse(xhr.responseText));
+        //             } else {
+        //                 reject(xhr.responseText);
+        //             }
+        //         }
+        //     };
 
-            xhr.send(JSON.stringify(dado));
-        });
+        //     xhr.send(JSON.stringify(dado));
+        // });
     }
 }
