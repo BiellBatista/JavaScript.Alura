@@ -446,3 +446,8 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		01 - xmlHttpRequest: será que existe algo de mais alto nível?
 		02 - Método Post
 		03 - Compatibilidade com uso de PolyFill
+		04 - Considerações sobre Fetch API (A / B / C)
+		05 - Onde está o erro?
+		06 - Consolidando seu conhecimento
+	06 - Tornando nosso código ainda mais compatível usando Babel
+		01 - O fantasma da incompatibilidade
