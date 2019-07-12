@@ -453,3 +453,4 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		01 - O fantasma da incompatibilidade
 		02 - Babel, instalação e build-step
 		03 - Executando o Babel
+		04 - Compilando arquivos em tempo real

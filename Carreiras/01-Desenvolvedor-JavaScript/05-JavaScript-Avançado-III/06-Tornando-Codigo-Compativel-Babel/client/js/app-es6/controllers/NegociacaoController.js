@@ -95,5 +95,8 @@ class NegociacaoController {
 
 /**
  * Tudo que estiver em app-es6 está na versão mais recente do ECMScrpit
- * Tudo que estiver em app foi transcrevido pelo Babel para o ECMAS5
+ * Tudo que estiver em app foi transcrevido pelo Babel para o ECMAS4.
+ * Eu preciso mapear as alterações realizadas no Babel, para que os erros reflitam o código da pasta app-es6
+ * Com esse mapeamento, são criado dois arquivos, um com o código e o outro (com -map) do mapeamento
+ * O navegador irá ignorar os arquivos -map, pois ele sabe que serve apenas para mapear os erros
  */
