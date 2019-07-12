@@ -92,3 +92,8 @@ class NegociacaoController {
         this._ordemAtual = coluna;
     }
 }
+
+/**
+ * Tudo que estiver em app-es6 está na versão mais recente do ECMScrpit
+ * Tudo que estiver em app foi transcrevido pelo Babel para o ECMAS5
+ */
