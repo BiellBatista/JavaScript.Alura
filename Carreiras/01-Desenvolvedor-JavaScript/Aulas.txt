@@ -454,3 +454,10 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		02 - Babel, instalação e build-step
 		03 - Executando o Babel
 		04 - Compilando arquivos em tempo real
+		05 - Revisão: transpiler
+		06 - Sobre Babel (C / D)
+		07 - Onde foi que eu errei?
+		08 - Evitando Babel no escopo global (A)
+		09 - Sourcemap (D)
+		10 - Consolidando seu conhecimento
+		11 - Para saber mais: há limite para os transcompiladores?

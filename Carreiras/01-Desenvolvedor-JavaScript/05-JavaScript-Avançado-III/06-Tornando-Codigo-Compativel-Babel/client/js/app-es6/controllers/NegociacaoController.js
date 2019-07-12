@@ -100,3 +100,18 @@ class NegociacaoController {
  * Com esse mapeamento, são criado dois arquivos, um com o código e o outro (com -map) do mapeamento
  * O navegador irá ignorar os arquivos -map, pois ele sabe que serve apenas para mapear os erros
  */
+
+ /**
+  * ATENÇÃO: o carregamento do sourcemap no OSX usando Chrome está com problema. Ainda não há um fix. Verifique a cada atualização do Chrome.
+
+Veja que é possível debugar um código transpilado mais facilmente através do uso de sourcemaps.
+
+Mas como ele funciona por baixo dos panos? O arquivo sourcemap possui a estrutura do arquivo original, aliás, o arquivo original nem precisa existir em produção para que o sourcemap funcione.
+
+Se abrirmos o arquivo aluraframe/client/js/app/controllers/NegociacaoController.js, nosso arquivo transcompilador, no final dele temos o seguinte comentário especial:
+
+//# sourceMappingURL=NegociacaoController.js.map
+Veja que esse comentário indica para o browser qual sourcemap deve ser carregado.
+
+Outro ponto que você deve estar se perguntando é quando os arquivos sourcemaps serão baixados e se interferem no tempo de carregamento do site. Bem, sourcemaps são baixados apenas quando você abre a ferramenta de desenvolvimento do seu browse, ou seja, seu console ou dev tools. Claro, os arquivo só serão baixados se existirem. Veja que dessa maneira não há prejuízo do carregamento inicial do site.
+  */
