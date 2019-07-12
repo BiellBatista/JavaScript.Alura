@@ -41,6 +41,12 @@ Carreira Desenvolvedor JavaScript
 		06 - Considerações finais e exercícios bônus
 	JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		01 - Guardando negociações offline com IndexedDB
+		02 - Gerenciando nossa conexão com o pattern Factory
+		03 - Padronizando acesso aos dados com o pattern DAO
+		04 - Lapidando um pouco mais nossa aplicação
+		05 - Simplificando requisições Ajax com a Fetch API
+		06 - Tornando nosso código ainda mais compatível usando Babel
+		07 - Trabalhando com módulos do ES2015!
 	jQuery: Domine a biblioteca mais popular do mercado parte 1
 		01 - 
 	jQuery: Avance na biblioteca mais popular do mercado parte 2
