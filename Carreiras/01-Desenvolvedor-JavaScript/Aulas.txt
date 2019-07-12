@@ -461,3 +461,5 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		09 - Sourcemap (D)
 		10 - Consolidando seu conhecimento
 		11 - Para saber mais: há limite para os transcompiladores?
+	07 - Trabalhando com módulos do ES2015!
+		01 - Escopo global e carregamento de scripts = dor de cabeça
