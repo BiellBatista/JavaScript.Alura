@@ -464,4 +464,4 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 	07 - Trabalhando com módulos do ES2015!
 		01 - Escopo global e carregamento de scripts = dor de cabeça
 		02 - ES2015 e módulos
-		
+		03 - Refatorando nosso código com import e export
