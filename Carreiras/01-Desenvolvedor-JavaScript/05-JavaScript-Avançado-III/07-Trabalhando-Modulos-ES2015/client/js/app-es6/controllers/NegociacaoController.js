@@ -7,7 +7,7 @@ import { DateHelper } from '../helpers/DateHelper';
 import { Bind } from '../helpers/Bind';
 import { Negociacao } from '../models/Negociacao';
 
-export class NegociacaoController {
+class NegociacaoController {
     constructor() {
         let $ = document.querySelector.bind(document);
 
@@ -117,3 +117,10 @@ export class NegociacaoController {
  * Em outras palavras, o ES2015 especifica os import e export, mas não implementa os mesmos.
  * 
 */
+
+//quando o módulo é carregado (este arquivo), ele cria uma intância (única) de NegociaçãoController e a função de baixo retorna a mesma 
+let negociacaoController = new NegociacaoController();
+//esta função retorna a instância corrente do controller
+export function currentInstance() {
+    return negociacaoController; //Design Patterns Sigleton
+}
