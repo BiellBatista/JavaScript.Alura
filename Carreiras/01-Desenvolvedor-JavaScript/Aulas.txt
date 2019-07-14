@@ -479,3 +479,4 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 jQuery: Domine a biblioteca mais popular do mercado parte 1
 	01 - Introdução
 		01 - Apresentação
+		02 - Introdução ao jQuery
