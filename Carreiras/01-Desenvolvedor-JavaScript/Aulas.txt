@@ -474,4 +474,8 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		10 - Importando um módulo (B)
 		11 - Delegação de eventos (A)
 		12 - Consolidando seu conhecimento
-		13 - 
+		13 - Considerações finais
+		14 - Projeto final completo
+jQuery: Domine a biblioteca mais popular do mercado parte 1
+	01 - Introdução
+		01 - Apresentação
