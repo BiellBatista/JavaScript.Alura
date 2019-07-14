@@ -469,3 +469,9 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		05 - O módulo boot.js
 		06 - Babel e transcompilação de módulos
 		07 - Delegação de eventos
+		08 - Trabalhando com módulos do ES2015!
+		09 - Sobre ES2015 modules (A / C)
+		10 - Importando um módulo (B)
+		11 - Delegação de eventos (A)
+		12 - Consolidando seu conhecimento
+		13 - 
