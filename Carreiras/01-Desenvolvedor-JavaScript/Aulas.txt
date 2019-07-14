@@ -466,3 +466,4 @@ JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
 		02 - ES2015 e módulos
 		03 - Refatorando nosso código com import e export
 		04 - SystemJs
+		05 - O módulo boot.js

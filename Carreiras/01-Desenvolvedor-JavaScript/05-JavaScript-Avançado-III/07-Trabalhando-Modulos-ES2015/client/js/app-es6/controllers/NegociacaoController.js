@@ -105,3 +105,15 @@ class NegociacaoController {
 /**
  * No ECMAScript 6 todos os códigos escritos em arquivos .js são módulos e não estão acessível no escopo global
  */
+
+/**
+ * Agora, fizemos todas as importações necessárias. Mas por que o código não funciona como está? Porque a especificação ES2015 define o
+ * import e export, além de que cada script é um módulo independente. No entanto, não definimos como estes módulos devem ser carregados no
+ * navegador. Não existe um consenso... Precisamos que os scripts sejam carregados em uma determinada ordem no seu sistema, definindo apenas o
+ * primeiro. A partir deste, serão carregados os demais. O responsável pelo processo é loader, porém, não existe um padrão nos navegadores.
+ * Para resolver a questão, teremos que escolher uma biblioteca de terceiro que atue como um loader de script. Uma biblioteca muito famosa é
+ * System JS. Nós iremos baixá-lo pelo NPM do Node.JS, e iremos colocá-lo na pasta node_modules.
+ * 
+ * Em outras palavras, o ES2015 especifica os import e export, mas não implementa os mesmos.
+ * 
+*/
