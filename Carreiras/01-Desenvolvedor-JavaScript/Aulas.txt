@@ -482,4 +482,16 @@ jQuery: Domine a biblioteca mais popular do mercado parte 1
 		02 - Introdução ao jQuery
 		03 - Colocando o jQuery no projeto
 		04 - Primeiros passos com jQuery
-		05 - 
+		05 - Sobre o que é o jQuery? (B)
+		06 - Vantagens do jQuery (E)
+		07 - jQuery emagreceu (D)
+		08 - Produção ou desenvolvimento? (B)
+		09 - Selecionando com jQuery (B / D / E / F)
+		10 - Pegando um texto (C)
+		11 - Alterando um template (A)
+		12 - (Obrigatório) Mãos na massa: Download inicial do projeto
+		13 - Mãos na massa: Contando as palavras da frase e atualizando o seu contador
+		14 - Aprenda mais: Antigas versões do jQuery
+		15 - Arquivos do projeto atual
+	02 - Escutando eventos com jQuery
+		01 - Eventos do jQuery
