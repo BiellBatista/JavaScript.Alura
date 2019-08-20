@@ -511,3 +511,8 @@ jQuery: Domine a biblioteca mais popular do mercado parte 1
 		07 - Arquivos do projeto atual
 	04 - Reiniciando o jogo
 		01 - Reiniciando o jogo
+		02 - Um clique equivalente (A)
+		03 - Habilitando um campo (A)
+		04 - Mãos na massa: Botão para reinicializar o jogo
+		05 - Mãos na massa: Organizando o código
+		06 - (Opcional) Desabilitando o botão na hora certa

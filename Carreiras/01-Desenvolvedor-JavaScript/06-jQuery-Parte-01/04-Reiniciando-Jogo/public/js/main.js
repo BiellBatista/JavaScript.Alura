@@ -1,26 +1,62 @@
-let frase = $('.frase').text();
-let numerosPalavras = frase.split(" ").length;
-let tamanhoFrase = $('#tamanhoFrase');
-tamanhoFrase.text(numerosPalavras);
-
 let campoDigitacao = $('.campo-digitacao');
-campoDigitacao.on('input', () => {
-    let conteudo = campoDigitacao.val();
-    let qtdPalavras = conteudo.split(/\S+/).length - 1;
-    $('#contador-palavras').text(qtdPalavras);
-    $('#contador-caracteres').text(conteudo.length);
+let tempoInicial = $('#tempo-digitacao').text();
+
+//quando a página estiver carregada, execute...
+// $(document).ready(() => {
+//     atualizaTamanhoFrase();
+//     inicializaContadores();
+//     inicializaCronometro();
+//     $('#btn-reiniciar').click(reiniciaJogo);
+// });
+//essa de baixo \/ é equivalente ao de cima /\
+$(() => {
+    atualizaTamanhoFrase();
+    inicializaContadores();
+    inicializaCronometro();
+    $('#btn-reiniciar').click(reiniciaJogo);
 });
 
-let tempoRestante = $('#tempo-digitacao').text();
-//a função one funciona apenas na primeira vez. A função on escuta/executa várias vezes
-campoDigitacao.one('focus', function () {
-    //toda função setInterval retorna o seu próprio ID
-    let idInterval = setInterval(()=> {
-        tempoRestante--;
-        $('#tempo-digitacao').text(tempoRestante);
-        if(tempoRestante === 0) {
-            campoDigitacao.attr('disabled', true);
-            clearInterval(idInterval);
-        }
-    }, 1000);
-});
+function atualizaTamanhoFrase() {
+    let frase = $('.frase').text();
+    let numerosPalavras = frase.split(" ").length;
+    let tamanhoFrase = $('#tamanhoFrase');
+    tamanhoFrase.text(numerosPalavras);
+}
+
+function inicializaContadores () {
+    campoDigitacao.on('input', () => {
+        let conteudo = campoDigitacao.val();
+        let qtdPalavras = conteudo.split(/\S+/).length - 1;
+        $('#contador-palavras').text(qtdPalavras);
+        $('#contador-caracteres').text(conteudo.length);
+    });
+}
+
+function inicializaCronometro() {
+    let tempoRestante = $('#tempo-digitacao').text();
+    campoDigitacao.one('focus', function () {
+        let idInterval = setInterval(()=> {
+            tempoRestante--;
+            $('#tempo-digitacao').text(tempoRestante);
+            if(tempoRestante === 0) {
+                campoDigitacao.attr('disabled', true);
+                clearInterval(idInterval);
+            }
+        }, 1000);
+    });
+}
+
+//uma expressão de função
+//As expressões de função são convenientes ao passar uma função como um argumento para outra função.
+let reiniciaJogo = function () {
+    campoDigitacao.attr('disabled', false);
+    campoDigitacao.val('');
+    $('#tempo-digitacao').text(tempoInicial);
+    $('#contador-palavras').text('0');
+    $('#contador-caracteres').text('0');
+    inicializaCronometro();
+}
+
+// let btnReiniciar = $('#btn-reiniciar');
+// //os eventos mais comum, eu posso usar o método com o mesmo nome do evento
+// btnReiniciar.click(reiniciaJogo);
