@@ -525,4 +525,10 @@ jQuery: Domine a biblioteca mais popular do mercado parte 1
 		05 - Valor da propriedade CSS (D)
 		06 - Adicionando estilos programaticamente (D)
 		07 - Adicionar ou remover a classe (D)
-		08 - CSS para alterar a cor
+		08 - CSS para alterar a cor (D)
+		09 - Mãos na massa: Aplicando CSS
+		10 - Mãos na massa: Usando ícones
+		11 - Mãos na massa: Verificando a digitação
+		12 - Para saber mais: substr com ES6
+		13 - Para saber mais: Materialize e Bootstrap
+		14 - 

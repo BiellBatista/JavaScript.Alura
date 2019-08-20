@@ -44,6 +44,17 @@ function inicializaMarcadores() {
         campo.toggleClass("borda-verde", ehCorreto);
         campo.toggleClass("borda-vermelha", !ehCorreto);
         */
+
+        /**
+         * Usamos a função substr para pegar o uma parte da frase, aqui do início (índice 0) até o tamanho da string digitado. Baseado nessa substring comparavel testamos se o conteúdo digitado bate com a frase:
+         * Como o JavaScript está evoluindo e melhorando já existe uma forma mais fácil de verificar se uma string faz parte da outra string. Se o seu navegador já der suporte ao ECMA Script 6 você pode simplesmente executar:
+         * if( frase.startsWith(digitado)) {
+         * campo.addClass("borda-verde");
+         * } else {
+         * campo.addClass("borda-vermelha");
+         * }
+         * 
+         */
     });
 }
 
