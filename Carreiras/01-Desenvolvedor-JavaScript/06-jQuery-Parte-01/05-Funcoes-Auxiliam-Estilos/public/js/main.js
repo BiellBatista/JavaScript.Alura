@@ -38,7 +38,9 @@ function inicializaCronometro() {
                 //alterando o css. Primeiro é o atributo, depois o valor
                 // campoDigitacao.css('background-color', 'lightgray');
                 //adicionando uma classe
-                campoDigitacao.addClass('campo-desativado');
+                // campoDigitacao.addClass('campo-desativado');
+                //toggleClass adiciona a classe se não possuir, remove se possuir
+                campoDigitacao.toggleClass('campo-desativado');
                 clearInterval(idInterval);
             }
         }, 1000);
@@ -52,4 +54,7 @@ let reiniciaJogo = function () {
     $('#contador-palavras').text('0');
     $('#contador-caracteres').text('0');
     inicializaCronometro();
+    // campoDigitacao.removeClass('campo-desativado')
+    //toggleClass adiciona a classe se não possuir, remove se possuir
+    campoDigitacao.toggleClass('campo-desativado');
 }

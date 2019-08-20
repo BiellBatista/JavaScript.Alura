@@ -7,6 +7,16 @@
     height: 130px;
 }
 
+/* criando uma classe */
 .campo-desativado {
     background-color: lightgray;
+}
+
+/* estilando uma tag HTML */
+/* i {
+    vertical-align: middle;
+} */
+
+.icones {
+    vertical-align: middle;
 }
