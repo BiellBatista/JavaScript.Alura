@@ -495,3 +495,9 @@ jQuery: Domine a biblioteca mais popular do mercado parte 1
 		15 - Arquivos do projeto atual
 	02 - Escutando eventos com jQuery
 		01 - Eventos do jQuery
+		02 - Clicando com jQuery (A / D)
+		03 - É valor ou texto ? (A / C / E)
+		04 - Nome do evento (B)
+		05 - Tamanho da notícia (A)
+		06 - Mãos na massa: Contando através de eventos
+		07 - Arquivos do projeto atual
