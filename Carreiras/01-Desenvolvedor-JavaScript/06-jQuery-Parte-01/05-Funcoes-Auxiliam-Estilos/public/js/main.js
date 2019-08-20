@@ -1,15 +1,16 @@
 let campoDigitacao = $('.campo-digitacao');
 let tempoInicial = $('#tempo-digitacao').text();
+let frase = $('.frase').text();
 
 $(() => {
     atualizaTamanhoFrase();
     inicializaContadores();
     inicializaCronometro();
+    inicializaMarcadores();
     $('#btn-reiniciar').click(reiniciaJogo);
 });
 
 function atualizaTamanhoFrase() {
-    let frase = $('.frase').text();
     let numerosPalavras = frase.split(" ").length;
     let tamanhoFrase = $('#tamanhoFrase');
     tamanhoFrase.text(numerosPalavras);
@@ -21,6 +22,21 @@ function inicializaContadores () {
         let qtdPalavras = conteudo.split(/\S+/).length - 1;
         $('#contador-palavras').text(qtdPalavras);
         $('#contador-caracteres').text(conteudo.length);
+    });
+}
+
+function inicializaMarcadores() {
+    campoDigitacao.on('input', () => {
+        let digitado = campoDigitacao.val();
+        let comparavel = frase.substr(0, digitado.length);
+    
+        if(digitado === comparavel) {
+            campoDigitacao.addClass('borda-verde');
+            campoDigitacao.removeClass('borda-vermelha');
+        } else {
+            campoDigitacao.addClass('borda-vermelha');
+            campoDigitacao.removeClass('borda-verde');
+        }
     });
 }
 
@@ -54,7 +70,9 @@ let reiniciaJogo = function () {
     $('#contador-palavras').text('0');
     $('#contador-caracteres').text('0');
     inicializaCronometro();
-    // campoDigitacao.removeClass('campo-desativado')
+    campoDigitacao.removeClass('campo-desativado')
     //toggleClass adiciona a classe se não possuir, remove se possuir
-    campoDigitacao.toggleClass('campo-desativado');
+    // campoDigitacao.toggleClass('campo-desativado');
+    campoDigitacao.removeClass('borda-verde');
+    campoDigitacao.removeClass('borda-vermelha');
 }
