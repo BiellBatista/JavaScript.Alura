@@ -501,3 +501,12 @@ jQuery: Domine a biblioteca mais popular do mercado parte 1
 		05 - Tamanho da notícia (A)
 		06 - Mãos na massa: Contando através de eventos
 		07 - Arquivos do projeto atual
+	03 - GameOver com eventos
+		01 - Game Over com eventos
+		02 - Um evento de foco (B)
+		03 - Desabilitando um elemento com jQuery (C)
+		04 - Quantos eventos escutar? (B / E / F)
+		05 - É text(), val() ou attr()? (A)
+		06 - Mãos na massa: Game over
+		07 - Arquivos do projeto atual
+	
