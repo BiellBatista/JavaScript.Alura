@@ -532,3 +532,5 @@ jQuery: Domine a biblioteca mais popular do mercado parte 1
 		12 - Para saber mais: substr com ES6
 		13 - Para saber mais: Materialize e Bootstrap
 		14 - Arquivos do projeto atual
+	06 - Criando e Manipulando elementos com jQuery
+		01 - Salvando a pontuação no placar
