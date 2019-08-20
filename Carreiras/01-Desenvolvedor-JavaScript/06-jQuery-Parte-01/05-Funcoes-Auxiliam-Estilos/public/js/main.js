@@ -37,6 +37,13 @@ function inicializaMarcadores() {
             campoDigitacao.addClass('borda-vermelha');
             campoDigitacao.removeClass('borda-verde');
         }
+        /*
+        //Isso é equivalente ao if e else de cima
+        var ehCorreto = (digitado == comparavel);
+
+        campo.toggleClass("borda-verde", ehCorreto);
+        campo.toggleClass("borda-vermelha", !ehCorreto);
+        */
     });
 }
 

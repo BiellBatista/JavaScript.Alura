@@ -521,3 +521,8 @@ jQuery: Domine a biblioteca mais popular do mercado parte 1
 		01 - Estilizando o jogo
 		02 - Adicionando ícones
 		03 - Marcação da borda
+		04 - O que é CSS?
+		05 - Valor da propriedade CSS (D)
+		06 - Adicionando estilos programaticamente (D)
+		07 - Adicionar ou remover a classe (D)
+		08 - CSS para alterar a cor
