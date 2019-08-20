@@ -509,4 +509,5 @@ jQuery: Domine a biblioteca mais popular do mercado parte 1
 		05 - É text(), val() ou attr()? (A)
 		06 - Mãos na massa: Game over
 		07 - Arquivos do projeto atual
-	
+	04 - Reiniciando o jogo
+		01 - Reiniciando o jogo
