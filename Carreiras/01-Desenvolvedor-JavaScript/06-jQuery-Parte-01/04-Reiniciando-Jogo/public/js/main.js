@@ -35,12 +35,15 @@ function inicializaContadores () {
 function inicializaCronometro() {
     let tempoRestante = $('#tempo-digitacao').text();
     campoDigitacao.one('focus', function () {
+        $('#btn-reiniciar').attr("disabled",true);
+
         let idInterval = setInterval(()=> {
             tempoRestante--;
             $('#tempo-digitacao').text(tempoRestante);
             if(tempoRestante === 0) {
                 campoDigitacao.attr('disabled', true);
                 clearInterval(idInterval);
+                $("#botao-reiniciar").attr("disabled", false);
             }
         }, 1000);
     });
