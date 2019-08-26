@@ -537,3 +537,15 @@ jQuery: Domine a biblioteca mais popular do mercado parte 1
 		02 - Criando um botão remover
 		03 - Adicionando eventos nas linhas do placar
 		04 - Organizando o código da aplicação
+		05 - Finalizando o módulo
+		06 - Transformar em um objeto jQuery (C)
+		07 - Adicionando uma linha no fim de uma tabela (D)
+		08 - Adicionando uma compra (A)
+		09 - Subindo aos pais (C)
+		10 - Marcando clientes (C)
+		11 - Removendo um elemento (B / D)
+		12 - Criando elementos com jQuery (A)
+		13 - Mãos na massa: Armazenando a pontuação do usuário
+		14 - Mãos na massa: Removendo linhas do placar
+		15 - Mãos na massa: Organizando o nosso código
+		16 - Projeto Final do Curso
