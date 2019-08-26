@@ -55,7 +55,7 @@ Carreira Desenvolvedor JavaScript
 		05 - Funções que auxiliam os estilos
 		06 - Criando e Manipulando elementos com jQuery
 	jQuery: Avance na biblioteca mais popular do mercado parte 2
-		01 - 
+		01 - Animações com jQuery
 	JavaScript: Projeto de conclusão
 		01 - 
 -------------------------------------------------------------------------------------------------------------------------
