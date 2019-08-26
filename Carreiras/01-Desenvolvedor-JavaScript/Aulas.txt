@@ -536,3 +536,4 @@ jQuery: Domine a biblioteca mais popular do mercado parte 1
 		01 - Salvando a pontuação no placar
 		02 - Criando um botão remover
 		03 - Adicionando eventos nas linhas do placar
+		04 - Organizando o código da aplicação
