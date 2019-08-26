@@ -37,24 +37,6 @@ function inicializaMarcadores() {
             campoDigitacao.addClass('borda-vermelha');
             campoDigitacao.removeClass('borda-verde');
         }
-        /*
-        //Isso é equivalente ao if e else de cima
-        var ehCorreto = (digitado == comparavel);
-
-        campo.toggleClass("borda-verde", ehCorreto);
-        campo.toggleClass("borda-vermelha", !ehCorreto);
-        */
-
-        /**
-         * Usamos a função substr para pegar o uma parte da frase, aqui do início (índice 0) até o tamanho da string digitado. Baseado nessa substring comparavel testamos se o conteúdo digitado bate com a frase:
-         * Como o JavaScript está evoluindo e melhorando já existe uma forma mais fácil de verificar se uma string faz parte da outra string. Se o seu navegador já der suporte ao ECMA Script 6 você pode simplesmente executar:
-         * if( frase.startsWith(digitado)) {
-         * campo.addClass("borda-verde");
-         * } else {
-         * campo.addClass("borda-vermelha");
-         * }
-         * 
-         */
     });
 }
 
@@ -67,18 +49,32 @@ function inicializaCronometro() {
             tempoRestante--;
             $('#tempo-digitacao').text(tempoRestante);
             if(tempoRestante === 0) {
-                campoDigitacao.attr('disabled', true);
-                $('#btn-reiniciar').attr('disabled', false);
-                //alterando o css. Primeiro é o atributo, depois o valor
-                // campoDigitacao.css('background-color', 'lightgray');
-                //adicionando uma classe
-                // campoDigitacao.addClass('campo-desativado');
-                //toggleClass adiciona a classe se não possuir, remove se possuir
-                campoDigitacao.toggleClass('campo-desativado');
+                finalizaJogo();
                 clearInterval(idInterval);
             }
         }, 1000);
     });
+}
+
+function finalizaJogo(){
+    campoDigitacao.attr('disabled', true);
+    $('#btn-reiniciar').attr('disabled', false);
+    campoDigitacao.toggleClass('campo-desativado');
+    inserePlacar();
+}
+
+function inserePlacar() {
+    //o .find() irá procurar a tag que eu especifiquei
+    let corpoTabela = $(".placar").find("tbody");
+    let numerosPalavras = $("#contador-palavras").text();
+    let usuario = 'Gabriel';
+    let linha = `<tr>
+                    <td>${usuario}</td>
+                    <td>${numerosPalavras}</td>
+                </tr>`;
+    //append() = adicionar o elemento no final dentro de um elemento
+    //prepend() = adicionar como primeiro elemento dentro de um outro elemento
+    corpoTabela.append(linha);
 }
 
 let reiniciaJogo = function () {
@@ -89,8 +85,6 @@ let reiniciaJogo = function () {
     $('#contador-caracteres').text('0');
     inicializaCronometro();
     campoDigitacao.removeClass('campo-desativado')
-    //toggleClass adiciona a classe se não possuir, remove se possuir
-    // campoDigitacao.toggleClass('campo-desativado');
     campoDigitacao.removeClass('borda-verde');
     campoDigitacao.removeClass('borda-vermelha');
 }
