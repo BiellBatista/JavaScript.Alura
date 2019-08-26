@@ -67,15 +67,24 @@ function inserePlacar() {
     //o .find() irá procurar a tag que eu especifiquei
     let corpoTabela = $(".placar").find("tbody");
     let numerosPalavras = $("#contador-palavras").text();
+    
     let usuario = 'Gabriel';
+    let botaoRemover = `<a href="#" class="botao-remover"><i class="small material-icons">delete</i></a>`;
+
     let linha = `<tr>
                     <td>${usuario}</td>
                     <td>${numerosPalavras}</td>
+                    <td>${botaoRemover}</td>
                 </tr>`;
     //append() = adicionar o elemento no final dentro de um elemento
     //prepend() = adicionar como primeiro elemento dentro de um outro elemento
     corpoTabela.append(linha);
 }
+
+$(".botao-remover").click(function(event) {
+    event.preventDefault();
+    $(this).parent().parent().remove();
+});
 
 let reiniciaJogo = function () {
     campoDigitacao.attr('disabled', false);
