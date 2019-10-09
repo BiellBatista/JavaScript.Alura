@@ -565,4 +565,5 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		12 - Mãos na massa: Exibindo e ocultando o placar
 		13 - Mãos na massa: Animando a remoção
 		14 - Mãos na massa: Animando a página na exibição do placar
-	02 - 
+	02 - Buscando frases via Ajax
+		01 - Trocando as frases
