@@ -1,3 +1,5 @@
+$('#btn-placar').click(mostraPlacar);
+
 function inserePlacar() {
     let corpoTabela = $(".placar").find("tbody");
     let numerosPalavras = $("#contador-palavras").text();
@@ -29,4 +31,12 @@ function novaLinha(nomeUsuario, numerosPalavras) {
 function removeLinha() {
     event.preventDefault();
     $(this).parent().parent().remove();
+}
+
+function mostraPlacar() {
+    // $('.placar').css('display', 'block');
+    // $('.placar').show(); //mostra o elemento
+    // $('.placar').hide(); //oculta o elemento
+    // $('.placar').toggle(); //mostra ou esconde o elemento
+    $('.placar').slideToggle(600); //mostrando o placar como um slide
 }

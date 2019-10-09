@@ -30,3 +30,11 @@
 .borda-vermelha {
     border: 3px red solid;
 }
+
+.placar {
+    display: none;
+}
+
+body {
+    overflow: scroll;
+}
