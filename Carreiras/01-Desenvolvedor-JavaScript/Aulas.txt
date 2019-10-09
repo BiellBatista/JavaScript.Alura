@@ -556,4 +556,13 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		03 - Removendo com fade
 		04 - Melhorando a usabilidade
 		05 - Animando o scroll
-		06 - 
+		06 - Existem 1000 maneiras de se fazer... (A / B / C / D)
+		07 - Escondendo ou exibindo de maneira elegante (B)
+		08 - Fade que não (B)
+		09 - Onde está o erro?
+		10 - Menu ioiô (B)
+		11 - Controlando o esmaecer (C)
+		12 - Mãos na massa: Exibindo e ocultando o placar
+		13 - Mãos na massa: Animando a remoção
+		14 - Mãos na massa: Animando a página na exibição do placar
+	02 - 
