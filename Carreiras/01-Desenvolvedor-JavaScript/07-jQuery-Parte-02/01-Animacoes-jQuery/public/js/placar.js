@@ -40,5 +40,6 @@ function mostraPlacar() {
     // $('.placar').show(); //mostra o elemento
     // $('.placar').hide(); //oculta o elemento
     // $('.placar').toggle(); //mostra ou esconde o elemento
-    $('.placar').slideToggle(600); //mostrando o placar como um slide
+    //a função .stop() para a animação atual e inicia a próximo, no meu caso é a slideToggle()
+    $('.placar').stop().slideToggle(600); //mostrando o placar como um slide
 }
