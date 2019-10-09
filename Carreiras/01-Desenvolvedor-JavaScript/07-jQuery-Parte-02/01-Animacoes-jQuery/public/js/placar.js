@@ -8,6 +8,17 @@ function inserePlacar() {
 
     linha.find('.botao-remover').click(removeLinha);
     corpoTabela.append(linha);
+
+    $('.placar').slideDown(500); //mostrando o placar
+    scrollPlacar();
+}
+
+function scrollPlacar() {
+    const possicaoPlacar = $('.placar').offset().top;
+    $('body').animate({
+        //animando o scroll. ELe irá descer para o meu placar
+        scrollTop: possicaoPlacar + 'px'
+    }, 1000);
 }
 
 function novaLinha(nomeUsuario, numerosPalavras) {
