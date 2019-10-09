@@ -30,7 +30,9 @@ function novaLinha(nomeUsuario, numerosPalavras) {
 
 function removeLinha() {
     event.preventDefault();
-    $(this).parent().parent().remove();
+    // $(this).parent().parent().remove(); //apagando o elemento
+    $(this).parent().parent().fadeOut(1000); //ocultando o placar com suavidade
+    setTimeout(() => $(this).parent().parent().remove(), 1000);
 }
 
 function mostraPlacar() {
