@@ -567,3 +567,6 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		14 - Mãos na massa: Animando a página na exibição do placar
 	02 - Buscando frases via Ajax
 		01 - Trocando as frases
+		02 - Ajax com get
+		03 - Arrumando tempo e texto
+		04 - 

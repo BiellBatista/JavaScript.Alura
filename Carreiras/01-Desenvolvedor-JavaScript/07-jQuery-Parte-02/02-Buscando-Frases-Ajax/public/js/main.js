@@ -1,6 +1,5 @@
 let campoDigitacao = $('.campo-digitacao');
 let tempoInicial = $('#tempo-digitacao').text();
-let frase = $('.frase').text();
 
 $(() => {
     atualizaTamanhoFrase();
@@ -11,9 +10,16 @@ $(() => {
 });
 
 function atualizaTamanhoFrase() {
+    let frase = $('.frase').text();
     let numerosPalavras = frase.split(" ").length;
     let tamanhoFrase = $('#tamanhoFrase');
+
     tamanhoFrase.text(numerosPalavras);
+}
+
+function atualizaTempoInicial(tempo) {
+    tempoInicial = tempo;
+    $('#tempo-digitacao').text(tempo);
 }
 
 function inicializaContadores () {
@@ -27,6 +33,7 @@ function inicializaContadores () {
 
 function inicializaMarcadores() {
     campoDigitacao.on('input', () => {
+        let frase = $('.frase').text();
         let digitado = campoDigitacao.val();
         let comparavel = frase.substr(0, digitado.length);
     
@@ -41,10 +48,9 @@ function inicializaMarcadores() {
 }
 
 function inicializaCronometro() {
-    let tempoRestante = $('#tempo-digitacao').text();
     campoDigitacao.one('focus', function () {
         $('#btn-reiniciar').attr('disabled',true);
-
+        let tempoRestante = $('#tempo-digitacao').text();
         let idInterval = setInterval(()=> {
             tempoRestante--;
             $('#tempo-digitacao').text(tempoRestante);
