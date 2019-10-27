@@ -1,5 +1,12 @@
 $('#botao-frase').click(fraseAleatoria);
 
 function fraseAleatoria() {
-    console.log('foi clicado');
+    $.get('http://localhost:3000/frases', trocaFraseAleatoria);
+}
+// data é o retorno da requisição
+function trocaFraseAleatoria(data) {
+    let frase = $('.frase');
+    let numeroAleatorio = Math.floor(Math.random() * data.length);
+
+    frase.text(data[numeroAleatorio].texto);
 }
