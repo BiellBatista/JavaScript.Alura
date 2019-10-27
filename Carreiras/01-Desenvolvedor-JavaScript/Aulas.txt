@@ -569,4 +569,14 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		01 - Trocando as frases
 		02 - Ajax com get
 		03 - Arrumando tempo e texto
-		04 - 
+		04 - (Obrigatório) Instalando e subindo o servidor
+		05 - Para levantar o servidor... (C)
+		06 - Mas para que AJAX? (A / B / C / D / E / G)
+		07 - E o verbo é... (C)
+		08 - Revisão
+		09 - Índice aleatório (A)
+		10 - Recebendo os dados (C / E)
+		11 - Mãos na massa: Frases diferentes para digitação
+		12 - Mãos na massa: Atualizando o tempo e contagem de palavras
+	03 - Tratando erros e melhorando a experiência
+		01 - Lidando com erros
