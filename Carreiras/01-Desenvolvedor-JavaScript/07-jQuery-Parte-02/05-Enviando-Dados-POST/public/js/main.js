@@ -6,6 +6,8 @@ $(() => {
     inicializaContadores();
     inicializaCronometro();
     inicializaMarcadores();
+    atualizaPlacar();
+
     $('#btn-reiniciar').click(reiniciaJogo);
 });
 

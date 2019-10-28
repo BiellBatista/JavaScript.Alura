@@ -2,8 +2,8 @@ $('#btn-placar').click(mostraPlacar);
 $('#botao-sync').click(sincronizaPlacar);
 
 function inserePlacar() {
-    let corpoTabela = $(".placar").find("tbody");
-    let numerosPalavras = $("#contador-palavras").text();
+    let corpoTabela = $('.placar').find('tbody');
+    let numerosPalavras = $('#contador-palavras').text();
     let usuario = 'Gabriel';
     let linha = novaLinha(usuario, numerosPalavras);
 
@@ -72,8 +72,18 @@ function sincronizaPlacar() {
             placar
         };
 
-        $.post("http://localhost:3000/placar", dados, () => {
-            console.log("Placar sincronizado com sucesso");
+        $.post('http://localhost:3000/placar', dados, () => {
+            console.log('Placar sincronizado com sucesso');
         });
+    });
+}
+
+function atualizaPlacar() {
+    $.get('http://localhost:3000/placar', (data) => {
+        //se eu quiser usar os metodos do jQuery, devo encpsular os objetod JS dentro do jQuery $()
+        $(data).each(function () {
+            let linha = novaLinha(this.usuario, this.pontos);
+            $('tbody').append(linha);
+        })
     });
 }
