@@ -597,3 +597,7 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		02 - Salvando placar
 		03 - Obtendo placar
 		04 - Detalhe remoção
+		05 - Iterando com jQuery (C)
+		06 - Enviando dados para o servidor (A)
+		07 - Mãos na massa: POST com jQuery
+		08 - Mãos na massa: Obtendo placar		
