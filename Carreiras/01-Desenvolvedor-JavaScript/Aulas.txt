@@ -586,3 +586,5 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		05 - Evitando instrução duplicada (C)
 		06 - Mãos na massa: Tratando erro
 		07 - Mãos na massa: Melhorando a usabilidade
+	04 - Enviando dados com AJAX
+		01 - Buscando dados com get
