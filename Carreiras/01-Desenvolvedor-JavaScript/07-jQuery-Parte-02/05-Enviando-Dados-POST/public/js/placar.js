@@ -50,5 +50,30 @@ function mostraPlacar() {
 }
 
 function sincronizaPlacar() {
-    
+    let placar = [];
+    //pegando todas as tr que são filhas direta de tbody
+    let linhas = $('tbody>tr');
+    //a funcao each do Jquery é semelhante ao foreach
+    linhas.each(function () {
+        //se eu quiser manipular o this com os metodos do jQuery, devo envolvelo com o jQuery, porque ele é um elemento HTML
+        //e não um objeto do jQuery
+        //pegando o primeiro TD do meu elemento do tipo tabela
+        let usuario = $(this).find('td:nth-child(1)').text();
+        let pontos = $(this).find('td:nth-child(2)').text();
+        //Object Short Syntax
+        let score = {
+            usuario,
+            pontos
+        };
+
+        placar.push(score);
+        //só podemos enviar como dados das funções de AJAX do jQuery um Objeto ou uma String
+        let dados = {
+            placar
+        };
+
+        $.post("http://localhost:3000/placar", dados, () => {
+            console.log("Placar sincronizado com sucesso");
+        });
+    });
 }

@@ -594,3 +594,5 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		05 - Mãos na massa: Carregando uma frase
 	05 - Enviando dados com POST
 		01 - Introdução
+		02 - Salvando placar
+		03 - Obtendo placar
