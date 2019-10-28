@@ -31,7 +31,7 @@ function buscaFrase() {
     $('#spinner').toggle();
 
     let fraseId = $('#frase-id').val();
-    let dados = { id: fraseId }; //este objeto será enviado como parametro para o ajax. Ele deve ser um objeto
+    let dados = { id: fraseId };
 
     $.get('http://localhost:3000/frases', dados, trocaFrase)
         .fail(() => {
