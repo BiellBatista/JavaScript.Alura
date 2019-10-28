@@ -607,3 +607,5 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		03 - Requisições Ajax e CORS (B / D)
 		04 - Mãos na massa: Testando Same Origin Policy
 		05 - Mãos na massa: Habilitando CORS
+	07 - Plugins do jQuery
+		01 - Slider com Slick
