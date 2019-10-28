@@ -600,4 +600,6 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		05 - Iterando com jQuery (C)
 		06 - Enviando dados para o servidor (A)
 		07 - Mãos na massa: POST com jQuery
-		08 - Mãos na massa: Obtendo placar		
+		08 - Mãos na massa: Obtendo placar
+	06 - Same Origin Policy e Cors
+		01 - Same origin Policy e CORS
