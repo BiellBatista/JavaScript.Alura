@@ -606,4 +606,4 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		02 - O tal (A)
 		03 - Requisições Ajax e CORS (B / D)
 		04 - Mãos na massa: Testando Same Origin Policy
-		05 - 
+		05 - Mãos na massa: Habilitando CORS
