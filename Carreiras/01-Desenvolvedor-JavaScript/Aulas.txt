@@ -580,3 +580,5 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		12 - Mãos na massa: Atualizando o tempo e contagem de palavras
 	03 - Tratando erros e melhorando a experiência
 		01 - Lidando com erros
+		02 - Implementando spinner
+		03 - 
