@@ -596,3 +596,4 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		01 - Introdução
 		02 - Salvando placar
 		03 - Obtendo placar
+		04 - Detalhe remoção

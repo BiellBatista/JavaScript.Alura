@@ -83,7 +83,8 @@ function atualizaPlacar() {
         //se eu quiser usar os metodos do jQuery, devo encpsular os objetod JS dentro do jQuery $()
         $(data).each(function () {
             let linha = novaLinha(this.usuario, this.pontos);
+            linha.find('.botao-remover').click(removeLinha);
             $('tbody').append(linha);
-        })
+        });
     });
 }
