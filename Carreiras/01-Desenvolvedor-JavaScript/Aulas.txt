@@ -581,4 +581,8 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 	03 - Tratando erros e melhorando a experiência
 		01 - Lidando com erros
 		02 - Implementando spinner
-		03 - 
+		03 - Pra que a rodinha? (C)
+		04 - A ver navios... (C)
+		05 - Evitando instrução duplicada (C)
+		06 - Mãos na massa: Tratando erro
+		07 - Mãos na massa: Melhorando a usabilidade
