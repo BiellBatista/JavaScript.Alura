@@ -56,6 +56,10 @@ Carreira Desenvolvedor JavaScript
 		06 - Criando e Manipulando elementos com jQuery
 	jQuery: Avance na biblioteca mais popular do mercado parte 2
 		01 - Animações com jQuery
+		02 - Buscando frases via Ajax
+		03 - Tratando erros e melhorando a experiência
+		04 - Enviando dados com AJAX
+		05 - Enviando dados com POST
 	JavaScript: Projeto de conclusão
 		01 - 
 -------------------------------------------------------------------------------------------------------------------------
