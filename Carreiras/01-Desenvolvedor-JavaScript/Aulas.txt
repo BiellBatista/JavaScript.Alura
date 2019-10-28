@@ -588,3 +588,7 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		07 - Mãos na massa: Melhorando a usabilidade
 	04 - Enviando dados com AJAX
 		01 - Buscando dados com get
+		02 - Só quero uma fatia do bolo, não o bolo inteiro! (C)
+		03 - Será que passei? (B)
+		04 - Qual erro da requisição? (B / D / E)
+		05 - Mãos na massa: Carregando uma frase
