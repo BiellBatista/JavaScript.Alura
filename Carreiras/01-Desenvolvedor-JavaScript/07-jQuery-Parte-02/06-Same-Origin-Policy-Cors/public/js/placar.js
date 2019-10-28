@@ -81,3 +81,14 @@ function atualizaPlacar() {
         });
     });
 }
+
+/**
+ * Para eu realizar uma requisição ajax, devo possuir a mesma origem, ou seja,
+ * Possuir o mesmo protocolo
+ * Possuir a mesma porta
+ * Possuir o mesmo host
+ * 
+ * Os navegadores bloqueiam isso para proteger os usuários contra scripts maliciosos.
+ * 
+ * Para liberar o AJAX de alguns site, devo configurar no servidor, na opção "Access-Control-Allow-Origin"
+ */
