@@ -63,5 +63,5 @@ Carreira Desenvolvedor JavaScript
 		06 - Same Origin Policy e Cors
 		07 - Plugins do jQuery
 	JavaScript: Projeto de conclusão
-		01 - 
+		01 - Introdução
 -------------------------------------------------------------------------------------------------------------------------
