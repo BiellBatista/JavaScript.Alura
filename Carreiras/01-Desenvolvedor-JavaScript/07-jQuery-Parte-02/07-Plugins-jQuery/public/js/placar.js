@@ -4,7 +4,7 @@ $('#botao-sync').click(sincronizaPlacar);
 function inserePlacar() {
     let corpoTabela = $('.placar').find('tbody');
     let numerosPalavras = $('#contador-palavras').text();
-    let usuario = 'Gabriel';
+    let usuario = $('#usuarios').val();
     let linha = novaLinha(usuario, numerosPalavras);
 
     linha.find('.botao-remover').click(removeLinha);
