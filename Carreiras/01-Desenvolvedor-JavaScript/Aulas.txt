@@ -611,3 +611,11 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 		01 - Slider com Slick
 		02 - Usuários com Selectize
 		03 - Notificação com Tooltipster
+		04 - Não funcionou...
+		05 - Selectize neles! (C)
+		06 - Onde está o meu tooltip?
+		07 - Mãos na massa: Carrossel com slick
+		08 - Mãos a obra: Selectize
+		09 - Mãos na massa: Tooltipster
+		10 - Finalização
+		11 - Download do projeto final
