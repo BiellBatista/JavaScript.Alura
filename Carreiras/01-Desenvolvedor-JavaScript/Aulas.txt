@@ -610,3 +610,4 @@ jQuery: Avance na biblioteca mais popular do mercado parte 2
 	07 - Plugins do jQuery
 		01 - Slider com Slick
 		02 - Usuários com Selectize
+		03 - Notificação com Tooltipster
