@@ -628,3 +628,4 @@ JavaScript: Projeto de conclusão
 		01 - Sprite - PARTE 1
 		02 - Gabarito - PARTE 1
 		03 - Gabarito - PARTE 2 - melhorando a legibilidade
+		04 - Gabarito - PARTE 3 - Revisão Closure

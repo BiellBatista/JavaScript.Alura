@@ -30,3 +30,8 @@ function createSprite(selector) {
         nextFrame: nextFrame
     }
 }
+
+/**
+ * Closure: é a capacidade de uma função saber suas propriedades, mesmo após a destruição da função pai
+ * Encapsulamento de informações, função chamando função
+ */
