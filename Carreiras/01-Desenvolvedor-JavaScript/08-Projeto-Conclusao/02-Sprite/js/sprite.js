@@ -22,8 +22,14 @@ function createSprite(selector) {
         .addClass(to);
     }
 
+    function hasNext() {
+        return current + 1 <= last;
+    }
+
     function nextFrame() {
-        moveFrame(frames[current], frames[++current]);
+        if(hasNext()) {
+            moveFrame(frames[current], frames[++current]);
+        }
     }
 
     return {
@@ -34,4 +40,6 @@ function createSprite(selector) {
 /**
  * Closure: é a capacidade de uma função saber suas propriedades, mesmo após a destruição da função pai
  * Encapsulamento de informações, função chamando função
+ * 
+ * Um closure (fechamento) é uma função que se "lembra" do ambiente — ou escopo léxico — em que ela foi criada.
  */
