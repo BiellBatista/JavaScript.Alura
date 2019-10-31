@@ -626,4 +626,4 @@ JavaScript: Projeto de conclusão
 		03 - Orientações Gerais
 	02 - Sprite
 		01 - Sprite - PARTE 1
-		02 - 
+		02 - Gabarito - PARTE 1
