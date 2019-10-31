@@ -629,4 +629,5 @@ JavaScript: Projeto de conclusão
 		02 - Gabarito - PARTE 1
 		03 - Gabarito - PARTE 2 - melhorando a legibilidade
 		04 - Gabarito - PARTE 3 - Revisão Closure
-		04 - Gabarito - PARTE 4 - a lógica do hasNext()
+		05 - Gabarito - PARTE 4 - a lógica do hasNext()
+		06 - Gabarito - PARTE 5 - revisão function declaration vs function expression
