@@ -10,15 +10,23 @@ function createSprite(selector) {
         'frame6',
         'frame7',
         'frame8',
-        'frame9',
+        'frame9'
     ];
     let current = 0;
     let last = frames.length - 1;
 
     $el.addClass(frames[current]);
 
+    function moveFrame(from, to) {
+        $el.removeClass(from)
+        .addClass(to);
+    }
+
     function nextFrame() {
-        $el.removeClass(frames[current])
-            .addClass(frames[++current]);
+        moveFrame(frames[current], frames[++current]);
+    }
+
+    return {
+        nextFrame: nextFrame
     }
 }
