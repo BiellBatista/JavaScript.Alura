@@ -631,3 +631,5 @@ JavaScript: Projeto de conclusão
 		04 - Gabarito - PARTE 3 - Revisão Closure
 		05 - Gabarito - PARTE 4 - a lógica do hasNext()
 		06 - Gabarito - PARTE 5 - revisão function declaration vs function expression
+		07 - Sprite - PARTE 2
+		08 - Gabarito
