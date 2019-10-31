@@ -32,8 +32,19 @@ function createSprite(selector) {
         }
     }
 
+    var reset = function () {
+        moveFrame(frames[current], frames[0]);
+        current = 0;
+    }
+
+    var isFinished = function () {
+        return !hasNext();
+    }
+
     return {
-        nextFrame: nextFrame
+        nextFrame: nextFrame, //exportando as funções
+        reset : reset,
+        isFinished : isFinished
     };
 }
 
