@@ -1,4 +1,4 @@
-var criaJogo = function () {
+var criaJogo = function (sprite) {
     var etapa = 1;
     var lacunas = [];
     var palavraSecreta = '';
@@ -32,8 +32,12 @@ var criaJogo = function () {
         return lacunas;
     };
 
-    var getEstapa = function () {
+    var getEtapa = function () {
         return etapa;
+    };
+
+    // preencher lacuna ou exibe o próximo sprite. Retorna true ou false caso o jogador tenha acertado
+    var processaChute = function() {
     };
 
     /* 
@@ -41,10 +45,10 @@ var criaJogo = function () {
         A função `proximaEtapa()` é de uso interno e só foi criada para melhorar a legibilidade e manutenção do código, a 
         mesma coisa para a função `criaLacunas()`. 
     */
-
     return {
         setPalavraSecreta,
         getLacunas,
-        getEstapa
+        getEtapa,
+        processaChute
     };
 };
