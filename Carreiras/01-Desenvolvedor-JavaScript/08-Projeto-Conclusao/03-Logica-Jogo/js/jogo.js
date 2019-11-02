@@ -5,9 +5,16 @@ var criaJogo = function () {
 
     // adiciona uma lacuna em branco para cada letra da palavraSecreta
     var criaLacunas = function () {
-        for (let i = 0; i < palavraSecreta.length; i++) {
-            lacunas.push('');
-        }
+        // for (let i = 0; i < palavraSecreta.length; i++) {
+        //     lacunas.push('');
+        // }
+
+        //podemos evitar o loop for da seguinte maneira:
+        lacunas = Array(palavraSecreta.length).fill('');
+        /*
+        Quando fazemos Array(palavraSecreta.length) estamos criando um array com o mesmo tamanho da string palavraSecreta.
+        Todavia, todos os elementos serão undefined. Resolvemos isso facilmente através da função fill()
+        */
     };
 
     // muda o estado da variável etapa para indicar a próxima e última etapa

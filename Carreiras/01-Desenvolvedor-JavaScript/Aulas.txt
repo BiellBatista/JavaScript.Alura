@@ -636,3 +636,4 @@ JavaScript: Projeto de conclusão
 	03 - Lógica do jogo
 		01 - Jogo - PARTE 1
 		02 - Gabarito
+		03 - Outra maneira para preencher lacunas
