@@ -37,7 +37,18 @@ var criaJogo = function (sprite) {
     };
 
     // preencher lacuna ou exibe o próximo sprite. Retorna true ou false caso o jogador tenha acertado
-    var processaChute = function() {
+    var processaChute = function(chute) {
+        var exp = new RegExp(chute, 'gi');
+        var resultado;
+        var acertou = false;
+
+        while (resultado = exp.exec(palavraSecreta)) {
+            acertou = lacunas[resultado.index] = chute;
+        }
+
+        if (!acertou) {
+            sprite.nextFrame();
+        }
     };
 
     /* 

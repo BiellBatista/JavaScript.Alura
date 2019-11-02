@@ -638,4 +638,4 @@ JavaScript: Projeto de conclusão
 		02 - Gabarito
 		03 - Outra maneira para preencher lacunas
 		04 - Jogo - PARTE 2
-		05 - 
+		05 - Gabarito
