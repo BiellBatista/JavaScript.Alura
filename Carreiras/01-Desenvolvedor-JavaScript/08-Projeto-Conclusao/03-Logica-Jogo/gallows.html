@@ -13,8 +13,6 @@
         <h2 class="text-center">Jogo da forca</h2>
     </div>
     <div class="container">
-
-        <!-- div com a classe sprite -->
         <div class="sprite"></div>
 
         <ul class="lacunas text-center"></ul>
@@ -29,15 +27,5 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/sprite.js"></script>
     <script src="js/jogo.js"></script>
-    <script>
-        var jogo = criaJogo(createSprite('.sprite'));
-        jogo.setPalavraSecreta('calopsita');
-        console.log(jogo.getLacunas()); // ['', '', '', '', '', '', '', '', '']
-        jogo.processaChute('a');
-        console.log(jogo.getLacunas()); // ['', 'a', '', '', '', '', '', '', 'a']
-        jogo.processaChute('c');
-        console.log(jogo.getLacunas()); // ['c', 'a', '', '', '', '', '', '', 'a']
-        jogo.processaChute('z'); // próximo sprite deve ser exibido
-    </script>
 </body>
 </html>

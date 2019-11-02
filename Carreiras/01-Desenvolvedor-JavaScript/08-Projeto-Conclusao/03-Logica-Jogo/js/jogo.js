@@ -3,21 +3,10 @@ var criaJogo = function (sprite) {
     var lacunas = [];
     var palavraSecreta = '';
 
-    // adiciona uma lacuna em branco para cada letra da palavraSecreta
     var criaLacunas = function () {
-        // for (let i = 0; i < palavraSecreta.length; i++) {
-        //     lacunas.push('');
-        // }
-
-        //podemos evitar o loop for da seguinte maneira:
         lacunas = Array(palavraSecreta.length).fill('');
-        /*
-        Quando fazemos Array(palavraSecreta.length) estamos criando um array com o mesmo tamanho da string palavraSecreta.
-        Todavia, todos os elementos serão undefined. Resolvemos isso facilmente através da função fill()
-        */
     };
 
-    // muda o estado da variável etapa para indicar a próxima e última etapa
     var proximaEtapa = function () {
         etapa = 2;
     };
@@ -36,7 +25,6 @@ var criaJogo = function (sprite) {
         return etapa;
     };
 
-    // preencher lacuna ou exibe o próximo sprite. Retorna true ou false caso o jogador tenha acertado
     var processaChute = function(chute) {
         var exp = new RegExp(chute, 'gi');
         var resultado;
@@ -51,15 +39,30 @@ var criaJogo = function (sprite) {
         }
     };
 
-    /* 
-    Tornou acessível apenas as funções que fazem sentido serem chamadas por quem utilizar nosso jogo. 
-        A função `proximaEtapa()` é de uso interno e só foi criada para melhorar a legibilidade e manutenção do código, a 
-        mesma coisa para a função `criaLacunas()`. 
-    */
+    var ganhou = function () {
+        console.log('falta implementar');
+    };
+
+    var perdeu = function () {
+        console.log('falta implementar');
+    };
+
+    var ganhouOuPerdeu = function () {
+        console.log('falta implementar');
+    };
+
+    var reinicia = function () {
+        console.log('falta implementar');
+    };
+
     return {
         setPalavraSecreta,
         getLacunas,
         getEtapa,
-        processaChute
+        processaChute,
+        ganhou,
+        perdeu,
+        ganhouOuPerdeu,
+        reinicia
     };
 };
