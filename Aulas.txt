@@ -64,4 +64,7 @@ Carreira Desenvolvedor JavaScript
 		07 - Plugins do jQuery
 	JavaScript: Projeto de conclusão
 		01 - Introdução
+		02 - Sprite
+		03 - Lógica do jogo
+		04 - A lógica de apresentação
 -------------------------------------------------------------------------------------------------------------------------
