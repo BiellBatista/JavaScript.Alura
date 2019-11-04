@@ -640,3 +640,4 @@ JavaScript: Projeto de conclusão
 		04 - Jogo - PARTE 2
 		05 - Gabarito
 		06 - Jogo - PARTE 3
+		07 - Gabarito

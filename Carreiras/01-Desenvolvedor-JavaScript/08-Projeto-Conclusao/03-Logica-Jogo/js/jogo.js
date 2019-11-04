@@ -40,19 +40,26 @@ var criaJogo = function (sprite) {
     };
 
     var ganhou = function () {
-        console.log('falta implementar');
+        return lacunas.length 
+            ? !lacunas.some(function(lacuna) {
+                return lacuna == '';
+            })
+            : false;
     };
 
     var perdeu = function () {
-        console.log('falta implementar');
+        return sprite.isFinished();
     };
 
     var ganhouOuPerdeu = function () {
-        console.log('falta implementar');
+        return ganhou() || perdeu();
     };
 
     var reinicia = function () {
-        console.log('falta implementar');
+        etapa = 1;
+        palavraSecreta = '';
+        lacunas = [];
+        sprite.reset();
     };
 
     return {
