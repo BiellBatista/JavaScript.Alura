@@ -649,4 +649,4 @@ JavaScript: Projeto de conclusão
 		05 - Apresentação - PARTE 3
 		06 - Gabarito
 		07 - Lidando com dados inválidos
-		08 - 
+		08 - Com fácil manutenção, podemos deixar ainda melhor nossa aplicação
