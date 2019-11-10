@@ -648,4 +648,5 @@ JavaScript: Projeto de conclusão
 		04 - Gabarito
 		05 - Apresentação - PARTE 3
 		06 - Gabarito
-		07 - 
+		07 - Lidando com dados inválidos
+		08 - 

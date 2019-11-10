@@ -12,6 +12,10 @@ var criaJogo = function (sprite) {
     };
 
     var setPalavraSecreta = function (palavra) {
+        //string em branco (apenas com espaço) é falso
+        if(!palavra.trim()) {
+            throw Error('Palavra secreta inválida!');
+        }
         palavraSecreta = palavra;
         criaLacunas();
         proximaEtapa();
@@ -26,6 +30,10 @@ var criaJogo = function (sprite) {
     };
 
     var processaChute = function(chute) {
+        //string em branco é falso
+        if(!chute.trim()) {
+            throw Error('Chute inválido!');
+        }
         var exp = new RegExp(chute, 'gi');
         var resultado;
         var acertou = false;
