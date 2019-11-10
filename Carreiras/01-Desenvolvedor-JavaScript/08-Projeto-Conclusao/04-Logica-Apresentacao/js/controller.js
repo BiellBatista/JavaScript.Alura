@@ -1,20 +1,26 @@
-let criaController = function (jogo) {
-    let $entrada = $('.entrada');
-    let $lacunas = $('.lacunas');
+var criaController = function (jogo) {
+    var $entrada = $('.entrada');
+    var $lacunas = $('.lacunas');
 
     // consulta jogo.getLacunas() e exibe para o usuário cada lacuna 
     var exibeLacunas = function () {
-        console.log('falta implementar');
+        $lacunas.empty();
+        jogo.getLacunas().forEach(lacuna => {
+            $('<li>').addClass('lacuna').text(lacuna).appendTo($lacunas);
+        });
     };
 
     // muda o texto do placeHolder do campo de entrada    
     var mudaPlaceHolder = function (texto) {
-        console.log('falta implementar');
+        $entrada.attr('placeholder', texto);
     };
 
     // passa para jogo.setPalavraSecreta() o valor digitado pelo jogador e chama o a função `exibeLacunas()` e `mudaPlaceHolder()` definidas no controller. 
     var guardaPalavraSecreta = function () {
-        console.log('falta implementar');
+        jogo.setPalavraSecreta($entrada.val().trim());
+        $entrada.val('');
+        mudaPlaceHolder('chute');
+        exibeLacunas();
     };
 
     // faz a associação do evento keypress para capturar a entrada do usuário toda vez que ele teclar ENTER
@@ -23,7 +29,7 @@ let criaController = function (jogo) {
             if (event.which == 13) {
                 switch (jogo.getEtapa()) {
                     case 1:
-                        alert('etapa 1 - falta implementar');
+                        guardaPalavraSecreta();
                         break;
                     case 2:
                         alert('etapa 2 - falta implementar');
