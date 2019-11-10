@@ -644,3 +644,5 @@ JavaScript: Projeto de conclusão
 	04 - A lógica de apresentação
 		01 - Apresentação - PARTE 1
 		02 - Gabarito
+		03 - Apresentação - PARTE 2
+		04 - Gabarito

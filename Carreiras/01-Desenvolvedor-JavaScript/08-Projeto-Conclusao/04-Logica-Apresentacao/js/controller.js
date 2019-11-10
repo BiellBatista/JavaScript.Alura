@@ -23,6 +23,10 @@ var criaController = function (jogo) {
         exibeLacunas();
     };
 
+    var leChute = function () {
+        
+    };
+
     // faz a associação do evento keypress para capturar a entrada do usuário toda vez que ele teclar ENTER
     var inicia = function () {
         $entrada.keypress(function (event) {
