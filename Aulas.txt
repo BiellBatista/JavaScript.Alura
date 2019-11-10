@@ -67,4 +67,5 @@ Carreira Desenvolvedor JavaScript
 		02 - Sprite
 		03 - Lógica do jogo
 		04 - A lógica de apresentação
+		05 - Bônus: indo além com ES2015 (ES6)
 -------------------------------------------------------------------------------------------------------------------------

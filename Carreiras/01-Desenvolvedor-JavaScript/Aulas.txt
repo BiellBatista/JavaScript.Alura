@@ -650,3 +650,5 @@ JavaScript: Projeto de conclusão
 		06 - Gabarito
 		07 - Lidando com dados inválidos
 		08 - Com fácil manutenção, podemos deixar ainda melhor nossa aplicação
+	05 - Bônus: indo além com ES2015 (ES6)
+		01 - O código do Jogo
