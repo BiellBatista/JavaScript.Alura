@@ -24,7 +24,9 @@ var criaController = function (jogo) {
     };
 
     var leChute = function () {
-        
+        jogo.processaChute($entrada.val().trim().substr(0, 1));
+        $entrada.val('');
+        exibeLacunas();
     };
 
     // faz a associação do evento keypress para capturar a entrada do usuário toda vez que ele teclar ENTER
@@ -36,7 +38,7 @@ var criaController = function (jogo) {
                         guardaPalavraSecreta();
                         break;
                     case 2:
-                        alert('etapa 2 - falta implementar');
+                        leChute();
                         break;
                 }
             }
