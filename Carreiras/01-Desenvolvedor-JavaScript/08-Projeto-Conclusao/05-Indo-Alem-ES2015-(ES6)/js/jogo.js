@@ -1,17 +1,13 @@
-var criaJogo = function (sprite) {
-    var etapa = 1;
-    var lacunas = [];
-    var palavraSecreta = '';
+const criaJogo = sprite => {
+    let etapa = 1;
+    let lacunas = [];
+    let palavraSecreta = '';
 
-    var criaLacunas = function () {
-        lacunas = Array(palavraSecreta.length).fill('');
-    };
+    const criaLacunas = () => lacunas = Array(palavraSecreta.length).fill('');
 
-    var proximaEtapa = function () {
-        etapa = 2;
-    };
+    const proximaEtapa = () => etapa = 2;
 
-    var setPalavraSecreta = function (palavra) {
+    const setPalavraSecreta = palavra => {
         if(!palavra.trim()) {
             throw Error('Palavra secreta inválida!');
         }
@@ -20,21 +16,17 @@ var criaJogo = function (sprite) {
         proximaEtapa();
     };
 
-    var getLacunas = function () {
-        return lacunas;
-    };
+    const getLacunas = () => lacunas;
 
-    var getEtapa = function () {
-        return etapa;
-    };
+    const getEtapa = () => etapa;
 
-    var processaChute = function(chute) {
+    const processaChute = function(chute) {
         if(!chute.trim()) {
             throw Error('Chute inválido!');
         }
-        var exp = new RegExp(chute, 'gi');
-        var resultado;
-        var acertou = false;
+        const exp = new RegExp(chute, 'gi');
+        let resultado;
+        let acertou = false;
 
         while (resultado = exp.exec(palavraSecreta)) {
             acertou = lacunas[resultado.index] = chute;
@@ -45,23 +37,17 @@ var criaJogo = function (sprite) {
         }
     };
 
-    var ganhou = function () {
-        return lacunas.length 
+    const ganhou = () => lacunas.length 
             ? !lacunas.some(function(lacuna) {
                 return lacuna == '';
             })
             : false;
-    };
 
-    var perdeu = function () {
-        return sprite.isFinished();
-    };
+    const perdeu = () => sprite.isFinished();
 
-    var ganhouOuPerdeu = function () {
-        return ganhou() || perdeu();
-    };
+    const ganhouOuPerdeu = () => ganhou() || perdeu();
 
-    var reinicia = function () {
+    const reinicia = () => {
         etapa = 1;
         palavraSecreta = '';
         lacunas = [];
