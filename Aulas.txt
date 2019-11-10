@@ -69,3 +69,6 @@ Carreira Desenvolvedor JavaScript
 		04 - A lógica de apresentação
 		05 - Bônus: indo além com ES2015 (ES6)
 -------------------------------------------------------------------------------------------------------------------------
+Extra TypeScript
+	TypeScript parte 1: Evoluindo seu Javascript
+		01 - Bem começado, metade feito

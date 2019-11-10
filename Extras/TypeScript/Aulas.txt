@@ -1,0 +1,6 @@
+TypeScript parte 1: Evoluindo seu Javascript
+	01 - Bem começado, metade feito
+		01 - Introdução
+		02 - Infraestrutura necessária (Obrigatório)
+		03 - O projeto e sua estrutura
+		04 - Modelando uma negociação
