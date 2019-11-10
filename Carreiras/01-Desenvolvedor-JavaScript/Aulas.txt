@@ -654,3 +654,5 @@ JavaScript: Projeto de conclusão
 		01 - O código do Jogo
 		02 - O código do Sprite
 		03 - O código do controller
+		04 - Projeto final completo (download)
+		05 - Considerações finais
