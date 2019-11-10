@@ -23,10 +23,27 @@ var criaController = function (jogo) {
         exibeLacunas();
     };
 
+    var reinicia = function () {
+        jogo.reinicia();
+        $lacunas.empty();
+        mudaPlaceHolder('palavra secreta');
+    };
+
     var leChute = function () {
         jogo.processaChute($entrada.val().trim().substr(0, 1));
         $entrada.val('');
         exibeLacunas();
+
+        if(jogo.ganhouOuPerdeu()) {
+            setTimeout(function () {
+                if(jogo.ganhou()) {
+                    alert('Parabéns, você ganhou!');
+                } else if(jogo.perdeu()) {
+                    alert('Que pena, tente novamente!');
+                }
+                reinicia();
+            }, 200);
+        }
     };
 
     // faz a associação do evento keypress para capturar a entrada do usuário toda vez que ele teclar ENTER

@@ -647,4 +647,5 @@ JavaScript: Projeto de conclusão
 		03 - Apresentação - PARTE 2
 		04 - Gabarito
 		05 - Apresentação - PARTE 3
-		06 - 
+		06 - Gabarito
+		07 - 
