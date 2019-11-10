@@ -653,3 +653,4 @@ JavaScript: Projeto de conclusão
 	05 - Bônus: indo além com ES2015 (ES6)
 		01 - O código do Jogo
 		02 - O código do Sprite
+		03 - O código do controller
