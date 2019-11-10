@@ -31,14 +31,12 @@ function createSprite(selector) {
         }
     }
 
-    var reset = function () {
+    const reset = () => {
         moveFrame(frames[current], frames[0]);
         current = 0;
     }
 
-    var isFinished = function () {
-        return !hasNext();
-    }
+    const isFinished = () => !hasNext();
 
     return {
         nextFrame: nextFrame,

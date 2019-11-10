@@ -652,3 +652,4 @@ JavaScript: Projeto de conclusão
 		08 - Com fácil manutenção, podemos deixar ainda melhor nossa aplicação
 	05 - Bônus: indo além com ES2015 (ES6)
 		01 - O código do Jogo
+		02 - O código do Sprite
