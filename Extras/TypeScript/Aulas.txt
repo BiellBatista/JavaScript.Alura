@@ -13,3 +13,5 @@ TypeScript parte 1: Evoluindo seu Javascript
 		11 - Automatizando o processo de compilação
 		12 - Revisão
 		13 - Consolidando seu conhecimento
+	02 - Benefícios da tipagem estática
+		01 - Capturando os dados do formulário
