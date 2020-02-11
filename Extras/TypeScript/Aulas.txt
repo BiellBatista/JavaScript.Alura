@@ -16,3 +16,5 @@ TypeScript parte 1: Evoluindo seu Javascript
 	02 - Benefícios da tipagem estática
 		01 - Capturando os dados do formulário
 		02 - O tipo implícito any
+		03 - Sobre o tipo any (B / C)
+		04 - Tipando explicitamente
