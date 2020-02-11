@@ -18,3 +18,6 @@ TypeScript parte 1: Evoluindo seu Javascript
 		02 - O tipo implícito any
 		03 - Sobre o tipo any (B / C)
 		04 - Tipando explicitamente
+		05 - Para saber mais: string v String e number vs Number
+		06 - Um problema não esperado
+		07 - Casting explícito
