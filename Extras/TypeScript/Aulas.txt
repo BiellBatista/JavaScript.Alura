@@ -21,3 +21,5 @@ TypeScript parte 1: Evoluindo seu Javascript
 		05 - Para saber mais: string v String e number vs Number
 		06 - Um problema não esperado
 		07 - Casting explícito
+		08 - Sobre casting explícito (A)
+		09 - Adequando valores aos tipos
