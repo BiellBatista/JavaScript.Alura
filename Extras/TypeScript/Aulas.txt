@@ -4,3 +4,6 @@ TypeScript parte 1: Evoluindo seu Javascript
 		02 - Infraestrutura necessária (Obrigatório)
 		03 - O projeto e sua estrutura
 		04 - Modelando uma negociação
+		05 - ES2015 e classes (A)
+		06 - Colocando nosso código à prova
+		07 - Instalação e configuração do compilador
