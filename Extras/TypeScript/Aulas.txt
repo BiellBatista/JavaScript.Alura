@@ -23,3 +23,7 @@ TypeScript parte 1: Evoluindo seu Javascript
 		07 - Casting explícito
 		08 - Sobre casting explícito (A)
 		09 - Adequando valores aos tipos
+		10 - Para saber mais: input type Date no Microsoft Edge e no Firefox
+		11 - Sobre o código (A)
+		12 - Revisão
+		13 - 
