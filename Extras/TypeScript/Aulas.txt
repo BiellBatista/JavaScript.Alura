@@ -11,3 +11,5 @@ TypeScript parte 1: Evoluindo seu Javascript
 		09 - Modelando com TypeScript
 		10 - TypeScript e classes (B)
 		11 - Automatizando o processo de compilação
+		12 - Revisão
+		13 - Consolidando seu conhecimento
