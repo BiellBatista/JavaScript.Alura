@@ -7,3 +7,7 @@ TypeScript parte 1: Evoluindo seu Javascript
 		05 - ES2015 e classes (A)
 		06 - Colocando nosso código à prova
 		07 - Instalação e configuração do compilador
+		08 - Sobre o compilador do TypeScript (C)
+		09 - Modelando com TypeScript
+		10 - TypeScript e classes (B)
+		11 - Automatizando o processo de compilação
